@@ -1,0 +1,8 @@
+res://main.tscn
+res://grass.tscn
+res://health.gd
+res://health.tscn
+res://player.gd
+res://player.tscn
+res://HUD.tscn
+res://HUD.gd

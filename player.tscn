@@ -1,0 +1,129 @@
+[gd_scene load_steps=20 format=3 uid="uid://bii0ryidhirca"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
+[ext_resource type="Texture2D" uid="uid://36fa8t73kl54" path="res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation1.png" id="2_ox8ay"]
+[ext_resource type="Texture2D" uid="uid://vrfliskffkkp" path="res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation2.png" id="3_7n2io"]
+[ext_resource type="Texture2D" uid="uid://05p8on7l5krp" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation2.png" id="3_un7dg"]
+[ext_resource type="Texture2D" uid="uid://3g5cewjyu37x" path="res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation3.png" id="4_c4nxi"]
+[ext_resource type="Texture2D" uid="uid://05327xsk82x0" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation3.png" id="4_opfar"]
+[ext_resource type="Texture2D" uid="uid://wm2e3qefw0xr" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation1.png" id="5_8u8rt"]
+[ext_resource type="Texture2D" uid="uid://bc5oc6usoy2pl" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation4.png" id="5_q0pra"]
+[ext_resource type="Texture2D" uid="uid://cvcqc11f6qks1" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation2.png" id="6_1qqjx"]
+[ext_resource type="Texture2D" uid="uid://nokwo0q1t4tm" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation5.png" id="6_xuluc"]
+[ext_resource type="Texture2D" uid="uid://tjtfsjlicnrx" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation6.png" id="7_1tf4r"]
+[ext_resource type="Texture2D" uid="uid://chdpfuh8p0osf" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation3.png" id="7_x6fbg"]
+[ext_resource type="Texture2D" uid="uid://dfxc4iuuxynaf" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation4.png" id="8_s2xwd"]
+[ext_resource type="Texture2D" uid="uid://ci4mx5lnw1k6o" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation5.png" id="9_vu3i6"]
+[ext_resource type="Texture2D" uid="uid://bbjopf2c4ie86" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation6.png" id="10_7xpon"]
+[ext_resource type="Texture2D" uid="uid://bv1e6ywu75fje" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation7.png" id="11_frpol"]
+[ext_resource type="Texture2D" uid="uid://btuljiylvwmj2" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation8.png" id="12_xjwgd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xmcfu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_un7dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_un7dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_un7dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_un7dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_opfar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_q0pra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_q0pra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1tf4r")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 16.66
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ox8ay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7n2io")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_c4nxi")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_8u8rt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1qqjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_x6fbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_s2xwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vu3i6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7xpon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_frpol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_xjwgd")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66aqb"]
+size = Vector2(51, 137)
+
+[node name="Player" type="Area2D"]
+position = Vector2(598, 280)
+script = ExtResource("1_rlrwb")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-2.00006, -2.99994)
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_xmcfu")
+animation = &"attack"
+frame_progress = 0.146701
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-7.5, -1.5)
+shape = SubResource("RectangleShape2D_66aqb")
+
+[node name="AttackTimer" type="Timer" parent="."]
+wait_time = 0.6
+one_shot = true
+
+[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]

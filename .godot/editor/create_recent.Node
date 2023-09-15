@@ -1,0 +1,10 @@
+Timer
+Sprite2D
+Node2D
+CanvasLayer
+CanvasGroup
+TileMap
+Node
+CollisionShape2D
+AnimatedSprite2D
+Area2D

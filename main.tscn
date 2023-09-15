@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfur1yeblr585"]
+
+[ext_resource type="PackedScene" uid="uid://bii0ryidhirca" path="res://player.tscn" id="1_mfvrx"]
+[ext_resource type="PackedScene" uid="uid://ctvkptw0vvbdp" path="res://grass.tscn" id="2_ul7x4"]
+[ext_resource type="PackedScene" uid="uid://dmj1ef7dscsww" path="res://HUD.tscn" id="3_3iran"]
+
+[node name="Main" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource("1_mfvrx")]
+position = Vector2(284, 791)
+
+[node name="Terrain" parent="." instance=ExtResource("2_ul7x4")]
+position = Vector2(723, 634)
+
+[node name="HUD" parent="." instance=ExtResource("3_3iran")]
+
+[connection signal="take_damage" from="Player" to="HUD" method="_on_player_take_damage"]

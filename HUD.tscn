@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmj1ef7dscsww"]
+
+[ext_resource type="Script" path="res://HUD.gd" id="1_s0cns"]
+[ext_resource type="Script" path="res://health.gd" id="2_pytvc"]
+[ext_resource type="Texture2D" uid="uid://duauapfgq8xae" path="res://sprites/Hearts/PNG/basic/heart.png" id="3_ye3u1"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_s0cns")
+
+[node name="Health" type="Node2D" parent="."]
+position = Vector2(90, 46)
+script = ExtResource("2_pytvc")
+metadata/_edit_group_ = true
+
+[node name="Heart1" type="Sprite2D" parent="Health"]
+texture_filter = 1
+position = Vector2(47, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
+
+[node name="Heart2" type="Sprite2D" parent="Health"]
+texture_filter = 1
+position = Vector2(132, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
+
+[node name="Heart3" type="Sprite2D" parent="Health"]
+texture_filter = 1
+position = Vector2(213, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
+
+[node name="Health2" type="Node2D" parent="."]
+position = Vector2(1511, 55)
+script = ExtResource("2_pytvc")
+metadata/_edit_group_ = true
+
+[node name="Heart1" type="Sprite2D" parent="Health2"]
+texture_filter = 1
+position = Vector2(47, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
+
+[node name="Heart2" type="Sprite2D" parent="Health2"]
+texture_filter = 1
+position = Vector2(132, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
+
+[node name="Heart3" type="Sprite2D" parent="Health2"]
+texture_filter = 1
+position = Vector2(213, 44)
+scale = Vector2(5, 5)
+texture = ExtResource("3_ye3u1")
