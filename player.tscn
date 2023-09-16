@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://bii0ryidhirca"]
+[gd_scene load_steps=23 format=3 uid="uid://bii0ryidhirca"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
 [ext_resource type="Texture2D" uid="uid://36fa8t73kl54" path="res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation1.png" id="2_ox8ay"]
@@ -15,7 +15,9 @@
 [ext_resource type="Texture2D" uid="uid://dfxc4iuuxynaf" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation4.png" id="8_s2xwd"]
 [ext_resource type="Texture2D" uid="uid://ci4mx5lnw1k6o" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation5.png" id="9_vu3i6"]
 [ext_resource type="Texture2D" uid="uid://bbjopf2c4ie86" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation6.png" id="10_7xpon"]
+[ext_resource type="Texture2D" uid="uid://dwl1of2jev40u" path="res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation1.png" id="10_sqlkw"]
 [ext_resource type="Texture2D" uid="uid://bv1e6ywu75fje" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation7.png" id="11_frpol"]
+[ext_resource type="Texture2D" uid="uid://uwbkj8djoy2q" path="res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation2.png" id="11_h3ax3"]
 [ext_resource type="Texture2D" uid="uid://btuljiylvwmj2" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation8.png" id="12_xjwgd"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xmcfu"]
@@ -74,6 +76,17 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("10_sqlkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_h3ax3")
+}],
+"loop": true,
+"name": &"take_damage",
+"speed": 19.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("5_8u8rt")
 }, {
 "duration": 1.0,
@@ -102,28 +115,53 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_66aqb"]
-size = Vector2(51, 137)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kf7ui"]
+size = Vector2(225, 179)
 
-[node name="Player" type="Area2D"]
-position = Vector2(598, 280)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66aqb"]
+size = Vector2(181, 281)
+
+[node name="Player" type="Node2D"]
+position = Vector2(617, 286)
 script = ExtResource("1_rlrwb")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 position = Vector2(-2.00006, -2.99994)
-scale = Vector2(10, 10)
+scale = Vector2(20, 20)
 sprite_frames = SubResource("SpriteFrames_xmcfu")
-animation = &"attack"
-frame_progress = 0.146701
+animation = &"take_damage"
+frame = 1
+frame_progress = 0.717686
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-7.5, -1.5)
+[node name="Hurtbox" type="Area2D" parent="."]
+position = Vector2(173, -6)
+monitoring = false
+monitorable = false
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_kf7ui")
+
+[node name="Hitbox" type="Area2D" parent="."]
+position = Vector2(-34, -4)
+monitorable = false
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_66aqb")
+
+[node name="DamageTimer" type="Timer" parent="."]
+wait_time = 0.6
+one_shot = true
 
 [node name="AttackTimer" type="Timer" parent="."]
 wait_time = 0.6
 one_shot = true
 
+[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="timeout" from="DamageTimer" to="." method="_on_damage_timer_timeout"]
 [connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]

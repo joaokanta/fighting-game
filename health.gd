@@ -2,6 +2,7 @@ extends Node2D
 
 var full_heart = preload("res://sprites/Hearts/PNG/basic/heart.png")
 var empty_heart = preload("res://sprites/Hearts/PNG/basic/border.png")
+signal death
 
 var hp = 3
 

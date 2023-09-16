@@ -52,3 +52,18 @@ texture_filter = 1
 position = Vector2(213, 44)
 scale = Vector2(5, 5)
 texture = ExtResource("3_ye3u1")
+
+[node name="Label" type="Label" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.492
+anchor_top = 0.181
+anchor_right = 0.492
+anchor_bottom = 0.181
+offset_left = -662.64
+offset_top = 6.51999
+offset_right = 671.36
+offset_bottom = 234.52
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER PLAYER X WINS"
+uppercase = true
