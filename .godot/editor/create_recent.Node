@@ -1,4 +1,5 @@
 Timer
+AudioStreamPlayer
 Label
 CollisionShape2D
 Area2D

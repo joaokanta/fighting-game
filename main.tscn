@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bfur1yeblr585"]
+[gd_scene load_steps=6 format=3 uid="uid://bfur1yeblr585"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_2bq0o"]
 [ext_resource type="PackedScene" uid="uid://bii0ryidhirca" path="res://player.tscn" id="1_mfvrx"]
 [ext_resource type="PackedScene" uid="uid://ctvkptw0vvbdp" path="res://grass.tscn" id="2_ul7x4"]
 [ext_resource type="PackedScene" uid="uid://dmj1ef7dscsww" path="res://HUD.tscn" id="3_3iran"]
+[ext_resource type="AudioStream" uid="uid://drgr110xmwks1" path="res://26. Hugo The Circuit (R1).mp3" id="5_2q7oc"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_2bq0o")
@@ -19,5 +20,18 @@ position = Vector2(1041, 719)
 [node name="Player2" parent="." instance=ExtResource("1_mfvrx")]
 position = Vector2(1459, 724)
 
+[node name="SlowMoTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_2q7oc")
+autoplay = true
+
+[connection signal="died" from="Player" to="." method="_on_player_died"]
+[connection signal="parried" from="Player" to="." method="_on_player_parried"]
 [connection signal="take_damage" from="Player" to="." method="_on_player_take_damage"]
+[connection signal="died" from="Player2" to="." method="_on_player_2_died"]
+[connection signal="parried" from="Player2" to="." method="_on_player_parried"]
 [connection signal="take_damage" from="Player2" to="." method="_on_player_2_take_damage"]
+[connection signal="timeout" from="SlowMoTimer" to="." method="_on_slow_mo_timer_timeout"]

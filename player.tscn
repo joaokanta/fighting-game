@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://bii0ryidhirca"]
+[gd_scene load_steps=35 format=3 uid="uid://bii0ryidhirca"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
 [ext_resource type="Texture2D" uid="uid://36fa8t73kl54" path="res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation1.png" id="2_ox8ay"]
@@ -9,31 +9,34 @@
 [ext_resource type="Texture2D" uid="uid://wm2e3qefw0xr" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation1.png" id="5_8u8rt"]
 [ext_resource type="Texture2D" uid="uid://bc5oc6usoy2pl" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation4.png" id="5_q0pra"]
 [ext_resource type="Texture2D" uid="uid://cvcqc11f6qks1" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation2.png" id="6_1qqjx"]
+[ext_resource type="Texture2D" uid="uid://dr3kuah8dwekk" path="res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation2.png" id="6_ec77s"]
 [ext_resource type="Texture2D" uid="uid://nokwo0q1t4tm" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation5.png" id="6_xuluc"]
 [ext_resource type="Texture2D" uid="uid://tjtfsjlicnrx" path="res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation6.png" id="7_1tf4r"]
+[ext_resource type="Texture2D" uid="uid://cw0rhttgnlp5y" path="res://sprites/Character/DefaultSkin/deflect_horizontal_anim/no effects/deflect_horizontal_animation1.png" id="7_7ketx"]
+[ext_resource type="Texture2D" uid="uid://on6xswx88pf5" path="res://sprites/Character/DefaultSkin/die_anim/die_animation4.png" id="7_71vhe"]
+[ext_resource type="Texture2D" uid="uid://cg1k00f2c3kjc" path="res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation3.png" id="7_jop3s"]
 [ext_resource type="Texture2D" uid="uid://chdpfuh8p0osf" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation3.png" id="7_x6fbg"]
+[ext_resource type="Texture2D" uid="uid://6rcb3odnhln1" path="res://sprites/Character/DefaultSkin/die_anim/die_animation1.png" id="8_nx55q"]
 [ext_resource type="Texture2D" uid="uid://dfxc4iuuxynaf" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation4.png" id="8_s2xwd"]
+[ext_resource type="Texture2D" uid="uid://rjrvgktlew1v" path="res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation4.png" id="8_vtxe0"]
+[ext_resource type="Texture2D" uid="uid://bk8o62f3bbxel" path="res://sprites/Character/DefaultSkin/die_anim/die_animation2.png" id="9_0iohy"]
+[ext_resource type="Texture2D" uid="uid://cu6xkpogi0brc" path="res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation5.png" id="9_imx8q"]
 [ext_resource type="Texture2D" uid="uid://ci4mx5lnw1k6o" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation5.png" id="9_vu3i6"]
+[ext_resource type="Texture2D" uid="uid://vfqalrp1odkj" path="res://sprites/Character/DefaultSkin/die_anim/die_animation3.png" id="10_2tsv8"]
 [ext_resource type="Texture2D" uid="uid://bbjopf2c4ie86" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation6.png" id="10_7xpon"]
+[ext_resource type="Texture2D" uid="uid://un4k0vnc6lao" path="res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation6.png" id="10_lxs6o"]
 [ext_resource type="Texture2D" uid="uid://dwl1of2jev40u" path="res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation1.png" id="10_sqlkw"]
 [ext_resource type="Texture2D" uid="uid://bv1e6ywu75fje" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation7.png" id="11_frpol"]
 [ext_resource type="Texture2D" uid="uid://uwbkj8djoy2q" path="res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation2.png" id="11_h3ax3"]
 [ext_resource type="Texture2D" uid="uid://btuljiylvwmj2" path="res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation8.png" id="12_xjwgd"]
+[ext_resource type="Texture2D" uid="uid://cgvf4o0uu8j0o" path="res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation3.png" id="13_2ax8h"]
+[ext_resource type="Texture2D" uid="uid://b8wgcr3lp1mbd" path="res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation5.png" id="15_r6qn3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xmcfu"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_un7dg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_un7dg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_un7dg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_un7dg")
+"texture": ExtResource("4_opfar")
 }, {
 "duration": 1.0,
 "texture": ExtResource("4_opfar")
@@ -43,22 +46,88 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("5_q0pra")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_xuluc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_xuluc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_xuluc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_1tf4r")
 }],
 "loop": true,
 "name": &"attack",
 "speed": 16.66
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_un7dg")
+}],
+"loop": true,
+"name": &"attack_startup",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_7ketx")
+}],
+"loop": true,
+"name": &"block",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ec77s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jop3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vtxe0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_imx8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_lxs6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_lxs6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_lxs6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_lxs6o")
+}],
+"loop": true,
+"name": &"counter_attack",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_71vhe")
+}],
+"loop": true,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_nx55q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0iohy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2tsv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_71vhe")
+}],
+"loop": true,
+"name": &"dying",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_r6qn3")
+}],
+"loop": true,
+"name": &"failed_parry",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -72,6 +141,31 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_2ax8h")
+}],
+"loop": true,
+"name": &"parry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xuluc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1tf4r")
+}],
+"loop": true,
+"name": &"post_attack",
 "speed": 5.0
 }, {
 "frames": [{
@@ -131,9 +225,7 @@ texture_filter = 1
 position = Vector2(-2.00006, -2.99994)
 scale = Vector2(20, 20)
 sprite_frames = SubResource("SpriteFrames_xmcfu")
-animation = &"take_damage"
-frame = 1
-frame_progress = 0.717686
+animation = &"counter_attack"
 
 [node name="Hurtbox" type="Area2D" parent="."]
 position = Vector2(173, -6)
@@ -155,13 +247,47 @@ position = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_66aqb")
 
 [node name="DamageTimer" type="Timer" parent="."]
-wait_time = 0.6
+wait_time = 0.9
 one_shot = true
 
 [node name="AttackTimer" type="Timer" parent="."]
-wait_time = 0.6
+wait_time = 0.5
+one_shot = true
+
+[node name="PostAttackTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="DyingTimer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[node name="BlockstunTimer" type="Timer" parent="."]
+wait_time = 0.8
+one_shot = true
+
+[node name="AttackStartupTimer" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[node name="ParryTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="CounterAttackTimer" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[node name="ParryAnimationTimer" type="Timer" parent="."]
 one_shot = true
 
 [connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
 [connection signal="timeout" from="DamageTimer" to="." method="_on_damage_timer_timeout"]
 [connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]
+[connection signal="timeout" from="PostAttackTimer" to="." method="_on_post_attack_timer_timeout"]
+[connection signal="timeout" from="DyingTimer" to="." method="_on_dying_timer_timeout"]
+[connection signal="timeout" from="BlockstunTimer" to="." method="_on_blockstun_timer_timeout"]
+[connection signal="timeout" from="AttackStartupTimer" to="." method="_on_attack_startup_timer_timeout"]
+[connection signal="timeout" from="ParryTimer" to="." method="_on_parry_timer_timeout"]
+[connection signal="timeout" from="CounterAttackTimer" to="." method="_on_counter_attack_timer_timeout"]
+[connection signal="timeout" from="ParryAnimationTimer" to="." method="_on_parry_animation_timer_timeout"]
