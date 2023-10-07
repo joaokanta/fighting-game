@@ -9,84 +9,91 @@ signal died
 
 var health = 3
 
-var starting_attack = false
-var attacking = false
-var taking_damage = false
-var post_attack = false
-var dead = false
-var dying = false
-var blocking = false
-var blockstun = false
-var parrying = false
-var failed_parry = false
-var counter_attacking = false
-var flipped = false
+var STARTING_ATTACK = 'starting_attack'
+var ATTACKING = 'attacking'
+var TAKING_DAMAGE = 'taking_damage'
+var POST_ATTACK = 'post_attack'
+var DEAD = 'dead'
+var DYING = 'dying'
+var BLOCKSTUN = 'blockstun'
+var PARRYING = 'parrying'
+var FAILED_PARRY = 'failed_parry'
+var COUNTER_ATTACKING = 'counter_attacking'
+var IDLE = 'idle'
+var WALKING = 'walk'
 
-var move_right = "null"
-var move_left = "null"
-var attack_command = "null"
-var parry_command = "null"
+var flipped = false
+var blocking = false
+
+var MOVE_RIGHT = "null"
+var MOVE_LEFT = "null"
+var ATTACK_COMMAND = "null"
+var PARRY_COMMAND = "null"
+
+var states = {
+	ATTACKING: 'attack',
+	BLOCKSTUN: 'block',
+	COUNTER_ATTACKING: 'counter_attack',
+	DEAD: 'dead',
+	DYING: 'dying',
+	IDLE: 'idle',
+	POST_ATTACK: 'post_attack',
+	STARTING_ATTACK: 'attack_startup',
+	TAKING_DAMAGE: 'take_damage',
+	WALKING: 'walk',
+	FAILED_PARRY: 'failed_parry',
+	PARRYING: 'parry'
+}
+
+var STATE = IDLE
+
+func isState(state):
+	return STATE in state
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
 	$AnimatedSprite2D.play()
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if dying:
-		$AnimatedSprite2D.animation = "dying"
-		return
-		
-	if dead:
-		$AnimatedSprite2D.animation = "dead"
+	if isState([DYING, DEAD]):
+		$AnimatedSprite2D.animation = states[STATE]
 		return
 		
 	var velocity = Vector2.ZERO
+	
 	if not is_movement_blocked():
-		if Input.is_action_pressed(move_right):
+		if Input.is_action_pressed(MOVE_RIGHT):
 			blocking = false
 			if flipped:
 				blocking = true
 			velocity.x += speed
-		if Input.is_action_pressed(move_left):
+		if Input.is_action_pressed(MOVE_LEFT):
 			blocking = true
 			if flipped:
 				blocking = false
 			velocity.x -= speed * 0.75
-		if Input.is_action_just_pressed(attack_command):
-			attack()
-		if Input.is_action_just_pressed(parry_command):
-			parry()
-		
+				
 		if velocity.x != 0:
-			$AnimatedSprite2D.animation = "walk"
+			STATE = WALKING
 		else:
-			$AnimatedSprite2D.animation = "idle"
+			STATE = IDLE
+		
+		if Input.is_action_just_pressed(ATTACK_COMMAND):
+			attack()
+		if Input.is_action_just_pressed(PARRY_COMMAND): 
+			parry()
 	else:
-		if blockstun:
+		if isState(BLOCKSTUN):
 			blocking = true
 			velocity.x += get_knockback(1.2)
-			$AnimatedSprite2D.animation = "block"
-		elif parrying:
-			$AnimatedSprite2D.animation = "parry"
-		elif failed_parry:
-			$AnimatedSprite2D.animation = "failed_parry"
-		elif counter_attacking:
-			$AnimatedSprite2D.animation = "counter_attack"
-		elif starting_attack:
-			$AnimatedSprite2D.animation = "attack_startup"
-		elif attacking:
-			$AnimatedSprite2D.animation = "attack"
-		elif taking_damage:
+		elif isState(TAKING_DAMAGE):
 			velocity.x += get_knockback(0.8)
-			$AnimatedSprite2D.animation = "take_damage"
-		elif post_attack:
-			$AnimatedSprite2D.animation = "post_attack"
-	
+
+	$AnimatedSprite2D.animation = states[STATE]
 	position += velocity * delta
-	position = position.clamp(Vector2.ZERO, screen_size)
+	position = position.clamp(Vector2(100, 0), screen_size - Vector2(100, 0))
 
 
 func get_knockback(multi):
@@ -96,104 +103,73 @@ func get_knockback(multi):
 	
 
 func is_movement_blocked():
-	return attacking or taking_damage or post_attack or blockstun or starting_attack or counter_attacking or parrying or failed_parry
+	return STATE in [ATTACKING, TAKING_DAMAGE, POST_ATTACK, BLOCKSTUN, STARTING_ATTACK, COUNTER_ATTACKING, PARRYING, FAILED_PARRY]
 
 func set_commands(move_left, move_right, attack_command, parry_command):
-	self.move_left = move_left
-	self.move_right = move_right
-	self.attack_command = attack_command
-	self.parry_command = parry_command
+	self.MOVE_LEFT = move_left
+	self.MOVE_RIGHT = move_right
+	self.ATTACK_COMMAND = attack_command
+	self.PARRY_COMMAND = parry_command
 
 
 func flip():
 	flipped = not flipped
-	if not flipped:
-		set_scale(Vector2(-1,1))
-		return
 	set_scale(Vector2(-1,1))
 
 
 func attack():
-	starting_attack = true
-	$AttackStartupTimer.start()
-
-
-func _on_attack_startup_timer_timeout():
-	starting_attack = false
-	attacking = true
+	STATE = STARTING_ATTACK
+	await get_tree().create_timer(0.2).timeout
+	STATE = ATTACKING
 	$Hurtbox.monitorable = true
-	$AttackTimer.start()
-
-
-func _on_attack_timer_timeout():
-	attacking = false	
+	await get_tree().create_timer(0.4).timeout
 	$Hurtbox.monitorable = false
-	post_attack = true
-	$PostAttackTimer.start()
-
-
-func _on_post_attack_timer_timeout():
-	post_attack = false
-	failed_parry = false
-
+	STATE = POST_ATTACK
+	await get_tree().create_timer(0.4).timeout
+	STATE = IDLE
 
 func parry():
-	parrying = true
+	STATE = PARRYING
 	$ParryTimer.start()
 
-
 func _on_parry_timer_timeout():
-	parrying = false
-	failed_parry = true
-	$PostAttackTimer.start()
-
-func _on_parry_animation_timer_timeout():
-	parrying = false
-	counter_attacking = true
-	$CounterAttackTimer.start()
-	$Hurtbox.set_deferred("monitorable", true)
-	
-func _on_counter_attack_timer_timeout():
-	$Hitbox.set_deferred("monitoring", true)
-	$Hurtbox.monitorable = false
-	counter_attacking = false
+	STATE = FAILED_PARRY
+	await get_tree().create_timer(0.4).timeout
+	STATE = IDLE
 
 
-func _on_hitbox_area_entered(area):
-	if parrying:
-		parried.emit()
+func _on_hitbox_area_entered(_area):
+	if isState(PARRYING):
 		$ParryTimer.stop()
-		$ParryAnimationTimer.start()
+		parried.emit()
 		$Hitbox.set_deferred("monitoring", false)
+		await get_tree().create_timer(0.85).timeout
+		
+		STATE = COUNTER_ATTACKING
+		$Hurtbox.set_deferred("monitorable", true)
+		await get_tree().create_timer(0.3).timeout
+		
+		$Hitbox.set_deferred("monitoring", true)
+		$Hurtbox.set_deferred("monitorable", false)
+		STATE = IDLE
 		return
 		
 	if blocking:
-		blockstun = true
-		$BlockstunTimer.start()
+		STATE = BLOCKSTUN
+		await get_tree().create_timer(0.8).timeout
+		STATE = IDLE
 		return
 		
 	health -= 1
 	take_damage.emit()
 	if health > 0:
-		attacking = false	
 		$Hurtbox.set_deferred("monitorable", false)
-		taking_damage = true
-		$DamageTimer.start()
+		STATE = TAKING_DAMAGE
+		await get_tree().create_timer(0.4).timeout
+		
+		STATE = IDLE
 		return
-	dying = true
-	$DyingTimer.start()
-
-
-func _on_damage_timer_timeout():
-	taking_damage = false
-	$Hitbox.monitoring = true
-
-
-func _on_dying_timer_timeout():
-	dying = false
-	dead = true
-	died.emit()
-
-
-func _on_blockstun_timer_timeout():
-	blockstun = false
+		
+	STATE = DYING
+	await get_tree().create_timer(0.4).timeout
+	STATE = DEAD

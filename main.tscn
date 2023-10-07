@@ -16,9 +16,11 @@ position = Vector2(723, 634)
 
 [node name="Player" parent="." instance=ExtResource("1_mfvrx")]
 position = Vector2(1041, 719)
+speed = 400
 
 [node name="Player2" parent="." instance=ExtResource("1_mfvrx")]
 position = Vector2(1459, 724)
+speed = 400
 
 [node name="SlowMoTimer" type="Timer" parent="."]
 wait_time = 0.5
@@ -26,7 +28,6 @@ one_shot = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_2q7oc")
-autoplay = true
 
 [connection signal="died" from="Player" to="." method="_on_player_died"]
 [connection signal="parried" from="Player" to="." method="_on_player_parried"]

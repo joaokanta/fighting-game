@@ -225,7 +225,7 @@ texture_filter = 1
 position = Vector2(-2.00006, -2.99994)
 scale = Vector2(20, 20)
 sprite_frames = SubResource("SpriteFrames_xmcfu")
-animation = &"counter_attack"
+animation = &"dead"
 
 [node name="Hurtbox" type="Area2D" parent="."]
 position = Vector2(173, -6)
@@ -246,48 +246,9 @@ metadata/_edit_group_ = true
 position = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_66aqb")
 
-[node name="DamageTimer" type="Timer" parent="."]
-wait_time = 0.9
-one_shot = true
-
-[node name="AttackTimer" type="Timer" parent="."]
-wait_time = 0.5
-one_shot = true
-
-[node name="PostAttackTimer" type="Timer" parent="."]
-wait_time = 0.5
-one_shot = true
-
-[node name="DyingTimer" type="Timer" parent="."]
-wait_time = 0.4
-one_shot = true
-
-[node name="BlockstunTimer" type="Timer" parent="."]
-wait_time = 0.8
-one_shot = true
-
-[node name="AttackStartupTimer" type="Timer" parent="."]
-wait_time = 0.3
-one_shot = true
-
 [node name="ParryTimer" type="Timer" parent="."]
 wait_time = 0.2
 one_shot = true
 
-[node name="CounterAttackTimer" type="Timer" parent="."]
-wait_time = 0.3
-one_shot = true
-
-[node name="ParryAnimationTimer" type="Timer" parent="."]
-one_shot = true
-
 [connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
-[connection signal="timeout" from="DamageTimer" to="." method="_on_damage_timer_timeout"]
-[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]
-[connection signal="timeout" from="PostAttackTimer" to="." method="_on_post_attack_timer_timeout"]
-[connection signal="timeout" from="DyingTimer" to="." method="_on_dying_timer_timeout"]
-[connection signal="timeout" from="BlockstunTimer" to="." method="_on_blockstun_timer_timeout"]
-[connection signal="timeout" from="AttackStartupTimer" to="." method="_on_attack_startup_timer_timeout"]
 [connection signal="timeout" from="ParryTimer" to="." method="_on_parry_timer_timeout"]
-[connection signal="timeout" from="CounterAttackTimer" to="." method="_on_counter_attack_timer_timeout"]
-[connection signal="timeout" from="ParryAnimationTimer" to="." method="_on_parry_animation_timer_timeout"]
