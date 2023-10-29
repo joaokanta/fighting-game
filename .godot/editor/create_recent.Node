@@ -1,12 +1,12 @@
+Label
+AnimatedSprite2D
+Sprite2D
 Timer
 AudioStreamPlayer
-Label
 CollisionShape2D
 Area2D
 Node2D
-Sprite2D
 CanvasLayer
 CanvasGroup
 TileMap
 Node
-AnimatedSprite2D

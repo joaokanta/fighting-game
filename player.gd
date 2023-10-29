@@ -6,6 +6,8 @@ var screen_size
 signal take_damage
 signal parried
 signal died
+signal running
+signal backing
 
 var health = 3
 
@@ -20,7 +22,8 @@ const PARRYING = 'parry'
 const FAILED_PARRY = 'failed_parry'
 const COUNTER_ATTACKING = 'counter_attack'
 const IDLE = 'idle'
-const WALKING = 'walk'
+const WALKING_BACK = 'walk_back'
+const WALKING_FORWARD = 'walk_forward'
 
 var flipped = false
 var blocking = false
@@ -40,6 +43,11 @@ var action_time = 0
 func is_state(state):
 	return STATE in state
 
+var round_started = false
+func round_start():
+	round_started = true
+	flip()
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
@@ -47,7 +55,13 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if not round_started:
+		$AnimatedSprite2D.animation = IDLE
+		return
+		
 	if is_state([DEAD]):
+		died.emit()
+		$HitEffects.stop()
 		$AnimatedSprite2D.animation = STATE
 		return
 	
@@ -75,6 +89,8 @@ func set_player_position(velocity, delta):
 		velocity.x += get_knockback(0.5)
 	
 	position += velocity * delta
+	
+	
 	position = position.clamp(Vector2(100, 0), screen_size - Vector2(100, 0))
 	
 func set_idle():
@@ -101,10 +117,14 @@ func get_velocity():
 		return velocity
 	elif Input.is_action_pressed(MOVE_RIGHT):
 		velocity.x += speed
-		STATE = WALKING
+		if flipped:
+			velocity.x *= 0.75
+		STATE = get_move_right_animation()
 	elif Input.is_action_pressed(MOVE_LEFT):
-		velocity.x -= speed * 0.75
-		STATE = WALKING
+		velocity.x -= speed
+		if not flipped:
+			velocity.x *= 0.75
+		STATE = get_move_left_animation()
 		
 	return velocity
 	
@@ -126,7 +146,22 @@ func get_knockback(multi):
 	if not flipped: 
 		return speed * -multi
 	return speed * multi
-	
+
+func get_move_left_animation():
+	if flipped:
+		running.emit(position)
+		return WALKING_FORWARD
+	backing.emit()
+	return WALKING_BACK
+
+
+func get_move_right_animation():
+	if flipped:
+		backing.emit()
+		return WALKING_BACK
+	running.emit(position)
+	return WALKING_FORWARD
+
 
 func is_movement_blocked():
 	return STATE in [ATTACKING, TAKING_DAMAGE, POST_ATTACK, BLOCKSTUN, STARTING_ATTACK, COUNTER_ATTACKING, PARRYING, FAILED_PARRY, DYING, DEAD]
@@ -140,12 +175,14 @@ func set_commands(move_left, move_right, attack_command, parry_command):
 
 func flip():
 	flipped = not flipped
-	set_scale(Vector2(-1,1))
+	var scale = get_scale()
+	scale.x = scale.x * -1
+	set_scale(scale)
 
 ## ATTACK
 func attack():
 	action_queue.append([STARTING_ATTACK, 0.2, HITBOX_ON])
-	action_queue.append([ATTACKING, 0.4, HITBOX_OFF])
+	action_queue.append([ATTACKING, 0.1, HITBOX_OFF])
 	action_queue.append([POST_ATTACK, 0.4, NO_OP])
 
 const NO_OP = "no_op"
@@ -181,22 +218,25 @@ func _on_hurtbox_area_entered(_area):
 		# parried.emit()
 		clear_action_queue()
 		
-		action_queue.append([PARRYING, 0.85, HITBOX_ON])
+		action_queue.append([PARRYING, 0.45, HITBOX_ON])
 		action_queue.append([COUNTER_ATTACKING, 0.3, HITBOX_OFF])
 		action_queue.append([POST_ATTACK, 0.4, NO_OP])
 		return
 		
 	if blocking:
 		clear_action_queue()
+		$BlockEffects.play("blocked")
 		action_queue.append([BLOCKSTUN, 0.4, NO_OP])
 		return
-		
+	
 	health -= 1
 	take_damage.emit()
 	if health > 0:
 		clear_action_queue()
+		$HitEffects.play("hit")
 		action_queue.append([TAKING_DAMAGE, 0.4, NO_OP])
 		return
 	
 	clear_action_queue()
-	action_queue.append([DYING, 0.4, DEAD])
+	$HitEffects.play("died")
+	action_queue.append([DYING, 1, DEAD])
