@@ -1,54 +1,55 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696701478
+::res://::1698539177
 26. Hugo The Circuit (R1).mp3::AudioStreamMP3::8365938684257911350::1694966724::1694966838::1::::<><>::
-grass.tscn::PackedScene::6150416319274435985::1694725937::0::1::::<><>::uid://cchh7oq3b71vc
+grass.tscn::PackedScene::6150416319274435985::1694725843::0::1::::<><>::uid://cchh7oq3b71vc
 health.gd::GDScript::-1::1694832049::0::1::::<>Node2D<>::
 HUD.gd::GDScript::-1::1694832636::0::1::::<>CanvasLayer<>::
-HUD.tscn::PackedScene::8021693671720729946::1694969647::0::1::::<><>::res://HUD.gd<>res://health.gd<>uid://duauapfgq8xae::::res://sprites/Hearts/PNG/basic/heart.png
+HUD.tscn::PackedScene::8021693671720729946::1698539176::0::1::::<><>::res://HUD.gd<>res://health.gd<>uid://duauapfgq8xae::::res://sprites/Hearts/PNG/basic/heart.png
 icon.svg::CompressedTexture2D::4730129212785229195::1694264902::1694264908::1::::<><>::
 license.txt::TextFile::-1::1673436324::0::1::::<><>::
 main.gd::GDScript::-1::1694968646::0::1::::<>Node<>::
-main.tscn::PackedScene::2779732343283475920::1694969648::0::1::::<><>::res://main.gd<>uid://bii0ryidhirca::::res://player.tscn<>uid://ctvkptw0vvbdp::::res://grass.tscn<>uid://dmj1ef7dscsww::::res://HUD.tscn<>uid://drgr110xmwks1::::res://26. Hugo The Circuit (R1).mp3
-player.gd::GDScript::-1::1694967653::0::1::::<>Node2D<>::
-player.tscn::PackedScene::2965996011210216728::1694969648::0::1::::<><>::res://player.gd<>uid://36fa8t73kl54::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation1.png<>uid://vrfliskffkkp::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation2.png<>uid://05p8on7l5krp::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation2.png<>uid://3g5cewjyu37x::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation3.png<>uid://05327xsk82x0::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation3.png<>uid://wm2e3qefw0xr::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation1.png<>uid://bc5oc6usoy2pl::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation4.png<>uid://cvcqc11f6qks1::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation2.png<>uid://dr3kuah8dwekk::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation2.png<>uid://nokwo0q1t4tm::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation5.png<>uid://tjtfsjlicnrx::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation6.png<>uid://cw0rhttgnlp5y::::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/no effects/deflect_horizontal_animation1.png<>uid://on6xswx88pf5::::res://sprites/Character/DefaultSkin/die_anim/die_animation4.png<>uid://cg1k00f2c3kjc::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation3.png<>uid://chdpfuh8p0osf::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation3.png<>uid://6rcb3odnhln1::::res://sprites/Character/DefaultSkin/die_anim/die_animation1.png<>uid://dfxc4iuuxynaf::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation4.png<>uid://rjrvgktlew1v::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation4.png<>uid://bk8o62f3bbxel::::res://sprites/Character/DefaultSkin/die_anim/die_animation2.png<>uid://cu6xkpogi0brc::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation5.png<>uid://ci4mx5lnw1k6o::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation5.png<>uid://vfqalrp1odkj::::res://sprites/Character/DefaultSkin/die_anim/die_animation3.png<>uid://bbjopf2c4ie86::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation6.png<>uid://un4k0vnc6lao::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation6.png<>uid://dwl1of2jev40u::::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation1.png<>uid://bv1e6ywu75fje::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation7.png<>uid://uwbkj8djoy2q::::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation2.png<>uid://btuljiylvwmj2::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation8.png<>uid://cgvf4o0uu8j0o::::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation3.png<>uid://b8wgcr3lp1mbd::::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation5.png
-::res://sprites/::1694727266
-::res://sprites/Character/::1694722573
-::res://sprites/Character/DefaultSkin/::1674147141
-::res://sprites/Character/DefaultSkin/climb_anim/::1694722572
+main.tscn::PackedScene::2779732343283475920::1698539177::0::1::::<><>::res://main.gd<>uid://bii0ryidhirca::::res://player.tscn<>uid://ctvkptw0vvbdp::::res://grass.tscn<>uid://dmj1ef7dscsww::::res://HUD.tscn<>uid://drgr110xmwks1::::res://26. Hugo The Circuit (R1).mp3
+player.gd::GDScript::-1::1698539176::0::1::::<>Node2D<>::
+player.tscn::PackedScene::2965996011210216728::1698539177::0::1::::<><>::res://player.gd<>uid://36fa8t73kl54::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation1.png<>uid://vrfliskffkkp::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation2.png<>uid://05p8on7l5krp::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation2.png<>uid://3g5cewjyu37x::::res://sprites/Character/DefaultSkin/idle_anim/with sword/idle_animation3.png<>uid://05327xsk82x0::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation3.png<>uid://wm2e3qefw0xr::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation1.png<>uid://bc5oc6usoy2pl::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation4.png<>uid://cvcqc11f6qks1::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation2.png<>uid://dr3kuah8dwekk::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation2.png<>uid://nokwo0q1t4tm::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation5.png<>uid://tjtfsjlicnrx::::res://sprites/Character/DefaultSkin/side_slash_attack/side_attack_animation6.png<>uid://cw0rhttgnlp5y::::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/no effects/deflect_horizontal_animation1.png<>uid://on6xswx88pf5::::res://sprites/Character/DefaultSkin/die_anim/die_animation4.png<>uid://cg1k00f2c3kjc::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation3.png<>uid://chdpfuh8p0osf::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation3.png<>uid://6rcb3odnhln1::::res://sprites/Character/DefaultSkin/die_anim/die_animation1.png<>uid://dfxc4iuuxynaf::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation4.png<>uid://rjrvgktlew1v::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation4.png<>uid://bk8o62f3bbxel::::res://sprites/Character/DefaultSkin/die_anim/die_animation2.png<>uid://cu6xkpogi0brc::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation5.png<>uid://ci4mx5lnw1k6o::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation5.png<>uid://vfqalrp1odkj::::res://sprites/Character/DefaultSkin/die_anim/die_animation3.png<>uid://bbjopf2c4ie86::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation6.png<>uid://un4k0vnc6lao::::res://sprites/Character/DefaultSkin/up_slash_attack/up_slash_animation6.png<>uid://dwl1of2jev40u::::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation1.png<>uid://bv1e6ywu75fje::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation7.png<>uid://uwbkj8djoy2q::::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/taking_hit_animation2.png<>uid://btuljiylvwmj2::::res://sprites/Character/DefaultSkin/run_anim/with sword/walking_animation8.png<>uid://cgvf4o0uu8j0o::::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation3.png<>uid://b8wgcr3lp1mbd::::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/deflect_vertical_animation5.png<>uid://cjp4vjiwbhqq1::::res://sprites/Character/DefaultSkin/idle_anim/without sword/idle_animation1.png<>uid://cmyx2mdk7svh3::::res://sprites/Character/DefaultSkin/idle_anim/without sword/idle_animation2.png<>uid://cl3i16q34dc4y::::res://sprites/Character/DefaultSkin/idle_anim/without sword/idle_animation3.png
+::res://sfx/::1697051001
+::res://sprites/::1697234928
+::res://sprites/Character/::1697234928
+::res://sprites/Character/DefaultSkin/::1697234929
+::res://sprites/Character/DefaultSkin/climb_anim/::1697235028
 climb_animation1.png::CompressedTexture2D::4298957550626840279::1673711520::1694722572::1::::<><>::
 climb_animation2.png::CompressedTexture2D::3709295072284013034::1673711520::1694722572::1::::<><>::
 climb_animation3.png::CompressedTexture2D::7084205000924754944::1673711520::1694722572::1::::<><>::
 climb_animation4.png::CompressedTexture2D::5028473597221692234::1673711520::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/crouch_anim/::1673625139
-::res://sprites/Character/DefaultSkin/crouch_anim/with sword/::1694722572
+::res://sprites/Character/DefaultSkin/crouch_anim/::1697234929
+::res://sprites/Character/DefaultSkin/crouch_anim/with sword/::1697235030
 crouch_animation1.png::CompressedTexture2D::1954705994816421092::1673625303::1694722572::1::::<><>::
 crouch_animation2.png::CompressedTexture2D::8948347849637322376::1673625319::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/crouch_anim/without sword/::1694722572
+::res://sprites/Character/DefaultSkin/crouch_anim/without sword/::1697235031
 crouch_animation1.png::CompressedTexture2D::3518754807965960237::1673624927::1694722572::1::::<><>::
 crouch_animation2.png::CompressedTexture2D::5821330510343488739::1673624927::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/defend_horizontal_anim/::1694722572
+::res://sprites/Character/DefaultSkin/defend_horizontal_anim/::1697235032
 defending_horizontal_animation1.png::CompressedTexture2D::6400856410087538319::1673630835::1694722572::1::::<><>::
 defending_horizontal_animation2.png::CompressedTexture2D::4579893591160145643::1673630835::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/defend_vertical_anim/::1694722572
+::res://sprites/Character/DefaultSkin/defend_vertical_anim/::1697235031
 defend_vertical_animation1.png::CompressedTexture2D::5564890286725974711::1673629546::1694722572::1::::<><>::
 defend_vertical_animation2.png::CompressedTexture2D::6603231952531310003::1673629546::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/::1673632926
-::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/no effects/::1694722572
+::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/::1697234929
+::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/no effects/::1697235033
 deflect_horizontal_animation1.png::CompressedTexture2D::6369651088294145400::1673631504::1694722572::1::::<><>::
 deflect_horizontal_animation2.png::CompressedTexture2D::7399192961511591081::1673631504::1694722572::1::::<><>::
 deflect_horizontal_animation3.png::CompressedTexture2D::2882983400337289671::1673631504::1694722572::1::::<><>::
 deflect_horizontal_animation4.png::CompressedTexture2D::1627231315098504614::1673631504::1694722572::1::::<><>::
 deflect_horizontal_animation5.png::CompressedTexture2D::348815845080059769::1673631504::1694722572::1::::<><>::
 deflect_horizontal_animation6.png::CompressedTexture2D::2979419722431735842::1673631504::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/with effects/::1694722572
+::res://sprites/Character/DefaultSkin/deflect_horizontal_anim/with effects/::1697235033
 deflect_horizontal_animation1.png::CompressedTexture2D::7664660395574302731::1673632171::1694722572::1::::<><>::
 deflect_horizontal_animation2.png::CompressedTexture2D::2988048905172687800::1673632171::1694722572::1::::<><>::
 deflect_horizontal_animation3.png::CompressedTexture2D::6717568011508058103::1673632171::1694722572::1::::<><>::
 deflect_horizontal_animation4.png::CompressedTexture2D::8803300781391543338::1673632171::1694722572::1::::<><>::
 deflect_horizontal_animation5.png::CompressedTexture2D::2959457591483934247::1673632171::1694722572::1::::<><>::
 deflect_horizontal_animation6.png::CompressedTexture2D::1543637118426150551::1673632171::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/deflect_vertical_anim/::1673630491
-::res://sprites/Character/DefaultSkin/deflect_vertical_anim/no effects/::1694722572
+::res://sprites/Character/DefaultSkin/deflect_vertical_anim/::1697234929
+::res://sprites/Character/DefaultSkin/deflect_vertical_anim/no effects/::1697235032
 deflect_vertical_animation1.png::CompressedTexture2D::2438046094935384442::1673630763::1694722572::1::::<><>::
 deflect_vertical_animation2.png::CompressedTexture2D::5622309833540682189::1673630763::1694722572::1::::<><>::
 deflect_vertical_animation3.png::CompressedTexture2D::2256901649061600901::1673630763::1694722572::1::::<><>::
@@ -56,7 +57,7 @@ deflect_vertical_animation4.png::CompressedTexture2D::5698908552936484169::16736
 deflect_vertical_animation5.png::CompressedTexture2D::2926647253016343577::1673630763::1694722572::1::::<><>::
 deflect_vertical_animation6.png::CompressedTexture2D::3125182735780851557::1673630763::1694722572::1::::<><>::
 deflect_vertical_animation7.png::CompressedTexture2D::4267360793349332343::1673630763::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/::1694722572
+::res://sprites/Character/DefaultSkin/deflect_vertical_anim/with effects/::1697235093
 deflect_vertical_animation1.png::CompressedTexture2D::4562914179961177918::1673630729::1694722572::1::::<><>::
 deflect_vertical_animation2.png::CompressedTexture2D::1621860475191795800::1673630729::1694722572::1::::<><>::
 deflect_vertical_animation3.png::CompressedTexture2D::5237682509920481932::1673630729::1694722572::1::::<><>::
@@ -64,28 +65,32 @@ deflect_vertical_animation4.png::CompressedTexture2D::8683148523016964617::16736
 deflect_vertical_animation5.png::CompressedTexture2D::4748437644554239989::1673630729::1694722572::1::::<><>::
 deflect_vertical_animation6.png::CompressedTexture2D::4751148959206063487::1673630729::1694722572::1::::<><>::
 deflect_vertical_animation7.png::CompressedTexture2D::1036443848363498586::1673630729::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/die_anim/::1694722572
+mixkit-dagger-woosh-1487.wav::::-1::0::0::0::::<><>::
+mixkit-heavy-sword-hit-2794.wav::AudioStreamWAV::6108889812939429292::1697050932::1697050932::1::::<><>::
+mixkit-sword-blade-swish-1506.wav::::-1::0::0::0::::<><>::
+mixkit-sword-slides-a-body-2791.wav::AudioStreamWAV::951203469759669761::1697050932::1697050932::1::::<><>::
+::res://sprites/Character/DefaultSkin/die_anim/::1697235027
 die_animation1.png::CompressedTexture2D::2211073286812490728::1673774729::1694722572::1::::<><>::
 die_animation2.png::CompressedTexture2D::3157340410595249991::1673774729::1694722572::1::::<><>::
 die_animation3.png::CompressedTexture2D::1485259681788599193::1673774729::1694722572::1::::<><>::
 die_animation4.png::CompressedTexture2D::1011405002267231612::1673774729::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/down_slash_attack/::1694722572
+::res://sprites/Character/DefaultSkin/down_slash_attack/::1697235031
 down_slash_animation1.png::CompressedTexture2D::1461735949516652051::1673806934::1694722572::1::::<><>::
 down_slash_animation2.png::CompressedTexture2D::3192664073566186197::1673806934::1694722572::1::::<><>::
 down_slash_animation3.png::CompressedTexture2D::5613068447209118265::1673806934::1694722572::1::::<><>::
 down_slash_animation4.png::CompressedTexture2D::4368304005038110265::1673806934::1694722572::1::::<><>::
 down_slash_animation5.png::CompressedTexture2D::3557520943797199900::1673806934::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/idle_anim/::1673620966
-::res://sprites/Character/DefaultSkin/idle_anim/with sword/::1694722572
+::res://sprites/Character/DefaultSkin/idle_anim/::1697234929
+::res://sprites/Character/DefaultSkin/idle_anim/with sword/::1697235028
 idle_animation1.png::CompressedTexture2D::2029588681318188565::1673625260::1694722572::1::::<><>::
 idle_animation2.png::CompressedTexture2D::1509383815369007427::1673625260::1694722572::1::::<><>::
 idle_animation3.png::CompressedTexture2D::1979499214280977287::1673625260::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/idle_anim/without sword/::1694722572
+::res://sprites/Character/DefaultSkin/idle_anim/without sword/::1697235030
 idle_animation1.png::CompressedTexture2D::5437305406971416962::1673620947::1694722572::1::::<><>::
 idle_animation2.png::CompressedTexture2D::5666097899821550190::1673620947::1694722572::1::::<><>::
 idle_animation3.png::CompressedTexture2D::5603255045353683042::1673620947::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/jump_anim/::1673709790
-::res://sprites/Character/DefaultSkin/jump_anim/with sword/::1694722572
+::res://sprites/Character/DefaultSkin/jump_anim/::1697234929
+::res://sprites/Character/DefaultSkin/jump_anim/with sword/::1697235028
 Jump_animation1.png::CompressedTexture2D::7059265545008112447::1673704378::1694722572::1::::<><>::
 Jump_animation2.png::CompressedTexture2D::3792687666840712466::1673704378::1694722572::1::::<><>::
 Jump_animation3.png::CompressedTexture2D::900712248246528694::1673704378::1694722572::1::::<><>::
@@ -95,7 +100,7 @@ Jump_animation6.png::CompressedTexture2D::8406858210779727676::1673704378::16947
 Jump_animation7.png::CompressedTexture2D::6733254096322161218::1673704378::1694722572::1::::<><>::
 Jump_animation8.png::CompressedTexture2D::8110956446299873943::1673704378::1694722572::1::::<><>::
 Jump_animation9.png::CompressedTexture2D::6927391530220652197::1673704378::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/jump_anim/without sword/::1694722572
+::res://sprites/Character/DefaultSkin/jump_anim/without sword/::1697235030
 Jump_animation1.png::CompressedTexture2D::963152209221208286::1673709774::1694722572::1::::<><>::
 Jump_animation2.png::CompressedTexture2D::7480885418156027126::1673709774::1694722572::1::::<><>::
 Jump_animation3.png::CompressedTexture2D::8180904092290773168::1673709774::1694722572::1::::<><>::
@@ -105,15 +110,15 @@ Jump_animation6.png::CompressedTexture2D::9175835290867044411::1673709774::16947
 Jump_animation7.png::CompressedTexture2D::1000290612631068339::1673709774::1694722572::1::::<><>::
 Jump_animation8.png::CompressedTexture2D::5213263814805304854::1673709774::1694722572::1::::<><>::
 Jump_animation9.png::CompressedTexture2D::1911750985711522877::1673709774::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/roll_anim/::1694722572
+::res://sprites/Character/DefaultSkin/roll_anim/::1697235027
 roll_animation1.png::CompressedTexture2D::8385890180268611908::1673772054::1694722572::1::::<><>::
 roll_animation2.png::CompressedTexture2D::7521001864764418400::1673772054::1694722572::1::::<><>::
 roll_animation3.png::CompressedTexture2D::6716666087028770850::1673772054::1694722572::1::::<><>::
 roll_animation4.png::CompressedTexture2D::2422917368558990440::1673772054::1694722572::1::::<><>::
 roll_animation5.png::CompressedTexture2D::4205641312821301786::1673772054::1694722572::1::::<><>::
 roll_animation6.png::CompressedTexture2D::1372999282567124550::1673772054::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/run_anim/::1673625746
-::res://sprites/Character/DefaultSkin/run_anim/with sword/::1694722572
+::res://sprites/Character/DefaultSkin/run_anim/::1697234929
+::res://sprites/Character/DefaultSkin/run_anim/with sword/::1697235030
 walking_animation1.png::CompressedTexture2D::1570575090625736323::1673625748::1694722572::1::::<><>::
 walking_animation2.png::CompressedTexture2D::6251912288806338102::1673625748::1694722572::1::::<><>::
 walking_animation3.png::CompressedTexture2D::5271277152776676793::1673625748::1694722572::1::::<><>::
@@ -122,7 +127,7 @@ walking_animation5.png::CompressedTexture2D::5394990341845652196::1673625748::16
 walking_animation6.png::CompressedTexture2D::2476066056381390113::1673625748::1694722572::1::::<><>::
 walking_animation7.png::CompressedTexture2D::3914359744778209978::1673625748::1694722572::1::::<><>::
 walking_animation8.png::CompressedTexture2D::3761980684753325789::1673625748::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/run_anim/without sword/::1694722572
+::res://sprites/Character/DefaultSkin/run_anim/without sword/::1697235031
 walking_animation1.png::CompressedTexture2D::4428161167442326096::1673624015::1694722572::1::::<><>::
 walking_animation2.png::CompressedTexture2D::8912462666513327463::1673624015::1694722572::1::::<><>::
 walking_animation3.png::CompressedTexture2D::8342244689123123878::1673624015::1694722572::1::::<><>::
@@ -131,21 +136,21 @@ walking_animation5.png::CompressedTexture2D::7359135216873539601::1673624015::16
 walking_animation6.png::CompressedTexture2D::5275181132990453854::1673624015::1694722572::1::::<><>::
 walking_animation7.png::CompressedTexture2D::7875409598660576013::1673624015::1694722572::1::::<><>::
 walking_animation8.png::CompressedTexture2D::8619468751481904245::1673624015::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/side_slash_attack/::1694722572
+::res://sprites/Character/DefaultSkin/side_slash_attack/::1697235031
 side_attack_animation1.png::CompressedTexture2D::5488756789628939056::1673805998::1694722572::1::::<><>::
 side_attack_animation2.png::CompressedTexture2D::1817622866542145369::1673805998::1694722572::1::::<><>::
 side_attack_animation3.png::CompressedTexture2D::1818402432915732283::1673805998::1694722572::1::::<><>::
 side_attack_animation4.png::CompressedTexture2D::2589584973034963541::1673805998::1694722572::1::::<><>::
 side_attack_animation5.png::CompressedTexture2D::942003487954335102::1673805998::1694722572::1::::<><>::
 side_attack_animation6.png::CompressedTexture2D::1353330940575357501::1673805998::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/take_hit_anim/::1673809713
-::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/::1694722572
+::res://sprites/Character/DefaultSkin/take_hit_anim/::1697234929
+::res://sprites/Character/DefaultSkin/take_hit_anim/with sword/::1697235031
 taking_hit_animation1.png::CompressedTexture2D::8727728714078863650::1673708612::1694722572::1::::<><>::
 taking_hit_animation2.png::CompressedTexture2D::1449272282119387430::1673708612::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/take_hit_anim/without sword/::1694722572
+::res://sprites/Character/DefaultSkin/take_hit_anim/without sword/::1697235031
 taking_hit_animation1.png::CompressedTexture2D::7258566862931749695::1673708707::1694722572::1::::<><>::
 taking_hit_animation2.png::CompressedTexture2D::3680801416354502120::1673708707::1694722572::1::::<><>::
-::res://sprites/Character/DefaultSkin/up_slash_attack/::1694722572
+::res://sprites/Character/DefaultSkin/up_slash_attack/::1697235030
 up_slash_animation1.png::CompressedTexture2D::8942571388119939560::1673806474::1694722572::1::::<><>::
 up_slash_animation2.png::CompressedTexture2D::8410917868163168558::1673806474::1694722572::1::::<><>::
 up_slash_animation3.png::CompressedTexture2D::5248301387633554812::1673806474::1694722572::1::::<><>::
@@ -153,42 +158,42 @@ up_slash_animation4.png::CompressedTexture2D::1212859763648422545::1673806474::1
 up_slash_animation5.png::CompressedTexture2D::6242029109057182032::1673806474::1694722572::1::::<><>::
 up_slash_animation6.png::CompressedTexture2D::1432393780411911858::1673806474::1694722572::1::::<><>::
 up_slash_animation7.png::CompressedTexture2D::7456781216929137465::1673806474::1694722572::1::::<><>::
-::res://sprites/Character/HatSkin/::1674151347
-::res://sprites/Character/HatSkin/climb_anim/::1694722573
+::res://sprites/Character/HatSkin/::1697234929
+::res://sprites/Character/HatSkin/climb_anim/::1697235027
 climb_animation1.png::CompressedTexture2D::7406852478787367208::1674147719::1694722573::1::::<><>::
 climb_animation2.png::CompressedTexture2D::2548671111220220277::1674147719::1694722573::1::::<><>::
 climb_animation3.png::CompressedTexture2D::4166456742596067019::1674147719::1694722573::1::::<><>::
 climb_animation4.png::CompressedTexture2D::1306146878821408671::1674147719::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/crouch_anim/::1673625139
-::res://sprites/Character/HatSkin/crouch_anim/with sword/::1694722573
+::res://sprites/Character/HatSkin/crouch_anim/::1697234929
+::res://sprites/Character/HatSkin/crouch_anim/with sword/::1697235030
 crouch_animation1.png::CompressedTexture2D::4252186984637690554::1674147785::1694722573::1::::<><>::
 crouch_animation2.png::CompressedTexture2D::1454898990873328284::1674147785::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/crouch_anim/without sword/::1694722573
+::res://sprites/Character/HatSkin/crouch_anim/without sword/::1697235030
 crouch_animation1.png::CompressedTexture2D::8288975419234201654::1674147807::1694722573::1::::<><>::
 crouch_animation2.png::CompressedTexture2D::4239401295444572500::1674147807::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/defend_horizontal_anim/::1694722573
+::res://sprites/Character/HatSkin/defend_horizontal_anim/::1697235032
 defending_horizontal_animation1.png::CompressedTexture2D::2710692678201980148::1674147833::1694722573::1::::<><>::
 defending_horizontal_animation2.png::CompressedTexture2D::4866961564186259633::1674147833::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/defend_vertical_anim/::1694722573
+::res://sprites/Character/HatSkin/defend_vertical_anim/::1697235031
 defend_vertical_animation1.png::CompressedTexture2D::324821797419851427::1674147858::1694722573::1::::<><>::
 defend_vertical_animation2.png::CompressedTexture2D::4963838850471523513::1674147858::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/deflect_horizontal_anim/::1673632926
-::res://sprites/Character/HatSkin/deflect_horizontal_anim/no effects/::1694722573
+::res://sprites/Character/HatSkin/deflect_horizontal_anim/::1697234929
+::res://sprites/Character/HatSkin/deflect_horizontal_anim/no effects/::1697235032
 deflect_horizontal_animation1.png::CompressedTexture2D::8044070839739821902::1674147964::1694722573::1::::<><>::
 deflect_horizontal_animation2.png::CompressedTexture2D::629767306248886620::1674147964::1694722573::1::::<><>::
 deflect_horizontal_animation3.png::CompressedTexture2D::4460463644126732396::1674147964::1694722573::1::::<><>::
 deflect_horizontal_animation4.png::CompressedTexture2D::3041300174507835602::1674147964::1694722573::1::::<><>::
 deflect_horizontal_animation5.png::CompressedTexture2D::7082272707618110222::1674147964::1694722573::1::::<><>::
 deflect_horizontal_animation6.png::CompressedTexture2D::5469251592914422091::1674147964::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/deflect_horizontal_anim/with effects/::1694722573
+::res://sprites/Character/HatSkin/deflect_horizontal_anim/with effects/::1697235033
 deflect_horizontal_animation1.png::CompressedTexture2D::1569239573634623141::1674148004::1694722573::1::::<><>::
 deflect_horizontal_animation2.png::CompressedTexture2D::8268611938581062864::1674148004::1694722573::1::::<><>::
 deflect_horizontal_animation3.png::CompressedTexture2D::7525459263653475066::1674148004::1694722573::1::::<><>::
 deflect_horizontal_animation4.png::CompressedTexture2D::1924470768140558757::1674148004::1694722573::1::::<><>::
 deflect_horizontal_animation5.png::CompressedTexture2D::5057193377236304513::1674148004::1694722573::1::::<><>::
 deflect_horizontal_animation6.png::CompressedTexture2D::634497102013871844::1674148004::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/deflect_vertical_anim/::1673630491
-::res://sprites/Character/HatSkin/deflect_vertical_anim/no effects/::1694722573
+::res://sprites/Character/HatSkin/deflect_vertical_anim/::1697234929
+::res://sprites/Character/HatSkin/deflect_vertical_anim/no effects/::1697235032
 deflect_vertical_animation1.png::CompressedTexture2D::7170017804279912318::1674150702::1694722573::1::::<><>::
 deflect_vertical_animation2.png::CompressedTexture2D::8853402773359582526::1674150702::1694722573::1::::<><>::
 deflect_vertical_animation3.png::CompressedTexture2D::7540115207514945615::1674150702::1694722573::1::::<><>::
@@ -196,7 +201,7 @@ deflect_vertical_animation4.png::CompressedTexture2D::5514784186186349498::16741
 deflect_vertical_animation5.png::CompressedTexture2D::7879294071473377095::1674150702::1694722573::1::::<><>::
 deflect_vertical_animation6.png::CompressedTexture2D::1024579721026756180::1674150702::1694722573::1::::<><>::
 deflect_vertical_animation7.png::CompressedTexture2D::4845964299881065863::1674150702::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/deflect_vertical_anim/with effects/::1694722573
+::res://sprites/Character/HatSkin/deflect_vertical_anim/with effects/::1697235032
 deflect_vertical_animation1.png::CompressedTexture2D::845376019930391825::1674150738::1694722573::1::::<><>::
 deflect_vertical_animation2.png::CompressedTexture2D::5187973334024499894::1674150738::1694722573::1::::<><>::
 deflect_vertical_animation3.png::CompressedTexture2D::2887383638917389219::1674150738::1694722573::1::::<><>::
@@ -204,28 +209,28 @@ deflect_vertical_animation4.png::CompressedTexture2D::7350116213553338285::16741
 deflect_vertical_animation5.png::CompressedTexture2D::787633035139394735::1674150738::1694722573::1::::<><>::
 deflect_vertical_animation6.png::CompressedTexture2D::3800560988127351843::1674150738::1694722573::1::::<><>::
 deflect_vertical_animation7.png::CompressedTexture2D::5570148676686427483::1674150738::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/die_anim/::1694722573
+::res://sprites/Character/HatSkin/die_anim/::1697235027
 die_animation1.png::CompressedTexture2D::3508679746779490742::1674150874::1694722573::1::::<><>::
 die_animation2.png::CompressedTexture2D::3991968812931851931::1674150874::1694722573::1::::<><>::
 die_animation3.png::CompressedTexture2D::3748523177676051513::1674150874::1694722573::1::::<><>::
 die_animation4.png::CompressedTexture2D::5620440432841865041::1674150874::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/down_slash_attack/::1694722573
+::res://sprites/Character/HatSkin/down_slash_attack/::1697235030
 down_slash_animation1.png::CompressedTexture2D::7678036982271160457::1674150914::1694722573::1::::<><>::
 down_slash_animation2.png::CompressedTexture2D::5468216360508275523::1674150914::1694722573::1::::<><>::
 down_slash_animation3.png::CompressedTexture2D::8076500696107274777::1674150914::1694722573::1::::<><>::
 down_slash_animation4.png::CompressedTexture2D::7017964982710887020::1674150914::1694722573::1::::<><>::
 down_slash_animation5.png::CompressedTexture2D::8298726809052995097::1674150914::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/idle_anim/::1673620966
-::res://sprites/Character/HatSkin/idle_anim/with sword/::1694722573
+::res://sprites/Character/HatSkin/idle_anim/::1697234929
+::res://sprites/Character/HatSkin/idle_anim/with sword/::1697235028
 idle_animation1.png::CompressedTexture2D::1007717000188421246::1674147424::1694722573::1::::<><>::
 idle_animation2.png::CompressedTexture2D::2249631935859122933::1674147424::1694722573::1::::<><>::
 idle_animation3.png::CompressedTexture2D::2289473509293874667::1674147424::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/idle_anim/without sword/::1694722573
+::res://sprites/Character/HatSkin/idle_anim/without sword/::1697235028
 idle_animation1.png::CompressedTexture2D::5064602353413437477::1674147494::1694722573::1::::<><>::
 idle_animation2.png::CompressedTexture2D::4176979785484580462::1674147494::1694722573::1::::<><>::
 idle_animation3.png::CompressedTexture2D::2738619155437944810::1674147494::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/jump_anim/::1673709790
-::res://sprites/Character/HatSkin/jump_anim/with sword/::1694722573
+::res://sprites/Character/HatSkin/jump_anim/::1697234929
+::res://sprites/Character/HatSkin/jump_anim/with sword/::1697235028
 Jump_animation1.png::CompressedTexture2D::5220395281946558292::1674150956::1694722573::1::::<><>::
 Jump_animation2.png::CompressedTexture2D::1549334257752915484::1674150956::1694722573::1::::<><>::
 Jump_animation3.png::CompressedTexture2D::3215573495163054181::1674150956::1694722573::1::::<><>::
@@ -235,7 +240,7 @@ Jump_animation6.png::CompressedTexture2D::2538531181365152991::1674150956::16947
 Jump_animation7.png::CompressedTexture2D::7313223544280543282::1674150956::1694722573::1::::<><>::
 Jump_animation8.png::CompressedTexture2D::3523120328399020564::1674150956::1694722573::1::::<><>::
 Jump_animation9.png::CompressedTexture2D::2269424859886757259::1674150956::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/jump_anim/without sword/::1694722573
+::res://sprites/Character/HatSkin/jump_anim/without sword/::1697235028
 Jump_animation1.png::CompressedTexture2D::1407371327438618762::1674150993::1694722573::1::::<><>::
 Jump_animation2.png::CompressedTexture2D::4508653978855549380::1674150993::1694722573::1::::<><>::
 Jump_animation3.png::CompressedTexture2D::4969240318968006174::1674150993::1694722573::1::::<><>::
@@ -245,15 +250,15 @@ Jump_animation6.png::CompressedTexture2D::6785220080897052235::1674150993::16947
 Jump_animation7.png::CompressedTexture2D::6004747127463340562::1674150993::1694722573::1::::<><>::
 Jump_animation8.png::CompressedTexture2D::2659419474591845114::1674150993::1694722573::1::::<><>::
 Jump_animation9.png::CompressedTexture2D::8751318112849926908::1674150993::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/roll_anim/::1694722573
+::res://sprites/Character/HatSkin/roll_anim/::1697235027
 roll_animation1.png::CompressedTexture2D::2395450386894462144::1674151100::1694722573::1::::<><>::
 roll_animation2.png::CompressedTexture2D::9182287896931799048::1674151100::1694722573::1::::<><>::
 roll_animation3.png::CompressedTexture2D::4402788788073232437::1674151100::1694722573::1::::<><>::
 roll_animation4.png::CompressedTexture2D::9187464692115491646::1674151100::1694722573::1::::<><>::
 roll_animation5.png::CompressedTexture2D::7373031046139577977::1674151100::1694722573::1::::<><>::
 roll_animation6.png::CompressedTexture2D::8689326453279763228::1674151100::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/run_anim/::1673625746
-::res://sprites/Character/HatSkin/run_anim/with sword/::1694722573
+::res://sprites/Character/HatSkin/run_anim/::1697234929
+::res://sprites/Character/HatSkin/run_anim/with sword/::1697235030
 walking_animation1.png::CompressedTexture2D::3798003300072196053::1674151141::1694722573::1::::<><>::
 walking_animation2.png::CompressedTexture2D::6362210717054005723::1674151141::1694722573::1::::<><>::
 walking_animation3.png::CompressedTexture2D::7573828803337897605::1674151141::1694722573::1::::<><>::
@@ -262,7 +267,7 @@ walking_animation5.png::CompressedTexture2D::7207123642774090765::1674151141::16
 walking_animation6.png::CompressedTexture2D::1309316944489658882::1674151141::1694722573::1::::<><>::
 walking_animation7.png::CompressedTexture2D::3051090084517365442::1674151141::1694722573::1::::<><>::
 walking_animation8.png::CompressedTexture2D::8357958633792600356::1674151141::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/run_anim/without sword/::1694722573
+::res://sprites/Character/HatSkin/run_anim/without sword/::1697235030
 walking_animation1.png::CompressedTexture2D::5507362405512410064::1674151173::1694722573::1::::<><>::
 walking_animation2.png::CompressedTexture2D::1426824898601308886::1674151173::1694722573::1::::<><>::
 walking_animation3.png::CompressedTexture2D::7963887810629050690::1674151173::1694722573::1::::<><>::
@@ -271,21 +276,21 @@ walking_animation5.png::CompressedTexture2D::3781262554100618411::1674151173::16
 walking_animation6.png::CompressedTexture2D::7721508333215221580::1674151173::1694722573::1::::<><>::
 walking_animation7.png::CompressedTexture2D::3935177103841998479::1674151173::1694722573::1::::<><>::
 walking_animation8.png::CompressedTexture2D::932481424309448490::1674151173::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/side_slash_attack/::1694722573
+::res://sprites/Character/HatSkin/side_slash_attack/::1697235031
 side_attack_animation1.png::CompressedTexture2D::6110923316795100668::1674151224::1694722573::1::::<><>::
 side_attack_animation2.png::CompressedTexture2D::1519854638392141496::1674151224::1694722573::1::::<><>::
 side_attack_animation3.png::CompressedTexture2D::4900770640072055511::1674151224::1694722573::1::::<><>::
 side_attack_animation4.png::CompressedTexture2D::3527306090513279865::1674151224::1694722573::1::::<><>::
 side_attack_animation5.png::CompressedTexture2D::5790885402250618633::1674151224::1694722573::1::::<><>::
 side_attack_animation6.png::CompressedTexture2D::26312604009844748::1674151224::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/take_hit_anim/::1673809713
-::res://sprites/Character/HatSkin/take_hit_anim/with sword/::1694722573
+::res://sprites/Character/HatSkin/take_hit_anim/::1697234929
+::res://sprites/Character/HatSkin/take_hit_anim/with sword/::1697235031
 taking_hit_animation1.png::CompressedTexture2D::9187798121577424505::1674151249::1694722573::1::::<><>::
 taking_hit_animation2.png::CompressedTexture2D::5308923212187110058::1674151249::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/take_hit_anim/without sword/::1694722573
+::res://sprites/Character/HatSkin/take_hit_anim/without sword/::1697235031
 taking_hit_animation1.png::CompressedTexture2D::3017005584093157104::1674151268::1694722573::1::::<><>::
 taking_hit_animation2.png::CompressedTexture2D::42753403390086065::1674151268::1694722573::1::::<><>::
-::res://sprites/Character/HatSkin/up_slash_attack/::1694722573
+::res://sprites/Character/HatSkin/up_slash_attack/::1697235030
 up_slash_animation1.png::CompressedTexture2D::2252813554126863287::1674151310::1694722573::1::::<><>::
 up_slash_animation2.png::CompressedTexture2D::3011192680131680264::1674151310::1694722573::1::::<><>::
 up_slash_animation3.png::CompressedTexture2D::4996898633965276352::1674151310::1694722573::1::::<><>::
@@ -293,24 +298,24 @@ up_slash_animation4.png::CompressedTexture2D::9049304755986511344::1674151310::1
 up_slash_animation5.png::CompressedTexture2D::2406489728097252108::1674151310::1694722573::1::::<><>::
 up_slash_animation6.png::CompressedTexture2D::5905078224950536012::1674151310::1694722573::1::::<><>::
 up_slash_animation7.png::CompressedTexture2D::2385940935573119225::1674151310::1694722573::1::::<><>::
-::res://sprites/Hearts/::1694727266
-::res://sprites/Hearts/PNG/::1525259714
-::res://sprites/Hearts/PNG/animated/::1525258272
-::res://sprites/Hearts/PNG/animated/border/::1694727271
+::res://sprites/Hearts/::1697234928
+::res://sprites/Hearts/PNG/::1697234929
+::res://sprites/Hearts/PNG/animated/::1697234929
+::res://sprites/Hearts/PNG/animated/border/::1697235027
 heart_animated_1.png::CompressedTexture2D::7129259148997573324::1525239382::1694727271::1::::<><>::
 heart_animated_2.png::CompressedTexture2D::1664857355058036134::1525236258::1694727271::1::::<><>::
-::res://sprites/Hearts/PNG/animated/no_border/::1694727271
+::res://sprites/Hearts/PNG/animated/no_border/::1697235027
 heart_animated_1.png::CompressedTexture2D::4352865718936980784::1525239864::1694727271::1::::<><>::
 heart_animated_2.png::CompressedTexture2D::5883408391969480821::1525240022::1694727271::1::::<><>::
-::res://sprites/Hearts/PNG/basic/::1694727271
+::res://sprites/Hearts/PNG/basic/::1697235026
 background.png::CompressedTexture2D::6848894894847070416::1525235008::1694727271::1::::<><>::
 border.png::CompressedTexture2D::8259515609391025403::1525234334::1694727271::1::::<><>::
 heart.png::CompressedTexture2D::8564254059564871912::1525235120::1694727271::1::::<><>::
-::res://sprites/Hearts/PNG/health_bar/::1694727271
+::res://sprites/Hearts/PNG/health_bar/::1697235028
 health_bar.png::CompressedTexture2D::483080881257870735::1525237792::1694727271::1::::<><>::
 health_bar_decoration.png::CompressedTexture2D::8494481805097947723::1525238034::1694727271::1::::<><>::
 info.txt::TextFile::-1::1525259738::0::1::::<><>::
-::res://sprites/Tiles/::1694722576
+::res://sprites/Tiles/::1697235074
 Black_Ground_tileset.png::CompressedTexture2D::6145758863203141343::1614112550::1694722576::1::::<><>::
 Bush_tileset.png::CompressedTexture2D::7957454553525937253::1613782360::1694722576::1::::<><>::
 Candy_tileset.png::CompressedTexture2D::653457633483013891::1613861954::1694722576::1::::<><>::
