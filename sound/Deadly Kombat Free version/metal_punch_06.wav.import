@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clf30pm8exuek"
+path="res://.godot/imported/metal_punch_06.wav-a8317f2f07d548f1607e479af5c557f9.sample"
+
+[deps]
+
+source_file="res://sound/Deadly Kombat Free version/metal_punch_06.wav"
+dest_files=["res://.godot/imported/metal_punch_06.wav-a8317f2f07d548f1607e479af5c557f9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

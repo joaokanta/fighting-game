@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://dmj1ef7dscsww"]
+[gd_scene load_steps=6 format=3 uid="uid://dmj1ef7dscsww"]
 
 [ext_resource type="Script" path="res://HUD.gd" id="1_s0cns"]
 [ext_resource type="Texture2D" uid="uid://dry0bxjq5l7ba" path="res://sprites/icons/output-onlinepngtools.png" id="2_dsdl5"]
 [ext_resource type="PackedScene" uid="uid://c57lofuia7qao" path="res://Health.tscn" id="3_6ipaw"]
+[ext_resource type="Texture2D" uid="uid://n5v636635nur" path="res://sprites/icons/imageedit_1_4225007956.png" id="4_f430d"]
+[ext_resource type="FontFile" uid="uid://djogyi2bo6jc8" path="res://font/zenzai_itacha/Zenzai Itacha.ttf" id="5_enr5k"]
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_s0cns")
@@ -18,3 +20,29 @@ position = Vector2(530, 115)
 
 [node name="Health2" parent="." instance=ExtResource("3_6ipaw")]
 position = Vector2(1390, 115)
+
+[node name="Banner" type="Sprite2D" parent="."]
+position = Vector2(960, 440)
+scale = Vector2(1.39091, 1.30751)
+texture = ExtResource("4_f430d")
+region_enabled = true
+region_rect = Rect2(46, 290, 440, 213)
+
+[node name="Label" type="Label" parent="."]
+z_as_relative = false
+texture_filter = 1
+anchors_preset = -1
+anchor_left = 0.344
+anchor_top = 0.317
+anchor_right = 0.652
+anchor_bottom = 0.5
+offset_left = 88.52
+offset_top = 33.64
+offset_right = 6175.16
+offset_bottom = 2628.0
+scale = Vector2(0.05, 0.05)
+theme_override_colors/font_color = Color(0.352941, 0.352941, 0.352941, 1)
+theme_override_fonts/font = ExtResource("5_enr5k")
+theme_override_font_sizes/font_size = 1180
+text = "Press enter to start"
+autowrap_mode = 1

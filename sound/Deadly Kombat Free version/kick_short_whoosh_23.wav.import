@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfv2sx2r8ot35"
+path="res://.godot/imported/kick_short_whoosh_23.wav-af7c3a480c3613c405c24d78442afdc4.sample"
+
+[deps]
+
+source_file="res://sound/Deadly Kombat Free version/kick_short_whoosh_23.wav"
+dest_files=["res://.godot/imported/kick_short_whoosh_23.wav-af7c3a480c3613c405c24d78442afdc4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

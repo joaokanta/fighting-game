@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bfur1yeblr585"]
+[gd_scene load_steps=7 format=3 uid="uid://bfur1yeblr585"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_2bq0o"]
 [ext_resource type="PackedScene" uid="uid://bii0ryidhirca" path="res://player.tscn" id="1_mfvrx"]
 [ext_resource type="PackedScene" uid="uid://dmj1ef7dscsww" path="res://HUD.tscn" id="3_3iran"]
 [ext_resource type="Texture2D" uid="uid://igu0vt28plof" path="res://sprites/stage/PJBO5VI3-0000.jpg" id="4_atb5o"]
+[ext_resource type="AudioStream" uid="uid://gvvucv8tihpj" path="res://sound/song/Ludum Dare 38 - Track 4.wav" id="5_vu8lx"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ppess"]
 animations = [{
@@ -38,6 +39,11 @@ position = Vector2(961.5, 543.5)
 scale = Vector2(2.4987, 4.81696)
 sprite_frames = SubResource("SpriteFrames_ppess")
 frame_progress = 0.0721362
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_vu8lx")
+volume_db = -24.441
+autoplay = true
 
 [connection signal="died" from="Player" to="." method="_on_player_died"]
 [connection signal="parried" from="Player" to="." method="_on_player_parried"]

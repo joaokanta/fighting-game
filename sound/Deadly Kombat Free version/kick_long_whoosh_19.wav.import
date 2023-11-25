@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b38tkhhtsfwvx"
+path="res://.godot/imported/kick_long_whoosh_19.wav-ea73b83dcfb8808920f9fee0704488c2.sample"
+
+[deps]
+
+source_file="res://sound/Deadly Kombat Free version/kick_long_whoosh_19.wav"
+dest_files=["res://.godot/imported/kick_long_whoosh_19.wav-ea73b83dcfb8808920f9fee0704488c2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

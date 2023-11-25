@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0acpo38e8uny"
+path="res://.godot/imported/face_hit_Large_20.wav-928bb89b7f657b595acf8755af7a6f3f.sample"
+
+[deps]
+
+source_file="res://sound/Deadly Kombat Free version/face_hit_Large_20.wav"
+dest_files=["res://.godot/imported/face_hit_Large_20.wav-928bb89b7f657b595acf8755af7a6f3f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

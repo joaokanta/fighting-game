@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7c3rxc0g5bu0"
+path="res://.godot/imported/block_large_71.wav-7a4a51b58b20d8f95f05cb36c6e32aac.sample"
+
+[deps]
+
+source_file="res://font/zenzai_itacha/Deadly Kombat Free version/block_large_71.wav"
+dest_files=["res://.godot/imported/block_large_71.wav-7a4a51b58b20d8f95f05cb36c6e32aac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

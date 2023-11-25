@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dh3a7f3p0d2bn"
+path="res://.godot/imported/wood_bat_finisher_01.wav-e1ee9d82552faf73baa95ab9c03ef4f3.sample"
+
+[deps]
+
+source_file="res://sound/Deadly Kombat Free version/wood_bat_finisher_01.wav"
+dest_files=["res://.godot/imported/wood_bat_finisher_01.wav-e1ee9d82552faf73baa95ab9c03ef4f3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

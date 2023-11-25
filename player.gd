@@ -30,6 +30,7 @@ var MOVE_RIGHT = "null"
 var MOVE_LEFT = "null"
 var ATTACK_COMMAND = "null"
 var PARRY_COMMAND = "null"
+var DASH_COMMAND = "null"
 
 
 var STATE = IDLE
@@ -64,19 +65,21 @@ func _process(delta):
 	
 	var velocity = Vector2.ZERO
 	if action_queue.size() > 0:
-		process_action(delta)
+		velocity = process_action(delta)
 	else:
 		set_idle()
 		
 		velocity = get_velocity()
+		if Input.is_action_just_pressed(DASH_COMMAND):
+			dash()
 		if Input.is_action_just_pressed(ATTACK_COMMAND):
 			attack()
 		if Input.is_action_just_pressed(PARRY_COMMAND): 
 			parry()
 
 		if velocity.x != 0:
-			if not $AudioStreamPlayer2D.playing:
-				$AudioStreamPlayer2D.play()
+			if not $Step.playing:
+				$Step.play()
 				
 	set_blocking(velocity)
 	
@@ -162,11 +165,12 @@ func get_move_right_animation():
 func is_movement_blocked():
 	return STATE in [ATTACKING, TAKING_DAMAGE, POST_ATTACK, BLOCKSTUN, STARTING_ATTACK, COUNTER_ATTACKING, PARRYING, FAILED_PARRY, DYING, DEAD]
 
-func set_commands(move_left, move_right, attack_command, parry_command):
+func set_commands(move_left, move_right, attack_command, parry_command, dash_command):
 	self.MOVE_LEFT = move_left
 	self.MOVE_RIGHT = move_right
 	self.ATTACK_COMMAND = attack_command
 	self.PARRY_COMMAND = parry_command
+	self.DASH_COMMAND = dash_command
 
 
 func flip():
@@ -181,6 +185,9 @@ func attack():
 	action_queue.append([ATTACKING, 0.1, HITBOX_OFF])
 	action_queue.append([POST_ATTACK, 0.4, NO_OP])
 
+func dash():
+	
+
 const NO_OP = "no_op"
 func no_op():
 	pass
@@ -191,6 +198,7 @@ func hitbox_on():
 	
 const HITBOX_OFF = "hitbox_off"
 func hitbox_off():
+	$Missed.play()
 	$Hitbox.set_deferred("monitorable", false)
 
 const HITSTUN_ON = "hitstun_on"
@@ -222,10 +230,12 @@ func _on_hurtbox_area_entered(_area):
 	if blocking:
 		clear_action_queue()
 		$BlockEffects.play("blocked")
+		$Blocked.play()
 		action_queue.append([BLOCKSTUN, 0.4, NO_OP])
 		return
 	
 	health -= 1
+	$Hit.play()
 	take_damage.emit()
 	if health > 0:
 		clear_action_queue()
@@ -233,4 +243,5 @@ func _on_hurtbox_area_entered(_area):
 		return
 	
 	clear_action_queue()
+	$Died.play()
 	action_queue.append([DYING, 1, DEAD])

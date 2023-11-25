@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmyq1ktfonmcc"
+path="res://.godot/imported/punch_short_whoosh_16.wav-cb5a7662d19a5d4971337da57f8cba4a.sample"
+
+[deps]
+
+source_file="res://font/zenzai_itacha/Deadly Kombat Free version/punch_short_whoosh_16.wav"
+dest_files=["res://.godot/imported/punch_short_whoosh_16.wav-cb5a7662d19a5d4971337da57f8cba4a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

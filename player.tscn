@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=3 uid="uid://bii0ryidhirca"]
+[gd_scene load_steps=59 format=3 uid="uid://bii0ryidhirca"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
 [ext_resource type="Texture2D" uid="uid://dvytgf16kdb2a" path="res://sprites/fighter/standing/far/hp (2).png" id="2_wsuj6"]
@@ -43,7 +43,11 @@
 [ext_resource type="Texture2D" uid="uid://bmkex3turm8w7" path="res://sprites/fighter/standing/walk/walk (9).png" id="41_pxeug"]
 [ext_resource type="Texture2D" uid="uid://bkcu0gwgwfn7g" path="res://sprites/fighter/standing/walk/walk (10).png" id="42_sqgn3"]
 [ext_resource type="Texture2D" uid="uid://yhxj15k0kadp" path="res://sprites/hit_effects/Retro Impact Effect Pack 3/Retro Impact Effect Pack 3 C.png" id="43_7tsk8"]
-[ext_resource type="AudioStream" uid="uid://dkgq2vwu73eot" path="res://FreeSteps/Tiles/Steps_tiles-003.ogg" id="44_1w2yn"]
+[ext_resource type="AudioStream" uid="uid://dkgq2vwu73eot" path="res://sound/FreeSteps/Tiles/Steps_tiles-003.ogg" id="44_pgeid"]
+[ext_resource type="AudioStream" uid="uid://b2iwi5qqr4cos" path="res://sound/Deadly Kombat Free version/body_hit_large_32.wav" id="45_1r41l"]
+[ext_resource type="AudioStream" uid="uid://deprdpowl7qy8" path="res://sound/male_hurt7-48124.mp3" id="46_p6q3j"]
+[ext_resource type="AudioStream" uid="uid://0jmish2uenrj" path="res://sound/ouchmp3-14591.mp3" id="47_dk023"]
+[ext_resource type="AudioStream" uid="uid://c4rlextstr575" path="res://sound/Deadly Kombat Free version/punch_long_whoosh_21.wav" id="47_o7rrq"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xmcfu"]
 animations = [{
@@ -333,6 +337,7 @@ animations = [{
 [node name="Player" type="Node2D"]
 position = Vector2(785, 358)
 script = ExtResource("1_rlrwb")
+speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -368,9 +373,28 @@ scale = Vector2(4.0192, 5.03113)
 sprite_frames = SubResource("SpriteFrames_hjd2n")
 animation = &"blocked"
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("44_1w2yn")
+[node name="Step" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("44_pgeid")
 volume_db = -9.594
 pitch_scale = 0.46
+
+[node name="Blocked" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("45_1r41l")
+volume_db = 5.716
+pitch_scale = 0.5
+
+[node name="Hit" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("46_p6q3j")
+volume_db = 1.492
+pitch_scale = 0.46
+
+[node name="Died" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("47_dk023")
+volume_db = 8.883
+pitch_scale = 0.46
+
+[node name="Missed" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("47_o7rrq")
+volume_db = 6.771
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]

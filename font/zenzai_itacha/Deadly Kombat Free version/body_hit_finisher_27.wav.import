@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chmfoxb57ip67"
+path="res://.godot/imported/body_hit_finisher_27.wav-4a7b0ec86120dbded53ea3fd2069d9c1.sample"
+
+[deps]
+
+source_file="res://font/zenzai_itacha/Deadly Kombat Free version/body_hit_finisher_27.wav"
+dest_files=["res://.godot/imported/body_hit_finisher_27.wav-4a7b0ec86120dbded53ea3fd2069d9c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
