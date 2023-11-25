@@ -6,8 +6,6 @@ var screen_size
 signal take_damage
 signal parried
 signal died
-signal running
-signal backing
 
 var health = 3
 
@@ -61,7 +59,6 @@ func _process(delta):
 		
 	if is_state([DEAD]):
 		died.emit()
-		$HitEffects.stop()
 		$AnimatedSprite2D.animation = STATE
 		return
 	
@@ -77,6 +74,10 @@ func _process(delta):
 		if Input.is_action_just_pressed(PARRY_COMMAND): 
 			parry()
 
+		if velocity.x != 0:
+			if not $AudioStreamPlayer2D.playing:
+				$AudioStreamPlayer2D.play()
+				
 	set_blocking(velocity)
 	
 	$AnimatedSprite2D.animation = STATE
@@ -84,7 +85,7 @@ func _process(delta):
 	
 func set_player_position(velocity, delta):
 	if is_state(BLOCKSTUN):
-		velocity.x += get_knockback(0.3)
+		velocity.x += get_knockback(1)
 	elif is_state(TAKING_DAMAGE):
 		velocity.x += get_knockback(0.5)
 	
@@ -125,7 +126,6 @@ func get_velocity():
 		if not flipped:
 			velocity.x *= 0.75
 		STATE = get_move_left_animation()
-		
 	return velocity
 	
 func process_action(delta):
@@ -149,17 +149,13 @@ func get_knockback(multi):
 
 func get_move_left_animation():
 	if flipped:
-		running.emit(position)
 		return WALKING_FORWARD
-	backing.emit()
 	return WALKING_BACK
 
 
 func get_move_right_animation():
 	if flipped:
-		backing.emit()
 		return WALKING_BACK
-	running.emit(position)
 	return WALKING_FORWARD
 
 
@@ -233,10 +229,8 @@ func _on_hurtbox_area_entered(_area):
 	take_damage.emit()
 	if health > 0:
 		clear_action_queue()
-		$HitEffects.play("hit")
 		action_queue.append([TAKING_DAMAGE, 0.4, NO_OP])
 		return
 	
 	clear_action_queue()
-	$HitEffects.play("died")
 	action_queue.append([DYING, 1, DEAD])

@@ -2,7 +2,6 @@ extends Node
 
 const START = "start"
 
-const DUST = preload("res://dust.tscn")
 var started = false
 
 func _ready():
@@ -19,8 +18,7 @@ func _process(delta):
 
 func start():
 	$HUD.start()
-	await get_tree().create_timer(3.0).timeout
-	$AudioStreamPlayer.playing = true
+	await get_tree().create_timer(0.5).timeout
 	$Player.round_start()
 	$Player2.round_start()
 	started = true
@@ -49,8 +47,3 @@ func _on_slow_mo_timer_timeout():
 	tween.tween_property($AudioStreamPlayer, "pitch_scale", 1, 0.1)
 	print()
 
-
-func _on_player_running(position):
-	var running_dust = DUST.instantiate()
-	running_dust.position = position
-	
