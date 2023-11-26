@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=3 uid="uid://bii0ryidhirca"]
+[gd_scene load_steps=60 format=3 uid="uid://bii0ryidhirca"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
 [ext_resource type="Texture2D" uid="uid://dvytgf16kdb2a" path="res://sprites/fighter/standing/far/hp (2).png" id="2_wsuj6"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://dkafvbc7jfn8v" path="res://sprites/fighter/standing/special moves/slaps/hunredslaps (3).png" id="11_5fchq"]
 [ext_resource type="Texture2D" uid="uid://ypllbwm51sqj" path="res://sprites/fighter/standing/special moves/slaps/hunredslaps (4).png" id="12_sby2c"]
 [ext_resource type="Texture2D" uid="uid://de2wsqadbu13g" path="res://sprites/fighter/standing/special moves/slaps/hunredslaps (5).png" id="13_08ey6"]
+[ext_resource type="Texture2D" uid="uid://cqhf5pfpjc07r" path="res://sprites/fighter/standing/far/mp (4).png" id="14_7147p"]
 [ext_resource type="Texture2D" uid="uid://yhntlllkgldq" path="res://sprites/fighter/standing/special moves/slaps/hunredslaps (6).png" id="14_kfrf8"]
 [ext_resource type="Texture2D" uid="uid://o83y1yjopws7" path="res://sprites/fighter/damage/sweep (7).png" id="15_vk06j"]
 [ext_resource type="Texture2D" uid="uid://c4gi3wxfm7etf" path="res://sprites/fighter/damage/sweep (1).png" id="16_mrmww"]
@@ -109,6 +110,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("14_7147p")
+}],
+"loop": true,
+"name": &"dashing",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("15_vk06j")
 }],
 "loop": true,
@@ -183,6 +192,14 @@ animations = [{
 }],
 "loop": true,
 "name": &"post_attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_uviu2")
+}],
+"loop": true,
+"name": &"post_dash",
 "speed": 5.0
 }, {
 "frames": [{
@@ -337,15 +354,12 @@ animations = [{
 [node name="Player" type="Node2D"]
 position = Vector2(785, 358)
 script = ExtResource("1_rlrwb")
-speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_xmcfu")
-animation = &"block"
-frame = 1
-frame_progress = 0.548203
+animation = &"walk_back"
 metadata/_edit_group_ = true
 
 [node name="Hitbox" type="Area2D" parent="."]

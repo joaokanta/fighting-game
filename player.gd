@@ -6,6 +6,7 @@ var screen_size
 signal take_damage
 signal parried
 signal died
+signal message
 
 var health = 3
 
@@ -22,6 +23,7 @@ const COUNTER_ATTACKING = 'counter_attack'
 const IDLE = 'idle'
 const WALKING_BACK = 'walk_back'
 const WALKING_FORWARD = 'walk_forward'
+const DASHING = 'dashing'
 
 var flipped = false
 var blocking = false
@@ -32,12 +34,13 @@ var ATTACK_COMMAND = "null"
 var PARRY_COMMAND = "null"
 var DASH_COMMAND = "null"
 
-
 var STATE = IDLE
 
 var executing_action = false
 var action_queue = []
 var action_time = 0
+
+var last_dash = 0
 
 func is_state(state):
 	return STATE in state
@@ -47,13 +50,26 @@ func round_start():
 	round_started = true
 	flip()
 
+func get_slam_limit():
+	if flipped:
+		return 1800
+	return 100
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
 	$AnimatedSprite2D.play()
 
+func reset():
+	clear_action_queue()
+	round_started = false
+	health = 3
+	STATE = IDLE
+	flip()
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	last_dash -= delta
 	if not round_started:
 		$AnimatedSprite2D.animation = IDLE
 		return
@@ -65,12 +81,13 @@ func _process(delta):
 	
 	var velocity = Vector2.ZERO
 	if action_queue.size() > 0:
-		velocity = process_action(delta)
+		process_action(delta)
 	else:
 		set_idle()
 		
 		velocity = get_velocity()
-		if Input.is_action_just_pressed(DASH_COMMAND):
+		if Input.is_action_just_pressed(DASH_COMMAND) and velocity.x != 0 and last_dash <= 0:
+			last_dash = 0.4
 			dash()
 		if Input.is_action_just_pressed(ATTACK_COMMAND):
 			attack()
@@ -87,9 +104,9 @@ func _process(delta):
 	set_player_position(velocity, delta)
 	
 func set_player_position(velocity, delta):
-	if is_state(BLOCKSTUN):
+	if is_state([BLOCKSTUN]):
 		velocity.x += get_knockback(1)
-	elif is_state(TAKING_DAMAGE):
+	elif is_state([TAKING_DAMAGE]):
 		velocity.x += get_knockback(0.5)
 	
 	position += velocity * delta
@@ -115,7 +132,7 @@ func set_blocking(velocity):
 	if flipped:
 		blocking = !blocking
 
-func get_velocity():
+func get_velocity(dashing = false):
 	var velocity = Vector2.ZERO
 	if  Input.is_action_pressed(MOVE_RIGHT) and Input.is_action_pressed(MOVE_LEFT):
 		return velocity
@@ -123,12 +140,14 @@ func get_velocity():
 		velocity.x += speed
 		if flipped:
 			velocity.x *= 0.75
-		STATE = get_move_right_animation()
+		if not dashing:
+			STATE = get_move_right_animation()
 	elif Input.is_action_pressed(MOVE_LEFT):
 		velocity.x -= speed
 		if not flipped:
 			velocity.x *= 0.75
-		STATE = get_move_left_animation()
+		if not dashing:
+			STATE = get_move_left_animation()
 	return velocity
 	
 func process_action(delta):
@@ -141,8 +160,13 @@ func process_action(delta):
 		executing_action = false
 		action_queue.remove_at(0)
 	else:
-		action_time -= delta	
-		
+		action_time -= delta
+	
+	if STATE == DASHING:
+		var velocity = get_velocity(true)
+		velocity.x *= 4
+		set_player_position(velocity, delta)
+	
 	$AnimatedSprite2D.animation = STATE
 
 func get_knockback(multi):
@@ -186,7 +210,7 @@ func attack():
 	action_queue.append([POST_ATTACK, 0.4, NO_OP])
 
 func dash():
-	
+	action_queue.append([DASHING, 0.1, NO_OP])
 
 const NO_OP = "no_op"
 func no_op():
@@ -218,10 +242,11 @@ func parry():
 	action_queue.append([FAILED_PARRY, 0.4, NO_OP])
 
 func _on_hurtbox_area_entered(_area):
-	if is_state(PARRYING):
+	if is_state([PARRYING]):
 		# parried.emit()
 		clear_action_queue()
 		
+		message.emit("COUNTER")
 		action_queue.append([PARRYING, 0.45, HITBOX_ON])
 		action_queue.append([COUNTER_ATTACKING, 0.3, HITBOX_OFF])
 		action_queue.append([POST_ATTACK, 0.4, NO_OP])
@@ -233,15 +258,21 @@ func _on_hurtbox_area_entered(_area):
 		$Blocked.play()
 		action_queue.append([BLOCKSTUN, 0.4, NO_OP])
 		return
-	
+	lose_health("HIT")
+
+func lose_health(text):
 	health -= 1
 	$Hit.play()
+	message.emit(text)
 	take_damage.emit()
 	if health > 0:
 		clear_action_queue()
 		action_queue.append([TAKING_DAMAGE, 0.4, NO_OP])
 		return
-	
 	clear_action_queue()
 	$Died.play()
 	action_queue.append([DYING, 1, DEAD])
+
+
+func _on_player_died():
+	pass # Replace with function body.

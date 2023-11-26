@@ -1,7 +1,7 @@
 res://HUD.tscn
 res://main.gd
-res://player.gd
 res://main.tscn
 res://Health.tscn
 res://player.tscn
+res://player.gd
 res://HUD.gd
