@@ -1,577 +1,589 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700955744
-health.gd::GDScript::-1::1700939612::0::1::::<>Node2D<>::
-Health.tscn::PackedScene::6945259946569784782::1700955501::0::1::::<><>::res://health.gd<>uid://dfvpow5bsuey2::::res://sprites/icons/2267517.png<>uid://n5v636635nur::::res://sprites/icons/imageedit_1_4225007956.png
-HUD.gd::GDScript::-1::1700947065::0::1::::<>CanvasLayer<>::
-HUD.tscn::PackedScene::8021693671720729946::1700955408::0::1::::<><>::res://HUD.gd<>uid://dry0bxjq5l7ba::::res://sprites/icons/output-onlinepngtools.png<>uid://c57lofuia7qao::::res://Health.tscn<>uid://n5v636635nur::::res://sprites/icons/imageedit_1_4225007956.png<>uid://djogyi2bo6jc8::::res://font/zenzai_itacha/Zenzai Itacha.ttf
-icon.svg::CompressedTexture2D::4730129212785229195::1694264902::1694264908::1::::<><>::
-license.txt::TextFile::-1::1673436324::0::1::::<><>::
-main.gd::GDScript::-1::1700953589::0::1::::<>Node<>::
-main.tscn::PackedScene::2779732343283475920::1700955408::0::1::::<><>::res://main.gd<>uid://bii0ryidhirca::::res://player.tscn<>uid://dmj1ef7dscsww::::res://HUD.tscn<>uid://igu0vt28plof::::res://sprites/stage/PJBO5VI3-0000.jpg<>uid://gvvucv8tihpj::::res://sound/song/Ludum Dare 38 - Track 4.wav
-player.gd::GDScript::-1::1700955283::0::1::::<>Node2D<>::
-player.tscn::PackedScene::2965996011210216728::1700955409::0::1::::<><>::res://player.gd<>uid://dvytgf16kdb2a::::res://sprites/fighter/standing/far/hp (2).png<>uid://dvf6h5pgdha10::::res://sprites/fighter/standing/far/hp (3).png<>uid://csvdpeipq4tk::::res://sprites/fighter/standing/far/hp (4).png<>uid://crb63a7off1vt::::res://sprites/fighter/standing/far/hp (5).png<>uid://bh2rot280o0mi::::res://sprites/fighter/standing/far/hp (1).png<>uid://brdgyruqkw1sv::::res://sprites/fighter/damage/standblock (1).png<>uid://b8wucdyajcoic::::res://sprites/fighter/damage/standblock (2).png<>uid://bai6gt4x04wap::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (1).png<>uid://b5nmn5vxfwuch::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (2).png<>uid://dkafvbc7jfn8v::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (3).png<>uid://ypllbwm51sqj::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (4).png<>uid://de2wsqadbu13g::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (5).png<>uid://cqhf5pfpjc07r::::res://sprites/fighter/standing/far/mp (4).png<>uid://yhntlllkgldq::::res://sprites/fighter/standing/special moves/slaps/hunredslaps (6).png<>uid://o83y1yjopws7::::res://sprites/fighter/damage/sweep (7).png<>uid://c4gi3wxfm7etf::::res://sprites/fighter/damage/sweep (1).png<>uid://cx74vml721kf5::::res://sprites/fighter/damage/sweep (2).png<>uid://bqea07jrtgiiq::::res://sprites/fighter/damage/sweep (3).png<>uid://dt0i3570jo76b::::res://sprites/fighter/damage/sweep (6).png<>uid://cpie44puopxet::::res://sprites/fighter/dizzy/DIZZY (1).png<>uid://bvsjlv20aa78m::::res://sprites/fighter/dizzy/DIZZY (2).png<>uid://0cxphf8u8jxu::::res://sprites/fighter/dizzy/DIZZY (3).png<>uid://d1c8gllc6lxp8::::res://sprites/fighter/dizzy/DIZZY (4).png<>uid://dnow5mum5rf6c::::res://sprites/fighter/dizzy/DIZZY (5).png<>uid://bgwspsm2btesc::::res://sprites/fighter/dizzy/DIZZY (6).png<>uid://5hfwpfqf2w3::::res://sprites/fighter/dizzy/DIZZY (7).png<>uid://6adtv2km6amv::::res://sprites/fighter/standing/neutral/neutral (2).png<>uid://dql4nfisescp::::res://sprites/fighter/standing/far/mp (2).png<>uid://cii3tskfgbfa8::::res://sprites/fighter/standing/far/mp (3).png<>uid://bipl6lf2mgc0d::::res://sprites/fighter/victory poses/handsup (2).png<>uid://cujppgh82ab4b::::res://sprites/fighter/damage/highdamage (1).png<>uid://b0jt4c8cixk8j::::res://sprites/fighter/damage/highdamage (2).png<>uid://bes7386ir0w76::::res://sprites/fighter/damage/highdamage (5).png<>uid://tuodgulj033u::::res://sprites/fighter/standing/walk/walk (2).png<>uid://b4u3qwjfk67ee::::res://sprites/fighter/standing/walk/walk (3).png<>uid://n6s7wek8oleo::::res://sprites/fighter/standing/walk/walk (4).png<>uid://cn1kb6qb0wx7q::::res://sprites/fighter/standing/walk/walk (5).png<>uid://dytndon41lju8::::res://sprites/fighter/standing/walk/walk (6).png<>uid://hbl0hxffdn77::::res://sprites/fighter/standing/walk/walk (7).png<>uid://bfmncynfup5c::::res://sprites/fighter/standing/walk/walk (8).png<>uid://bmkex3turm8w7::::res://sprites/fighter/standing/walk/walk (9).png<>uid://bkcu0gwgwfn7g::::res://sprites/fighter/standing/walk/walk (10).png<>uid://yhxj15k0kadp::::res://sprites/hit_effects/Retro Impact Effect Pack 3/Retro Impact Effect Pack 3 C.png<>uid://dkgq2vwu73eot::::res://sound/FreeSteps/Tiles/Steps_tiles-003.ogg<>uid://b2iwi5qqr4cos::::res://sound/Deadly Kombat Free version/body_hit_large_32.wav<>uid://deprdpowl7qy8::::res://sound/male_hurt7-48124.mp3<>uid://0jmish2uenrj::::res://sound/ouchmp3-14591.mp3<>uid://c4rlextstr575::::res://sound/Deadly Kombat Free version/punch_long_whoosh_21.wav
-::res://font/::1700955744
-::res://font/japanese_2020/::1700955739
-Japanese-2020.png::CompressedTexture2D::3343000021324341617::1700955738::1700955744::1::::<><>::
-JAPANESE_2020 ITALIC.otf::FontFile::4076641984968960101::1700955738::1700955744::1::::<><>::
-JAPANESE_2020 ITALIC.ttf::FontFile::2220029866023661300::1700955738::1700955744::1::::<><>::
-JAPANESE_2020.otf::FontFile::1968479048728219265::1700955738::1700955744::1::::<><>::
-JAPANESE_2020.ttf::FontFile::96493363173566728::1700955738::1700955744::1::::<><>::
-license.txt::TextFile::-1::1700955738::0::1::::<><>::
-::res://font/zenzai_itacha/::1700947515
-Copyright_Licence.txt::TextFile::-1::1700946680::0::1::::<><>::
-Zenzai Itacha Cover.PNG::CompressedTexture2D::1444052179060416897::1700946680::1700946697::1::::<><>::
-Zenzai Itacha.ttf::FontFile::7820270555350641217::1700946680::1700946697::1::::<><>::
-Zenzai Itache.ttf::FontFile::4044552504381972393::1700946680::1700946697::1::::<><>::
-Zenzai Itachi.ttf::FontFile::1040892956286719366::1700946680::1700946697::1::::<><>::
-::res://font/zenzai_itacha/Deadly Kombat Free version/::1700947516
-blade_hit_07.wav::AudioStreamWAV::8112448309324910341::1700947515::1700947516::1::::<><>::
-blade_hit_08.wav::AudioStreamWAV::1572387330054423534::1700947515::1700947516::1::::<><>::
-block_large_59.wav::AudioStreamWAV::57486589879663297::1700947515::1700947516::1::::<><>::
-block_large_71.wav::AudioStreamWAV::2251903398490746805::1700947515::1700947516::1::::<><>::
-block_medium_09.wav::AudioStreamWAV::6813425796203116883::1700947515::1700947516::1::::<><>::
-block_medium_25.wav::AudioStreamWAV::4204453524150006450::1700947515::1700947516::1::::<><>::
-block_small_69.wav::AudioStreamWAV::8478270221313433708::1700947515::1700947516::1::::<><>::
-block_small_73.wav::AudioStreamWAV::891853496371793403::1700947515::1700947516::1::::<><>::
-body_hit_finisher_23.wav::AudioStreamWAV::2539280599685253009::1700947515::1700947516::1::::<><>::
-body_hit_finisher_27.wav::AudioStreamWAV::5289265602967663034::1700947515::1700947516::1::::<><>::
-body_hit_finisher_42.wav::AudioStreamWAV::4545750059349320350::1700947515::1700947516::1::::<><>::
-body_hit_finisher_52.wav::AudioStreamWAV::8002817101629831584::1700947515::1700947516::1::::<><>::
-body_hit_large_32.wav::AudioStreamWAV::1994178915199433412::1700947515::1700947516::1::::<><>::
-body_hit_large_44.wav::AudioStreamWAV::3342891438440423606::1700947515::1700947516::1::::<><>::
-body_hit_large_76.wav::AudioStreamWAV::7524941309318227318::1700947515::1700947516::1::::<><>::
-body_hit_small_11.wav::AudioStreamWAV::8151487824373561727::1700947515::1700947516::1::::<><>::
-body_hit_small_20.wav::AudioStreamWAV::3893013191023834966::1700947515::1700947516::1::::<><>::
-body_hit_small_23.wav::AudioStreamWAV::8112661090239249006::1700947515::1700947516::1::::<><>::
-body_hit_small_79.wav::AudioStreamWAV::511361815872909674::1700947515::1700947516::1::::<><>::
-bone_breaking_03.wav::AudioStreamWAV::8386021427399443710::1700947515::1700947516::1::::<><>::
-bone_breaking_53.wav::AudioStreamWAV::1123566438198580180::1700947515::1700947516::1::::<><>::
-face_hit_finisher_19.wav::AudioStreamWAV::3886485783672168397::1700947515::1700947516::1::::<><>::
-face_hit_finisher_40.wav::AudioStreamWAV::2452120738436961102::1700947515::1700947516::1::::<><>::
-face_hit_finisher_61.wav::AudioStreamWAV::6428536503345911496::1700947515::1700947516::1::::<><>::
-face_hit_finisher_73.wav::AudioStreamWAV::820617741764981747::1700947515::1700947516::1::::<><>::
-face_hit_Large_20.wav::AudioStreamWAV::4327760137771332917::1700947515::1700947516::1::::<><>::
-face_hit_Large_29.wav::AudioStreamWAV::9118715129653913522::1700947515::1700947516::1::::<><>::
-face_hit_Large_78.wav::AudioStreamWAV::6023883471143181867::1700947515::1700947516::1::::<><>::
-face_hit_small_01.wav::AudioStreamWAV::8702657906264064992::1700947515::1700947516::1::::<><>::
-face_hit_small_13.wav::AudioStreamWAV::2091251443237327333::1700947515::1700947516::1::::<><>::
-face_hit_small_23.wav::AudioStreamWAV::1445334779452996165::1700947515::1700947516::1::::<><>::
-face_hit_small_78.wav::AudioStreamWAV::6835319691654361507::1700947515::1700947516::1::::<><>::
-fire_punch_02.wav::AudioStreamWAV::740961544053471193::1700947515::1700947516::1::::<><>::
-fire_punch_finisher_06.wav::AudioStreamWAV::1876001990952095529::1700947515::1700947516::1::::<><>::
-guts_and_gore_19.wav::AudioStreamWAV::1038471310165630035::1700947515::1700947516::1::::<><>::
-guts_and_gore_59.wav::AudioStreamWAV::2241252773382842656::1700947515::1700947516::1::::<><>::
-guts_and_gore_68.wav::AudioStreamWAV::4168187594923710666::1700947515::1700947516::1::::<><>::
-kick_long_whoosh_19.wav::AudioStreamWAV::8357419570098527730::1700947515::1700947516::1::::<><>::
-kick_short_whoosh_12.wav::AudioStreamWAV::6119150076545412296::1700947515::1700947516::1::::<><>::
-kick_short_whoosh_23.wav::AudioStreamWAV::6089872541612078696::1700947515::1700947516::1::::<><>::
-metal_punch_06.wav::AudioStreamWAV::6201465133003971838::1700947515::1700947516::1::::<><>::
-metal_punch_finisher_07.wav::AudioStreamWAV::1914044101395996969::1700947515::1700947516::1::::<><>::
-punch_long_whoosh_21.wav::AudioStreamWAV::2872354160264513817::1700947515::1700947516::1::::<><>::
-punch_long_whoosh_30.wav::AudioStreamWAV::6697708794369662725::1700947515::1700947516::1::::<><>::
-punch_short_whoosh_16.wav::AudioStreamWAV::5665671014497012126::1700947515::1700947516::1::::<><>::
-punch_short_whoosh_30.wav::AudioStreamWAV::6407549334294734129::1700947515::1700947516::1::::<><>::
-somersault_01.wav::AudioStreamWAV::1274211110005553403::1700947515::1700947516::1::::<><>::
-somersault_10.wav::AudioStreamWAV::8824400013225901915::1700947515::1700947516::1::::<><>::
-wood_bat_finisher_01.wav::AudioStreamWAV::1979665982207301272::1700947515::1700947516::1::::<><>::
-wood_bat_finisher_05.wav::AudioStreamWAV::1610395180859449763::1700947515::1700947516::1::::<><>::
-::res://sound/::1700948160
-male_hurt7-48124.mp3::AudioStreamMP3::7472021448694144001::1700948160::1700948160::1::::<><>::
-ouchmp3-14591.mp3::AudioStreamMP3::1774044338489373823::1700948112::1700948145::1::::<><>::
-::res://sound/Deadly Kombat Free version/::1700948145
-blade_hit_07.wav::AudioStreamWAV::4148717445951590664::1700947525::1700947525::1::::<><>::
-blade_hit_08.wav::AudioStreamWAV::6557599752700282671::1700947525::1700947525::1::::<><>::
-block_large_59.wav::AudioStreamWAV::498770978768902277::1700947525::1700947525::1::::<><>::
-block_large_71.wav::AudioStreamWAV::8128027951285325570::1700947525::1700947525::1::::<><>::
-block_medium_09.wav::AudioStreamWAV::4611223014628516522::1700947525::1700947525::1::::<><>::
-block_medium_25.wav::AudioStreamWAV::8024893981132292029::1700947525::1700947525::1::::<><>::
-block_small_69.wav::AudioStreamWAV::1845515624519823373::1700947525::1700947525::1::::<><>::
-block_small_73.wav::AudioStreamWAV::3149528116967003320::1700947525::1700947525::1::::<><>::
-body_hit_finisher_23.wav::AudioStreamWAV::8655780723923827047::1700947525::1700947525::1::::<><>::
-body_hit_finisher_27.wav::AudioStreamWAV::8696668603721014118::1700947525::1700947525::1::::<><>::
-body_hit_finisher_42.wav::AudioStreamWAV::6005250818307021695::1700947525::1700947525::1::::<><>::
-body_hit_finisher_52.wav::AudioStreamWAV::6740489784518627053::1700947525::1700947525::1::::<><>::
-body_hit_large_32.wav::AudioStreamWAV::4299386145312757102::1700947525::1700947525::1::::<><>::
-body_hit_large_44.wav::AudioStreamWAV::567517917478060917::1700947525::1700947525::1::::<><>::
-body_hit_large_76.wav::AudioStreamWAV::7354630008379405706::1700947525::1700947525::1::::<><>::
-body_hit_small_11.wav::AudioStreamWAV::5314284944636933734::1700947525::1700947525::1::::<><>::
-body_hit_small_20.wav::AudioStreamWAV::353268088842297995::1700947525::1700947525::1::::<><>::
-body_hit_small_23.wav::AudioStreamWAV::6072520700479134018::1700947525::1700947525::1::::<><>::
-body_hit_small_79.wav::AudioStreamWAV::8436586352875584781::1700947525::1700947525::1::::<><>::
-bone_breaking_03.wav::AudioStreamWAV::7809280532605764013::1700947525::1700947525::1::::<><>::
-bone_breaking_53.wav::AudioStreamWAV::7141712946680781451::1700947525::1700947525::1::::<><>::
-face_hit_finisher_19.wav::AudioStreamWAV::1738748911468805254::1700947525::1700947525::1::::<><>::
-face_hit_finisher_40.wav::AudioStreamWAV::4127648560467600330::1700947525::1700947525::1::::<><>::
-face_hit_finisher_61.wav::AudioStreamWAV::2876913481933416::1700947525::1700947525::1::::<><>::
-face_hit_finisher_73.wav::AudioStreamWAV::8665594733783298329::1700947525::1700947525::1::::<><>::
-face_hit_Large_20.wav::AudioStreamWAV::1754870091932376586::1700947525::1700947525::1::::<><>::
-face_hit_Large_29.wav::AudioStreamWAV::7661398512092890212::1700947525::1700947525::1::::<><>::
-face_hit_Large_78.wav::AudioStreamWAV::7358089458091711473::1700947525::1700947525::1::::<><>::
-face_hit_small_01.wav::AudioStreamWAV::5546271862499175365::1700947525::1700947525::1::::<><>::
-face_hit_small_13.wav::AudioStreamWAV::5828662026726126230::1700947525::1700947525::1::::<><>::
-face_hit_small_23.wav::AudioStreamWAV::5933874721736868299::1700947525::1700947525::1::::<><>::
-face_hit_small_78.wav::AudioStreamWAV::3349236140984615769::1700947525::1700947525::1::::<><>::
-fire_punch_02.wav::AudioStreamWAV::4033856820940471824::1700947525::1700947525::1::::<><>::
-fire_punch_finisher_06.wav::AudioStreamWAV::7907464240294060183::1700947525::1700947525::1::::<><>::
-guts_and_gore_19.wav::AudioStreamWAV::7547023143676019236::1700947525::1700947525::1::::<><>::
-guts_and_gore_59.wav::AudioStreamWAV::2588695358665582618::1700947525::1700947525::1::::<><>::
-guts_and_gore_68.wav::AudioStreamWAV::2343244389011219311::1700947525::1700947525::1::::<><>::
-kick_long_whoosh_19.wav::AudioStreamWAV::4421004631608223905::1700947525::1700947525::1::::<><>::
-kick_short_whoosh_12.wav::AudioStreamWAV::4801899460873654436::1700947525::1700947525::1::::<><>::
-kick_short_whoosh_23.wav::AudioStreamWAV::5168810272070449026::1700947525::1700947525::1::::<><>::
-male_hurt7-48124.mp3::AudioStreamMP3::9063670086898665218::1700948130::1700948130::1::::<><>::
-metal_punch_06.wav::AudioStreamWAV::5556986064713487354::1700947525::1700947525::1::::<><>::
-metal_punch_finisher_07.wav::AudioStreamWAV::4100808924854837573::1700947525::1700947525::1::::<><>::
-punch_long_whoosh_21.wav::AudioStreamWAV::6844088523036477326::1700947525::1700947525::1::::<><>::
-punch_long_whoosh_30.wav::AudioStreamWAV::784749751331334395::1700947525::1700947525::1::::<><>::
-punch_short_whoosh_16.wav::AudioStreamWAV::3922913155021297052::1700947525::1700947525::1::::<><>::
-punch_short_whoosh_30.wav::AudioStreamWAV::5030392145427071005::1700947525::1700947525::1::::<><>::
-somersault_01.wav::AudioStreamWAV::6332856446754783656::1700947525::1700947525::1::::<><>::
-somersault_10.wav::AudioStreamWAV::7878590476573905519::1700947525::1700947525::1::::<><>::
-wood_bat_finisher_01.wav::AudioStreamWAV::7708443985650523555::1700947525::1700947525::1::::<><>::
-wood_bat_finisher_05.wav::AudioStreamWAV::6818909118717410203::1700947525::1700947525::1::::<><>::
-::res://sound/FreeSteps/::1700942521
-::res://sound/FreeSteps/Carpet/::1700943959
-Steps_carpet-001.ogg::AudioStreamOggVorbis::966768767715007887::1700942521::1700943959::1::::<><>::
-Steps_carpet-002.ogg::AudioStreamOggVorbis::7675359500570433672::1700942521::1700943959::1::::<><>::
-Steps_carpet-003.ogg::AudioStreamOggVorbis::8061656819556973163::1700942521::1700943959::1::::<><>::
-Steps_carpet-004.ogg::AudioStreamOggVorbis::3321105903608324092::1700942521::1700943959::1::::<><>::
-Steps_carpet-005.ogg::AudioStreamOggVorbis::6654386553055463167::1700942521::1700943959::1::::<><>::
-Steps_carpet-006.ogg::AudioStreamOggVorbis::9220541907276853555::1700942521::1700943959::1::::<><>::
-Steps_carpet-007.ogg::AudioStreamOggVorbis::1613297991969050260::1700942521::1700943959::1::::<><>::
-Steps_carpet-008.ogg::AudioStreamOggVorbis::8733182834531831865::1700942521::1700943959::1::::<><>::
-Steps_carpet-009.ogg::AudioStreamOggVorbis::6237939744999776151::1700942521::1700943959::1::::<><>::
-Steps_carpet-010.ogg::AudioStreamOggVorbis::5580010075544929344::1700942521::1700943959::1::::<><>::
-Steps_carpet-011.ogg::AudioStreamOggVorbis::1052063174381372080::1700942521::1700943959::1::::<><>::
-Steps_carpet-012.ogg::AudioStreamOggVorbis::4697622932108762231::1700942521::1700943959::1::::<><>::
-Steps_carpet-013.ogg::AudioStreamOggVorbis::7053048382813594909::1700942521::1700943959::1::::<><>::
-Steps_carpet-014.ogg::AudioStreamOggVorbis::3690727981397460769::1700942521::1700943959::1::::<><>::
-Steps_carpet-015.ogg::AudioStreamOggVorbis::7727941718864660297::1700942521::1700943959::1::::<><>::
-Steps_carpet-016.ogg::AudioStreamOggVorbis::5071921186847553007::1700942521::1700943959::1::::<><>::
-Steps_carpet-017.ogg::AudioStreamOggVorbis::7271641118580052415::1700942521::1700943959::1::::<><>::
-Steps_carpet-018.ogg::AudioStreamOggVorbis::1189263794382446725::1700942521::1700943959::1::::<><>::
-Steps_carpet-019.ogg::AudioStreamOggVorbis::7695374035684588628::1700942521::1700943959::1::::<><>::
-Steps_carpet-020.ogg::AudioStreamOggVorbis::9080568840347551145::1700942521::1700943959::1::::<><>::
-Steps_carpet-021.ogg::AudioStreamOggVorbis::2609984698904512322::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Dirt/::1700943959
-Steps_dirt-001.ogg::AudioStreamOggVorbis::7052300852903577799::1700942521::1700943959::1::::<><>::
-Steps_dirt-002.ogg::AudioStreamOggVorbis::6085262262026538358::1700942521::1700943959::1::::<><>::
-Steps_dirt-003.ogg::AudioStreamOggVorbis::3014842268704350005::1700942521::1700943959::1::::<><>::
-Steps_dirt-004.ogg::AudioStreamOggVorbis::8478586781164730139::1700942521::1700943959::1::::<><>::
-Steps_dirt-005.ogg::AudioStreamOggVorbis::6747220288662344495::1700942521::1700943959::1::::<><>::
-Steps_dirt-006.ogg::AudioStreamOggVorbis::298520262992929127::1700942521::1700943959::1::::<><>::
-Steps_dirt-007.ogg::AudioStreamOggVorbis::4598547565962086666::1700942521::1700943959::1::::<><>::
-Steps_dirt-008.ogg::AudioStreamOggVorbis::4462223745635694407::1700942521::1700943959::1::::<><>::
-Steps_dirt-009.ogg::AudioStreamOggVorbis::8667799769963821838::1700942521::1700943959::1::::<><>::
-Steps_dirt-010.ogg::AudioStreamOggVorbis::2415436191231596795::1700942521::1700943959::1::::<><>::
-Steps_dirt-011.ogg::AudioStreamOggVorbis::7060601683755239296::1700942521::1700943959::1::::<><>::
-Steps_dirt-012.ogg::AudioStreamOggVorbis::5430287562630789539::1700942521::1700943959::1::::<><>::
-Steps_dirt-013.ogg::AudioStreamOggVorbis::2803621379331370876::1700942521::1700943959::1::::<><>::
-Steps_dirt-014.ogg::AudioStreamOggVorbis::1569281519374864272::1700942521::1700943959::1::::<><>::
-Steps_dirt-015.ogg::AudioStreamOggVorbis::4060272526803941586::1700942521::1700943959::1::::<><>::
-Steps_dirt-016.ogg::AudioStreamOggVorbis::120957117067884678::1700942521::1700943959::1::::<><>::
-Steps_dirt-017.ogg::AudioStreamOggVorbis::342619596624861427::1700942521::1700943959::1::::<><>::
-Steps_dirt-018.ogg::AudioStreamOggVorbis::6576102041105913815::1700942521::1700943959::1::::<><>::
-Steps_dirt-019.ogg::AudioStreamOggVorbis::5145436807891594491::1700942521::1700943959::1::::<><>::
-Steps_dirt-020.ogg::AudioStreamOggVorbis::3268790025111928738::1700942521::1700943959::1::::<><>::
-Steps_dirt-021.ogg::AudioStreamOggVorbis::8670279030370785395::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Floor/::1700943959
-Steps_floor-001.ogg::AudioStreamOggVorbis::7947781552883193802::1700942521::1700943959::1::::<><>::
-Steps_floor-002.ogg::AudioStreamOggVorbis::5540735177925459657::1700942521::1700943959::1::::<><>::
-Steps_floor-003.ogg::AudioStreamOggVorbis::4913068479203528547::1700942521::1700943959::1::::<><>::
-Steps_floor-004.ogg::AudioStreamOggVorbis::8785665661518519782::1700942521::1700943959::1::::<><>::
-Steps_floor-005.ogg::AudioStreamOggVorbis::314807020758920633::1700942521::1700943959::1::::<><>::
-Steps_floor-006.ogg::AudioStreamOggVorbis::2309901361350266609::1700942521::1700943959::1::::<><>::
-Steps_floor-007.ogg::AudioStreamOggVorbis::8731557400757123161::1700942521::1700943959::1::::<><>::
-Steps_floor-008.ogg::AudioStreamOggVorbis::8330555958712656282::1700942521::1700943959::1::::<><>::
-Steps_floor-009.ogg::AudioStreamOggVorbis::2667206854735584422::1700942521::1700943959::1::::<><>::
-Steps_floor-010.ogg::AudioStreamOggVorbis::3086803670082092077::1700942521::1700943959::1::::<><>::
-Steps_floor-011.ogg::AudioStreamOggVorbis::5411246694297422070::1700942521::1700943959::1::::<><>::
-Steps_floor-012.ogg::AudioStreamOggVorbis::6027692294151127296::1700942521::1700943959::1::::<><>::
-Steps_floor-013.ogg::AudioStreamOggVorbis::5712909414751911690::1700942521::1700943959::1::::<><>::
-Steps_floor-014.ogg::AudioStreamOggVorbis::4014062319905656438::1700942521::1700943959::1::::<><>::
-Steps_floor-015.ogg::AudioStreamOggVorbis::3462154492676293351::1700942521::1700943959::1::::<><>::
-Steps_floor-016.ogg::AudioStreamOggVorbis::728724767799774848::1700942521::1700943959::1::::<><>::
-Steps_floor-017.ogg::AudioStreamOggVorbis::4101683531937130442::1700942521::1700943959::1::::<><>::
-Steps_floor-018.ogg::AudioStreamOggVorbis::6668438966856691871::1700942521::1700943959::1::::<><>::
-Steps_floor-019.ogg::AudioStreamOggVorbis::914774341513672795::1700942521::1700943959::1::::<><>::
-Steps_floor-020.ogg::AudioStreamOggVorbis::4062183429574114752::1700942521::1700943959::1::::<><>::
-Steps_floor-021.ogg::AudioStreamOggVorbis::5474883483607973784::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Gravel/::1700943959
-Steps_gravel-001.ogg::AudioStreamOggVorbis::1997197695338339902::1700942521::1700943959::1::::<><>::
-Steps_gravel-002.ogg::AudioStreamOggVorbis::5044586670181247689::1700942521::1700943959::1::::<><>::
-Steps_gravel-003.ogg::AudioStreamOggVorbis::4947407832235135956::1700942521::1700943959::1::::<><>::
-Steps_gravel-004.ogg::AudioStreamOggVorbis::6803442116295273861::1700942521::1700943959::1::::<><>::
-Steps_gravel-005.ogg::AudioStreamOggVorbis::6812317119582827355::1700942521::1700943959::1::::<><>::
-Steps_gravel-006.ogg::AudioStreamOggVorbis::1180072063428336853::1700942521::1700943959::1::::<><>::
-Steps_gravel-007.ogg::AudioStreamOggVorbis::7296079849163456921::1700942521::1700943959::1::::<><>::
-Steps_gravel-008.ogg::AudioStreamOggVorbis::2711946612226036111::1700942521::1700943959::1::::<><>::
-Steps_gravel-009.ogg::AudioStreamOggVorbis::3196350452591968830::1700942521::1700943959::1::::<><>::
-Steps_gravel-010.ogg::AudioStreamOggVorbis::5620089864290525714::1700942521::1700943959::1::::<><>::
-Steps_gravel-011.ogg::AudioStreamOggVorbis::1440919965118181689::1700942521::1700943959::1::::<><>::
-Steps_gravel-012.ogg::AudioStreamOggVorbis::1251479947850039281::1700942521::1700943959::1::::<><>::
-Steps_gravel-013.ogg::AudioStreamOggVorbis::1360101102397866383::1700942521::1700943959::1::::<><>::
-Steps_gravel-014.ogg::AudioStreamOggVorbis::8993684540747065439::1700942521::1700943959::1::::<><>::
-Steps_gravel-015.ogg::AudioStreamOggVorbis::2302078593570785594::1700942521::1700943959::1::::<><>::
-Steps_gravel-016.ogg::AudioStreamOggVorbis::3454519670338770821::1700942521::1700943959::1::::<><>::
-Steps_gravel-017.ogg::AudioStreamOggVorbis::7451161142686273784::1700942521::1700943959::1::::<><>::
-Steps_gravel-018.ogg::AudioStreamOggVorbis::3551438391486319873::1700942521::1700943959::1::::<><>::
-Steps_gravel-019.ogg::AudioStreamOggVorbis::7188885903808603168::1700942521::1700943959::1::::<><>::
-Steps_gravel-020.ogg::AudioStreamOggVorbis::4935926549559732702::1700942521::1700943959::1::::<><>::
-Steps_gravel-021.ogg::AudioStreamOggVorbis::4326918795836142992::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Snow/::1700943959
-Steps_snow-001.ogg::AudioStreamOggVorbis::8229747331695773753::1700942521::1700943959::1::::<><>::
-Steps_snow-002.ogg::AudioStreamOggVorbis::6507476785932143660::1700942521::1700943959::1::::<><>::
-Steps_snow-003.ogg::AudioStreamOggVorbis::5377351331567360185::1700942521::1700943959::1::::<><>::
-Steps_snow-004.ogg::AudioStreamOggVorbis::5436037815321832014::1700942521::1700943959::1::::<><>::
-Steps_snow-005.ogg::AudioStreamOggVorbis::4701218877682392252::1700942521::1700943959::1::::<><>::
-Steps_snow-006.ogg::AudioStreamOggVorbis::8936684251503163029::1700942521::1700943959::1::::<><>::
-Steps_snow-007.ogg::AudioStreamOggVorbis::8175524397808734725::1700942521::1700943959::1::::<><>::
-Steps_snow-008.ogg::AudioStreamOggVorbis::4288127682534892100::1700942521::1700943959::1::::<><>::
-Steps_snow-009.ogg::AudioStreamOggVorbis::3798609038022197518::1700942521::1700943959::1::::<><>::
-Steps_snow-010.ogg::AudioStreamOggVorbis::7855751331037608766::1700942521::1700943959::1::::<><>::
-Steps_snow-011.ogg::AudioStreamOggVorbis::8038245803554394449::1700942521::1700943959::1::::<><>::
-Steps_snow-012.ogg::AudioStreamOggVorbis::2345991932004844362::1700942521::1700943959::1::::<><>::
-Steps_snow-013.ogg::AudioStreamOggVorbis::2415979205259757649::1700942521::1700943959::1::::<><>::
-Steps_snow-014.ogg::AudioStreamOggVorbis::137167688877429714::1700942521::1700943959::1::::<><>::
-Steps_snow-015.ogg::AudioStreamOggVorbis::7169393739718407394::1700942521::1700943959::1::::<><>::
-Steps_snow-016.ogg::AudioStreamOggVorbis::7843381541734178210::1700942521::1700943959::1::::<><>::
-Steps_snow-017.ogg::AudioStreamOggVorbis::1487181941424982333::1700942521::1700943959::1::::<><>::
-Steps_snow-018.ogg::AudioStreamOggVorbis::1696676801921959553::1700942521::1700943959::1::::<><>::
-Steps_snow-019.ogg::AudioStreamOggVorbis::4175102866305754314::1700942521::1700943959::1::::<><>::
-Steps_snow-020.ogg::AudioStreamOggVorbis::1069767716987017082::1700942521::1700943959::1::::<><>::
-Steps_snow-021.ogg::AudioStreamOggVorbis::8437195351466650675::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Tiles/::1700943959
-Steps_tiles-001.ogg::AudioStreamOggVorbis::7740904459804564388::1700942521::1700943959::1::::<><>::
-Steps_tiles-002.ogg::AudioStreamOggVorbis::3855311357735643013::1700942521::1700943959::1::::<><>::
-Steps_tiles-003.ogg::AudioStreamOggVorbis::7874557580232308319::1700942521::1700943959::1::::<><>::
-Steps_tiles-004.ogg::AudioStreamOggVorbis::6520197182535841089::1700942521::1700943959::1::::<><>::
-Steps_tiles-005.ogg::AudioStreamOggVorbis::8044129996918824563::1700942521::1700943959::1::::<><>::
-Steps_tiles-006.ogg::AudioStreamOggVorbis::8549233646877433072::1700942521::1700943959::1::::<><>::
-Steps_tiles-007.ogg::AudioStreamOggVorbis::1223143781449594649::1700942521::1700943959::1::::<><>::
-Steps_tiles-008.ogg::AudioStreamOggVorbis::9219112182324679335::1700942521::1700943959::1::::<><>::
-Steps_tiles-009.ogg::AudioStreamOggVorbis::3023502118536867129::1700942521::1700943959::1::::<><>::
-Steps_tiles-010.ogg::AudioStreamOggVorbis::8714333897284912683::1700942521::1700943959::1::::<><>::
-Steps_tiles-011.ogg::AudioStreamOggVorbis::157287938024111545::1700942521::1700943959::1::::<><>::
-Steps_tiles-012.ogg::AudioStreamOggVorbis::7836649962499304783::1700942521::1700943959::1::::<><>::
-Steps_tiles-013.ogg::AudioStreamOggVorbis::5260855063364233818::1700942521::1700943959::1::::<><>::
-Steps_tiles-014.ogg::AudioStreamOggVorbis::6168737396644291600::1700942521::1700943959::1::::<><>::
-Steps_tiles-015.ogg::AudioStreamOggVorbis::7713556090859256138::1700942521::1700943959::1::::<><>::
-Steps_tiles-016.ogg::AudioStreamOggVorbis::8881229033832859221::1700942521::1700943959::1::::<><>::
-Steps_tiles-017.ogg::AudioStreamOggVorbis::8469118729968458716::1700942521::1700943959::1::::<><>::
-Steps_tiles-018.ogg::AudioStreamOggVorbis::7503374751173153901::1700942521::1700943959::1::::<><>::
-Steps_tiles-019.ogg::AudioStreamOggVorbis::7023521893447813105::1700942521::1700943959::1::::<><>::
-Steps_tiles-020.ogg::AudioStreamOggVorbis::9102159817817564798::1700942521::1700943959::1::::<><>::
-Steps_tiles-021.ogg::AudioStreamOggVorbis::6828098856107315059::1700942521::1700943959::1::::<><>::
-Steps_tiles-022.ogg::AudioStreamOggVorbis::3110382080538722857::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Water/::1700943959
-Steps_water-001.ogg::AudioStreamOggVorbis::7900232548786399357::1700942521::1700943959::1::::<><>::
-Steps_water-002.ogg::AudioStreamOggVorbis::1410221997313710164::1700942521::1700943959::1::::<><>::
-Steps_water-003.ogg::AudioStreamOggVorbis::4073469396922374381::1700942521::1700943959::1::::<><>::
-Steps_water-004.ogg::AudioStreamOggVorbis::8136853789864582874::1700942521::1700943959::1::::<><>::
-Steps_water-005.ogg::AudioStreamOggVorbis::987212267823932722::1700942521::1700943959::1::::<><>::
-Steps_water-006.ogg::AudioStreamOggVorbis::6564319231706699348::1700942521::1700943959::1::::<><>::
-Steps_water-007.ogg::AudioStreamOggVorbis::7256393637705736196::1700942521::1700943959::1::::<><>::
-Steps_water-008.ogg::AudioStreamOggVorbis::3899576458122070605::1700942521::1700943959::1::::<><>::
-Steps_water-009.ogg::AudioStreamOggVorbis::6118478119598864886::1700942521::1700943959::1::::<><>::
-Steps_water-010.ogg::AudioStreamOggVorbis::6306294318111405016::1700942521::1700943959::1::::<><>::
-Steps_water-011.ogg::AudioStreamOggVorbis::7883978800048106531::1700942521::1700943959::1::::<><>::
-Steps_water-012.ogg::AudioStreamOggVorbis::3404406805048401644::1700942521::1700943959::1::::<><>::
-Steps_water-013.ogg::AudioStreamOggVorbis::3711053939501361549::1700942521::1700943959::1::::<><>::
-Steps_water-014.ogg::AudioStreamOggVorbis::1001255996291285315::1700942521::1700943959::1::::<><>::
-Steps_water-015.ogg::AudioStreamOggVorbis::2615845550012813097::1700942521::1700943959::1::::<><>::
-Steps_water-016.ogg::AudioStreamOggVorbis::8447195862531073382::1700942521::1700943959::1::::<><>::
-Steps_water-017.ogg::AudioStreamOggVorbis::3175905904005064467::1700942521::1700943959::1::::<><>::
-Steps_water-018.ogg::AudioStreamOggVorbis::612820036906598589::1700942521::1700943959::1::::<><>::
-Steps_water-019.ogg::AudioStreamOggVorbis::3302225846599201388::1700942521::1700943959::1::::<><>::
-Steps_water-020.ogg::AudioStreamOggVorbis::6202219681791414099::1700942521::1700943959::1::::<><>::
-Steps_water-021.ogg::AudioStreamOggVorbis::7055307831132907042::1700942521::1700943959::1::::<><>::
-::res://sound/FreeSteps/Wood/::1700943959
-Steps_wood-001.ogg::AudioStreamOggVorbis::2051247435910602007::1700942521::1700943959::1::::<><>::
-Steps_wood-002.ogg::AudioStreamOggVorbis::5860668163647983404::1700942521::1700943959::1::::<><>::
-Steps_wood-003.ogg::AudioStreamOggVorbis::4230613150974966130::1700942521::1700943959::1::::<><>::
-Steps_wood-004.ogg::AudioStreamOggVorbis::6497457701875685181::1700942521::1700943959::1::::<><>::
-Steps_wood-005.ogg::AudioStreamOggVorbis::2837522270400686583::1700942521::1700943959::1::::<><>::
-Steps_wood-006.ogg::AudioStreamOggVorbis::1066445597022040287::1700942521::1700943959::1::::<><>::
-Steps_wood-007.ogg::AudioStreamOggVorbis::2938765827542273253::1700942521::1700943959::1::::<><>::
-Steps_wood-008.ogg::AudioStreamOggVorbis::7278347596551827793::1700942521::1700943959::1::::<><>::
-Steps_wood-009.ogg::AudioStreamOggVorbis::3660359764918504355::1700942521::1700943959::1::::<><>::
-Steps_wood-010.ogg::AudioStreamOggVorbis::6066681798420653372::1700942521::1700943959::1::::<><>::
-Steps_wood-011.ogg::AudioStreamOggVorbis::7590668967110700728::1700942521::1700943959::1::::<><>::
-Steps_wood-012.ogg::AudioStreamOggVorbis::633663537570198121::1700942521::1700943959::1::::<><>::
-Steps_wood-013.ogg::AudioStreamOggVorbis::5172624278183383506::1700942521::1700943959::1::::<><>::
-Steps_wood-014.ogg::AudioStreamOggVorbis::6553353724293505634::1700942521::1700943959::1::::<><>::
-Steps_wood-015.ogg::AudioStreamOggVorbis::7703674895764869827::1700942521::1700943959::1::::<><>::
-Steps_wood-016.ogg::AudioStreamOggVorbis::8447252224829917572::1700942521::1700943959::1::::<><>::
-Steps_wood-017.ogg::AudioStreamOggVorbis::3455029888892859700::1700942521::1700943959::1::::<><>::
-Steps_wood-018.ogg::AudioStreamOggVorbis::684733327030666459::1700942521::1700943959::1::::<><>::
-Steps_wood-019.ogg::AudioStreamOggVorbis::4401216724464217195::1700942521::1700943959::1::::<><>::
-Steps_wood-020.ogg::AudioStreamOggVorbis::3162025251961865728::1700942521::1700943959::1::::<><>::
-Steps_wood-021.ogg::AudioStreamOggVorbis::2340536066212655832::1700942521::1700943959::1::::<><>::
-::res://sound/song/::1700943969
-Ludum Dare 38 - Track 4.wav::AudioStreamWAV::465795906402318707::1700943967::1700943969::1::::<><>::
-::res://sprites/::1700942057
-::res://sprites/fighter/::1700936864
-::res://sprites/fighter/crouching/::1700935857
-neutral (2).png::CompressedTexture2D::8280625328677697279::1700935849::1700935857::1::::<><>::
-neutral (3).png::CompressedTexture2D::5029318763847165189::1700935849::1700935857::1::::<><>::
-neutral (4).png::CompressedTexture2D::6644786696557890350::1700935849::1700935857::1::::<><>::
-tun.png::CompressedTexture2D::2178915855615868309::1700935849::1700935857::1::::<><>::
-turn (1).png::CompressedTexture2D::2293701741720317461::1700935849::1700935857::1::::<><>::
-turn (2).png::CompressedTexture2D::6358041914207431124::1700935849::1700935857::1::::<><>::
-turn (3).png::CompressedTexture2D::6151325642677186675::1700935849::1700935857::1::::<><>::
-turn (5).png::CompressedTexture2D::5924882969074191866::1700935849::1700935857::1::::<><>::
-turn (6).png::CompressedTexture2D::6294288659760829013::1700935849::1700935857::1::::<><>::
-turn (7).png::CompressedTexture2D::3414200508338638395::1700935849::1700935857::1::::<><>::
-turn (8).png::CompressedTexture2D::2921445770325263386::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/crouching/hk/::1700935857
-hk (1).png::CompressedTexture2D::7641772703086457465::1700935849::1700935857::1::::<><>::
-hk (2).png::CompressedTexture2D::2947416470340594483::1700935849::1700935857::1::::<><>::
-hk (3).png::CompressedTexture2D::5889682570169320888::1700935849::1700935857::1::::<><>::
-hk (4).png::CompressedTexture2D::597355748494580122::1700935849::1700935857::1::::<><>::
-hk (5).png::CompressedTexture2D::1410029976799685009::1700935849::1700935857::1::::<><>::
-hk (6).png::CompressedTexture2D::2388827077058499383::1700935849::1700935857::1::::<><>::
-hk (7).png::CompressedTexture2D::7861604194776455738::1700935849::1700935857::1::::<><>::
-hk (8).png::CompressedTexture2D::4475570544520382992::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/crouching/hp/::1700935857
-hp (1).png::CompressedTexture2D::7159819697110093615::1700935849::1700935857::1::::<><>::
-hp (2).png::CompressedTexture2D::3341988660038210548::1700935849::1700935857::1::::<><>::
-hp (3).png::CompressedTexture2D::5604945870225212699::1700935849::1700935857::1::::<><>::
-hp (4).png::CompressedTexture2D::7800610544832679673::1700935849::1700935857::1::::<><>::
-hp (5).png::CompressedTexture2D::6726158235380448227::1700935849::1700935857::1::::<><>::
-hp (6).png::CompressedTexture2D::1400412155743111484::1700935849::1700935857::1::::<><>::
-hp (7).png::CompressedTexture2D::5058442707054779201::1700935849::1700935857::1::::<><>::
-hp (8).png::CompressedTexture2D::7432453985351980560::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/crouching/lkmk/::1700935857
-lkmk (1).png::CompressedTexture2D::7135779369027300680::1700935849::1700935857::1::::<><>::
-lkmk (2).png::CompressedTexture2D::8292670574588389968::1700935849::1700935857::1::::<><>::
-lkmk (3).png::CompressedTexture2D::4786311370518590566::1700935849::1700935857::1::::<><>::
-lkmk (4).png::CompressedTexture2D::8116087676131770640::1700935849::1700935857::1::::<><>::
-lkmk (5).png::CompressedTexture2D::1513927447794505265::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/crouching/lp/::1700935857
-lp (1).png::CompressedTexture2D::8572285749924232753::1700935849::1700935857::1::::<><>::
-lp (2).png::CompressedTexture2D::3414114320482098462::1700935849::1700935857::1::::<><>::
-lp (3).png::CompressedTexture2D::7537919120158521894::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/crouching/mp/::1700935857
-mp (1).png::CompressedTexture2D::7455760248151541790::1700935849::1700935857::1::::<><>::
-mp (2).png::CompressedTexture2D::1715263522183881696::1700935849::1700935857::1::::<><>::
-mp (3).png::CompressedTexture2D::4421934302380608131::1700935849::1700935857::1::::<><>::
-mp (4).png::CompressedTexture2D::6648229650903524019::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/damage/::1700936701
-crouchblock (1).png::CompressedTexture2D::8515080090562370819::1700935849::1700935857::1::::<><>::
-crouchblock (2).png::CompressedTexture2D::7485912289482076572::1700935849::1700935857::1::::<><>::
-crouchdamage (1).png::CompressedTexture2D::8169097636595642279::1700935849::1700935857::1::::<><>::
-crouchdamage (2).png::CompressedTexture2D::2477040759644902746::1700935849::1700935857::1::::<><>::
-elec (1).png::CompressedTexture2D::7960107742423186318::1700935849::1700935857::1::::<><>::
-elec (2).png::CompressedTexture2D::2389431607454993660::1700935849::1700935857::1::::<><>::
-highdamage (1).png::CompressedTexture2D::6196135509222642159::1700935849::1700935857::1::::<><>::
-highdamage (2).png::CompressedTexture2D::4160926741443977675::1700935849::1700935857::1::::<><>::
-highdamage (5).png::CompressedTexture2D::2706329585362872399::1700935849::1700935857::1::::<><>::
-jumpdmg (1).png::CompressedTexture2D::6525605116638665019::1700935849::1700935857::1::::<><>::
-jumpdmg (2).png::CompressedTexture2D::4050135239455340312::1700935849::1700935857::1::::<><>::
-jumpdmg (3).png::CompressedTexture2D::3740374671728537689::1700935849::1700935857::1::::<><>::
-jumpdmg (4).png::CompressedTexture2D::7482594366115047966::1700935849::1700935857::1::::<><>::
-jumpdmg (5).png::CompressedTexture2D::1586292144801517025::1700935849::1700935857::1::::<><>::
-jumpdmg (6).png::CompressedTexture2D::6756030900786710533::1700935849::1700935857::1::::<><>::
-jumpdmg (7).png::CompressedTexture2D::4164371208696618715::1700935849::1700935857::1::::<><>::
-jumpdmg (8).png::CompressedTexture2D::2603672671138110198::1700935849::1700935857::1::::<><>::
-lowdmg (2).png::CompressedTexture2D::7235437151034112064::1700935849::1700935857::1::::<><>::
-lowdmg (3).png::CompressedTexture2D::6820829086026404168::1700935849::1700935857::1::::<><>::
-lowdmg (5).png::CompressedTexture2D::7261290836894819695::1700935849::1700935857::1::::<><>::
-standblock (1).png::CompressedTexture2D::3586232244346413489::1700935849::1700935857::1::::<><>::
-standblock (2).png::CompressedTexture2D::4749286940438102378::1700935849::1700935857::1::::<><>::
-sweep (1).png::CompressedTexture2D::6821241028873649595::1700935849::1700935857::1::::<><>::
-sweep (2).png::CompressedTexture2D::6455043802417188656::1700935849::1700935857::1::::<><>::
-sweep (3).png::CompressedTexture2D::3517746033213963008::1700935849::1700935857::1::::<><>::
-sweep (6).png::CompressedTexture2D::8544996888507628223::1700935849::1700935857::1::::<><>::
-sweep (7).png::CompressedTexture2D::1052512614778257364::1700935849::1700935857::1::::<><>::
-wakeup (1).png::CompressedTexture2D::7675572081762072539::1700935849::1700935857::1::::<><>::
-wakeup (2).png::CompressedTexture2D::4041102028287036101::1700935849::1700935857::1::::<><>::
-wakeup (3).png::CompressedTexture2D::4908457543900180888::1700935849::1700935857::1::::<><>::
-wakeup (5).png::CompressedTexture2D::6212458191261533120::1700935849::1700935857::1::::<><>::
-wakeup (6).png::CompressedTexture2D::438904104628213389::1700935849::1700935857::1::::<><>::
-wakeup (7).png::CompressedTexture2D::8827738354190131758::1700935849::1700935857::1::::<><>::
-wakeup (8).png::CompressedTexture2D::2290124880881453835::1700935849::1700935857::1::::<><>::
-wakeup (9).png::CompressedTexture2D::614299229020273680::1700935849::1700935857::1::::<><>::
-wakeup (10).png::CompressedTexture2D::4615336602672831820::1700935849::1700935857::1::::<><>::
-wakeup (11).png::CompressedTexture2D::4914149478114902223::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/dizzy/::1700935857
-DIZZY (1).png::CompressedTexture2D::5842485247260727823::1700935849::1700935857::1::::<><>::
-DIZZY (2).png::CompressedTexture2D::3898112442168705102::1700935849::1700935857::1::::<><>::
-DIZZY (3).png::CompressedTexture2D::1760273501116008302::1700935849::1700935857::1::::<><>::
-DIZZY (4).png::CompressedTexture2D::8990315711583444291::1700935849::1700935857::1::::<><>::
-DIZZY (5).png::CompressedTexture2D::8102008316350850332::1700935849::1700935857::1::::<><>::
-DIZZY (6).png::CompressedTexture2D::2854090714075780606::1700935849::1700935857::1::::<><>::
-DIZZY (7).png::CompressedTexture2D::62366459475239420::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/jumping/::1700935857
-foward (1).png::CompressedTexture2D::9091453879621065662::1700935849::1700935857::1::::<><>::
-foward (2).png::CompressedTexture2D::5420477189804440551::1700935849::1700935857::1::::<><>::
-foward (3).png::CompressedTexture2D::3870552191959755078::1700935849::1700935857::1::::<><>::
-foward (4).png::CompressedTexture2D::2179420087113148991::1700935849::1700935857::1::::<><>::
-jump (1).png::CompressedTexture2D::1720412392316412399::1700935849::1700935857::1::::<><>::
-jump (2).png::CompressedTexture2D::7867302133712550544::1700935849::1700935857::1::::<><>::
-jump (3).png::CompressedTexture2D::2846275570338398833::1700935849::1700935857::1::::<><>::
-jump (4).png::CompressedTexture2D::7064304291221244511::1700935849::1700935857::1::::<><>::
-jump (5).png::CompressedTexture2D::7312636259675834504::1700935849::1700935857::1::::<><>::
-jump (6).png::CompressedTexture2D::3415803438354527888::1700935849::1700935857::1::::<><>::
-jump (7).png::CompressedTexture2D::3028138543634747134::1700935849::1700935857::1::::<><>::
-jump (8).png::CompressedTexture2D::1531823924757877387::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/jumping/hp/::1700935857
-nuetralhp (1).png::CompressedTexture2D::882495191177249912::1700935849::1700935857::1::::<><>::
-nuetralhp (2).png::CompressedTexture2D::2902642510243919740::1700935849::1700935857::1::::<><>::
-nuetralhp (3).png::CompressedTexture2D::7484961566302793485::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/jumping/lk/::1700935857
-fowardlk (1).png::CompressedTexture2D::5135461140892956595::1700935849::1700935857::1::::<><>::
-fowardlk (2).png::CompressedTexture2D::5789164549865478316::1700935849::1700935857::1::::<><>::
-fowardlk (3).png::CompressedTexture2D::2835257953085849989::1700935849::1700935857::1::::<><>::
-neutral lmhk (1).png::CompressedTexture2D::5259505264859839760::1700935849::1700935857::1::::<><>::
-neutral lmhk (2).png::CompressedTexture2D::7759447003077275384::1700935849::1700935857::1::::<><>::
-neutral lmhk (3).png::CompressedTexture2D::8185890099531392391::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/jumping/mk/::1700935857
-fowardmk (1).png::CompressedTexture2D::148594471023102303::1700935849::1700935857::1::::<><>::
-fowardmk (2).png::CompressedTexture2D::700290459689435053::1700935849::1700935857::1::::<><>::
-fowardmk (3).png::CompressedTexture2D::7620163895992232152::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/jumping/mplp/::1700935857
-neutralmp.png::CompressedTexture2D::4480226213478157667::1700935849::1700935857::1::::<><>::
-nuetralmlp (1).png::CompressedTexture2D::1843863394162914788::1700935849::1700935857::1::::<><>::
-nuetralmlp (2).png::CompressedTexture2D::1089659260002435588::1700935849::1700935857::1::::<><>::
-nuetralmlp (3).png::CompressedTexture2D::6631511013813782909::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/standing/::1700936701
-::res://sprites/fighter/standing/close/::1700935857
-closefmk (1).png::CompressedTexture2D::8794971781130007307::1700935849::1700935857::1::::<><>::
-closefmk (2).png::CompressedTexture2D::9148707505518692003::1700935849::1700935857::1::::<><>::
-closefmk (3).png::CompressedTexture2D::6670381665453215780::1700935849::1700935857::1::::<><>::
-closehk (1).png::CompressedTexture2D::2611026607279545829::1700935849::1700935857::1::::<><>::
-closehk (2).png::CompressedTexture2D::2535840574740661509::1700935849::1700935857::1::::<><>::
-closehk (3).png::CompressedTexture2D::5987337531225583841::1700935849::1700935857::1::::<><>::
-closehk (4).png::CompressedTexture2D::1388677170067762164::1700935849::1700935857::1::::<><>::
-closemklk (1).png::CompressedTexture2D::1387790449087676728::1700935849::1700935857::1::::<><>::
-closemklk (3).png::CompressedTexture2D::6606569625697906651::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/standing/far/::1700935857
-hp (1).png::CompressedTexture2D::2934539019697369060::1700935849::1700935857::1::::<><>::
-hp (2).png::CompressedTexture2D::8683937475405057074::1700935849::1700935857::1::::<><>::
-hp (3).png::CompressedTexture2D::8645445982730844917::1700935849::1700935857::1::::<><>::
-hp (4).png::CompressedTexture2D::178817695492612468::1700935849::1700935857::1::::<><>::
-hp (5).png::CompressedTexture2D::5970048366068656125::1700935849::1700935857::1::::<><>::
-lmhk (1).png::CompressedTexture2D::5956685820675892619::1700935849::1700935857::1::::<><>::
-lmhk (2).png::CompressedTexture2D::5216311479451541066::1700935849::1700935857::1::::<><>::
-lmhk (3).png::CompressedTexture2D::8635426480803901204::1700935849::1700935857::1::::<><>::
-lp (1).png::CompressedTexture2D::7582952857328552669::1700935849::1700935857::1::::<><>::
-lp (2).png::CompressedTexture2D::6124514037219399616::1700935849::1700935857::1::::<><>::
-mp (2).png::CompressedTexture2D::244316940838016155::1700935849::1700935857::1::::<><>::
-mp (3).png::CompressedTexture2D::5352602105508180413::1700935849::1700935857::1::::<><>::
-mp (4).png::CompressedTexture2D::5910671464922059125::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/standing/neutral/::1700955744
-neutral (2).png::CompressedTexture2D::2176071379013177701::1700935849::1700936213::1::::<><>::
-neutral (3).png::CompressedTexture2D::6705697358141215731::1700935849::1700935857::1::::<><>::
-neutral (4).png::CompressedTexture2D::5920404923837993221::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/standing/special moves/::1700935849
-::res://sprites/fighter/standing/special moves/headbutt/::1700936701
-headbutt (1).png::CompressedTexture2D::8762460353956104333::1700935849::1700936701::1::::<><>::
-headbutt (2).png::CompressedTexture2D::9153239105581480639::1700935849::1700936701::1::::<><>::
-headbutt (3).png::CompressedTexture2D::403380914447563698::1700935849::1700936701::1::::<><>::
-headbutt (12).png::CompressedTexture2D::2665971551627655678::1700935849::1700936701::1::::<><>::
-headbutt (13).png::CompressedTexture2D::7940131426153578638::1700935849::1700936701::1::::<><>::
-headbutt (14).png::CompressedTexture2D::8945129106898789760::1700935849::1700936701::1::::<><>::
-headbutt (15).png::CompressedTexture2D::6358414797033396636::1700935849::1700936701::1::::<><>::
-headbutt (16).png::CompressedTexture2D::2776877712977834491::1700935849::1700936701::1::::<><>::
-headbutt (17).png::CompressedTexture2D::6506052836267048074::1700935849::1700936701::1::::<><>::
-headbutt (18).png::CompressedTexture2D::3837035164357494134::1700935849::1700936701::1::::<><>::
-headbutt (19).png::CompressedTexture2D::6263091963343244956::1700935849::1700936701::1::::<><>::
-headbutt (20).png::CompressedTexture2D::3641441229238083701::1700935849::1700936701::1::::<><>::
-headbutt (21).png::CompressedTexture2D::6315105047961578394::1700935849::1700936701::1::::<><>::
-headbutt (22).png::CompressedTexture2D::1914190095805633747::1700935849::1700936701::1::::<><>::
-::res://sprites/fighter/standing/special moves/hf splash/::1700936701
-splash (1).png::CompressedTexture2D::912610752802826583::1700935849::1700936701::1::::<><>::
-splash (2).png::CompressedTexture2D::4452130858585473009::1700935849::1700936701::1::::<><>::
-splash (3).png::CompressedTexture2D::6955104418325550270::1700935849::1700936701::1::::<><>::
-splash (4).png::CompressedTexture2D::6449562646798258324::1700935849::1700936701::1::::<><>::
-splash (5).png::CompressedTexture2D::7252183301999246353::1700935849::1700936701::1::::<><>::
-splash (6).png::CompressedTexture2D::4649734230922694716::1700935849::1700936701::1::::<><>::
-splash (7).png::CompressedTexture2D::5870660054505675311::1700935849::1700936701::1::::<><>::
-splash (8).png::CompressedTexture2D::8891430943014201267::1700935849::1700936701::1::::<><>::
-splash (9).png::CompressedTexture2D::7106967642120245215::1700935849::1700936701::1::::<><>::
-splash (10).png::CompressedTexture2D::8302817438111112857::1700935849::1700936701::1::::<><>::
-splash (11).png::CompressedTexture2D::8951808912826568508::1700935849::1700936701::1::::<><>::
-splash (12).png::CompressedTexture2D::2490962011552501528::1700935849::1700936701::1::::<><>::
-splash (13).png::CompressedTexture2D::9060524432780174936::1700935849::1700936701::1::::<><>::
-splash (14).png::CompressedTexture2D::902300271359983784::1700935849::1700936701::1::::<><>::
-splash (15).png::CompressedTexture2D::3992481286166145948::1700935849::1700936701::1::::<><>::
-splash (16).png::CompressedTexture2D::2197888715954002095::1700935849::1700936701::1::::<><>::
-::res://sprites/fighter/standing/special moves/slaps/::1700936701
-hhslaps (1).png::CompressedTexture2D::3286966707955369022::1700935849::1700936701::1::::<><>::
-hhslaps (2).png::CompressedTexture2D::548990222317039480::1700935849::1700936701::1::::<><>::
-hhslaps (3).png::CompressedTexture2D::5739174158563977470::1700935849::1700936701::1::::<><>::
-hhslaps (4).png::CompressedTexture2D::1723285404662565100::1700935849::1700936701::1::::<><>::
-hhslaps (5).png::CompressedTexture2D::4109401173064617993::1700935849::1700936701::1::::<><>::
-hhslaps (6).png::CompressedTexture2D::1792112502799343029::1700935849::1700936701::1::::<><>::
-hhslaps (7).png::CompressedTexture2D::6045381800737794156::1700935849::1700936701::1::::<><>::
-hhslaps (8).png::CompressedTexture2D::3558698667290470258::1700935849::1700936701::1::::<><>::
-hhslaps (9).png::CompressedTexture2D::4664997100508599923::1700935849::1700936701::1::::<><>::
-hhslaps (10).png::CompressedTexture2D::6193074606599156591::1700935849::1700936701::1::::<><>::
-hhslaps (11).png::CompressedTexture2D::3206430563851995407::1700935849::1700936701::1::::<><>::
-hhslaps (12).png::CompressedTexture2D::6521653402211392783::1700935849::1700936701::1::::<><>::
-hhslaps (13).png::CompressedTexture2D::354510435317466525::1700935849::1700936701::1::::<><>::
-hunredslaps (1).png::CompressedTexture2D::2404829691087338239::1700935849::1700936701::1::::<><>::
-hunredslaps (2).png::CompressedTexture2D::4519676332064792251::1700935849::1700936701::1::::<><>::
-hunredslaps (3).png::CompressedTexture2D::7861491631174594403::1700935849::1700936701::1::::<><>::
-hunredslaps (4).png::CompressedTexture2D::1716185531372464545::1700935849::1700936701::1::::<><>::
-hunredslaps (5).png::CompressedTexture2D::7497124383634258998::1700935849::1700936701::1::::<><>::
-hunredslaps (6).png::CompressedTexture2D::1699806737844454546::1700935849::1700936701::1::::<><>::
-hyakuretsuken.png::CompressedTexture2D::422577911279284269::1700935849::1700936701::1::::<><>::
-movehunredslaps.png::CompressedTexture2D::6919673470078342054::1700935849::1700936701::1::::<><>::
-::res://sprites/fighter/standing/turn/::1700935857
-turn (1).png::CompressedTexture2D::2575992161447240956::1700935849::1700935857::1::::<><>::
-turn (2).png::CompressedTexture2D::7656741432218646436::1700935849::1700935857::1::::<><>::
-turn (3).png::CompressedTexture2D::8138432951376062494::1700935849::1700935857::1::::<><>::
-turn (4).png::CompressedTexture2D::4329369760026849769::1700935849::1700935857::1::::<><>::
-turn (5).png::CompressedTexture2D::223472707459772127::1700935849::1700935857::1::::<><>::
-turn (6).png::CompressedTexture2D::7144005456617135353::1700935849::1700935857::1::::<><>::
-walk (1).png::CompressedTexture2D::2653487522053420807::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/standing/walk/::1700936213
-walk (2).png::CompressedTexture2D::1375731326033277812::1700935849::1700935857::1::::<><>::
-walk (3).png::CompressedTexture2D::4464914522435913988::1700935849::1700935857::1::::<><>::
-walk (4).png::CompressedTexture2D::977601891136964354::1700935849::1700935857::1::::<><>::
-walk (5).png::CompressedTexture2D::5739580765028208140::1700935849::1700935857::1::::<><>::
-walk (6).png::CompressedTexture2D::8883812910769069765::1700935849::1700935857::1::::<><>::
-walk (7).png::CompressedTexture2D::494099218416285404::1700935849::1700935857::1::::<><>::
-walk (8).png::CompressedTexture2D::81262694362445386::1700935849::1700935857::1::::<><>::
-walk (9).png::CompressedTexture2D::3249616027057990592::1700935849::1700935857::1::::<><>::
-walk (10).png::CompressedTexture2D::3093697209712518722::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/throws/::1700936864
-hold (2).png::CompressedTexture2D::7459117234746061639::1700935849::1700935857::1::::<><>::
-hold (3).png::CompressedTexture2D::5326932459101525197::1700935849::1700935857::1::::<><>::
-hold (4).png::CompressedTexture2D::4688067242634229881::1700935849::1700935857::1::::<><>::
-holdk (1).png::CompressedTexture2D::5880872538473386711::1700935849::1700935857::1::::<><>::
-holdk (2).png::CompressedTexture2D::4121147159176246679::1700935849::1700935857::1::::<><>::
-throw (1).png::CompressedTexture2D::6349805511260101461::1700935849::1700935857::1::::<><>::
-throw (2).png::CompressedTexture2D::7194129147876893448::1700935849::1700935857::1::::<><>::
-throw (3).png::CompressedTexture2D::7186972721826904117::1700935849::1700935857::1::::<><>::
-throw (4).png::CompressedTexture2D::3592556486259754620::1700935849::1700935857::1::::<><>::
-::res://sprites/fighter/victory poses/::1700936864
-handsup (1).png::CompressedTexture2D::388600609542989814::1700935849::1700936864::1::::<><>::
-handsup (2).png::CompressedTexture2D::2979620932363644781::1700935849::1700936864::1::::<><>::
-handsup (3).png::CompressedTexture2D::8227891000950727158::1700935849::1700936864::1::::<><>::
-turnhead (1).png::CompressedTexture2D::670867987811449822::1700935849::1700936864::1::::<><>::
-turnhead (2).png::CompressedTexture2D::7216746833094149217::1700935849::1700936864::1::::<><>::
-turnhead (3).png::CompressedTexture2D::6077931781229956781::1700935849::1700936864::1::::<><>::
-turnhead (4).png::CompressedTexture2D::5399962435664432291::1700935849::1700936864::1::::<><>::
-turnhead (5).png::CompressedTexture2D::8329835015035182199::1700935849::1700936864::1::::<><>::
-turnhead (6).png::CompressedTexture2D::5574009028750900708::1700935849::1700936864::1::::<><>::
-turnhead (7).png::CompressedTexture2D::8515534489108732879::1700935849::1700936864::1::::<><>::
-turnhead (8).png::CompressedTexture2D::3835060412563885958::1700935849::1700936864::1::::<><>::
-::res://sprites/hit_effects/::1700942057
-::res://sprites/hit_effects/Retro Impact Effect Pack 3/::1700942526
-Retro Impact Effect Pack 3 A.png::CompressedTexture2D::1373908818859308029::1700942056::1700942058::1::::<><>::
-Retro Impact Effect Pack 3 B.png::CompressedTexture2D::3180549891992441432::1700942056::1700942058::1::::<><>::
-Retro Impact Effect Pack 3 C.png::CompressedTexture2D::1700396867009360405::1700942056::1700942058::1::::<><>::
-Retro Impact Effect Pack 3 D.png::CompressedTexture2D::7090673968352791471::1700942056::1700942058::1::::<><>::
-Retro Impact Effect Pack 3 E.png::CompressedTexture2D::7779361359978488457::1700942056::1700942058::1::::<><>::
-Retro Impact Effect Pack 3 F.png::CompressedTexture2D::4041252672022576497::1700942056::1700942058::1::::<><>::
-::res://sprites/icons/::1700946689
-2267517.png::CompressedTexture2D::7554495160039002555::1700938523::1700938526::1::::<><>::
-imageedit_1_4225007956.png::CompressedTexture2D::975718236365213117::1700940686::1700940691::1::::<><>::
-output-onlinepngtools.png::CompressedTexture2D::8403538392344174106::1700939085::1700939089::1::::<><>::
-sumo.png::CompressedTexture2D::5188887020170534099::1700938710::1700938712::1::::<><>::
-::res://sprites/stage/::1700938319
-PJBO5VI3-0000.jpg::CompressedTexture2D::575157133944664629::1700938317::1700938319::1::::<><>::
+::res://::1701116844
+health.gd::GDScript::-1::1701115731::0::1::::<>Node2D<>::
+Health.tscn::PackedScene::6945259946569784782::1701116361::0::1::::<><>::res://health.gd<>uid://dfvpow5bsuey2::::res://sprites/icons/2267517.png<>uid://n5v636635nur::::res://sprites/icons/imageedit_1_4225007956.png
+HUD.gd::GDScript::-1::1701115731::0::1::::<>CanvasLayer<>::
+HUD.tscn::PackedScene::8021693671720729946::1701116361::0::1::::<><>::res://HUD.gd<>uid://dry0bxjq5l7ba::::res://sprites/icons/output-onlinepngtools.png<>uid://c57lofuia7qao::::res://Health.tscn<>uid://n5v636635nur::::res://sprites/icons/imageedit_1_4225007956.png<>uid://djogyi2bo6jc8::::res://font/zenzai_itacha/Zenzai Itacha.ttf<>uid://bm0h4ys47kj5::::res://font/japanese_2020/JAPANESE_2020.ttf
+icon.svg::CompressedTexture2D::4730129212785229195::1701115731::1701115798::1::::<><>::
+license.txt::TextFile::-1::1701115731::0::1::::<><>::
+main.gd::GDScript::-1::1701116361::0::1::::<>Node<>::
+main.tscn::PackedScene::2779732343283475920::1701116361::0::1::::<><>::res://main.gd<>uid://bii0ryidhirca::::res://player.tscn<>uid://dmj1ef7dscsww::::res://HUD.tscn<>uid://igu0vt28plof::::res://sprites/stage/PJBO5VI3-0000.jpg<>uid://gvvucv8tihpj::::res://sound/song/Ludum Dare 38 - Track 4.wav
+player.gd::GDScript::-1::1701116293::0::1::::<>Node2D<>::
+player.tscn::PackedScene::2965996011210216728::1701115731::0::1::::<><>::res://player.gd<>uid://dvytgf16kdb2a
+::res://font/::1701116844
+::res://font/japanese_2020/::1701115731
+Japanese-2020.png::CompressedTexture2D::3343000021324341617::1701115731::1701115731::1::::<><>::
+JAPANESE_2020 ITALIC.otf::FontFile::4076641984968960101::1701115731::1701115731::1::::<><>::
+JAPANESE_2020 ITALIC.ttf::FontFile::2220029866023661300::1701115731::1701115731::1::::<><>::
+JAPANESE_2020.otf::FontFile::1968479048728219265::1701115731::1701115731::1::::<><>::
+JAPANESE_2020.ttf::FontFile::96493363173566728::1701115731::1701115731::1::::<><>::
+license.txt::TextFile::-1::1701115731::0::1::::<><>::
+::res://font/zenzai_itacha/::1701115731
+Copyright_Licence.txt::TextFile::-1::1701115731::0::1::::<><>::
+Zenzai Itacha Cover.PNG::CompressedTexture2D::1444052179060416897::1701115731::1701115731::1::::<><>::
+Zenzai Itacha.ttf::FontFile::7820270555350641217::1701115731::1701115731::1::::<><>::
+Zenzai Itache.ttf::FontFile::4044552504381972393::1701115731::1701115731::1::::<><>::
+Zenzai Itachi.ttf::FontFile::1040892956286719366::1701115731::1701115731::1::::<><>::
+::res://font/zenzai_itacha/Deadly Kombat Free version/::1701115731
+blade_hit_07.wav::AudioStreamWAV::8112448309324910341::1701115731::1701115731::1::::<><>::
+blade_hit_08.wav::AudioStreamWAV::1572387330054423534::1701115731::1701115731::1::::<><>::
+block_large_59.wav::AudioStreamWAV::57486589879663297::1701115731::1701115731::1::::<><>::
+block_large_71.wav::AudioStreamWAV::2251903398490746805::1701115731::1701115731::1::::<><>::
+block_medium_09.wav::AudioStreamWAV::6813425796203116883::1701115731::1701115731::1::::<><>::
+block_medium_25.wav::AudioStreamWAV::4204453524150006450::1701115731::1701115731::1::::<><>::
+block_small_69.wav::AudioStreamWAV::8478270221313433708::1701115731::1701115731::1::::<><>::
+block_small_73.wav::AudioStreamWAV::891853496371793403::1701115731::1701115731::1::::<><>::
+body_hit_finisher_23.wav::AudioStreamWAV::2539280599685253009::1701115731::1701115731::1::::<><>::
+body_hit_finisher_27.wav::AudioStreamWAV::5289265602967663034::1701115731::1701115731::1::::<><>::
+body_hit_finisher_42.wav::AudioStreamWAV::4545750059349320350::1701115731::1701115731::1::::<><>::
+body_hit_finisher_52.wav::AudioStreamWAV::8002817101629831584::1701115731::1701115731::1::::<><>::
+body_hit_large_32.wav::AudioStreamWAV::1994178915199433412::1701115731::1701115731::1::::<><>::
+body_hit_large_44.wav::AudioStreamWAV::3342891438440423606::1701115731::1701115731::1::::<><>::
+body_hit_large_76.wav::AudioStreamWAV::7524941309318227318::1701115731::1701115731::1::::<><>::
+body_hit_small_11.wav::AudioStreamWAV::8151487824373561727::1701115731::1701115731::1::::<><>::
+body_hit_small_20.wav::AudioStreamWAV::3893013191023834966::1701115731::1701115731::1::::<><>::
+body_hit_small_23.wav::AudioStreamWAV::8112661090239249006::1701115731::1701115731::1::::<><>::
+body_hit_small_79.wav::AudioStreamWAV::511361815872909674::1701115731::1701115731::1::::<><>::
+bone_breaking_03.wav::AudioStreamWAV::8386021427399443710::1701115731::1701115731::1::::<><>::
+bone_breaking_53.wav::AudioStreamWAV::1123566438198580180::1701115731::1701115731::1::::<><>::
+face_hit_finisher_19.wav::AudioStreamWAV::3886485783672168397::1701115731::1701115731::1::::<><>::
+face_hit_finisher_40.wav::AudioStreamWAV::2452120738436961102::1701115731::1701115731::1::::<><>::
+face_hit_finisher_61.wav::AudioStreamWAV::6428536503345911496::1701115731::1701115731::1::::<><>::
+face_hit_finisher_73.wav::AudioStreamWAV::820617741764981747::1701115731::1701115731::1::::<><>::
+face_hit_Large_20.wav::AudioStreamWAV::4327760137771332917::1701115731::1701115731::1::::<><>::
+face_hit_Large_29.wav::AudioStreamWAV::9118715129653913522::1701115731::1701115731::1::::<><>::
+face_hit_Large_78.wav::AudioStreamWAV::6023883471143181867::1701115731::1701115731::1::::<><>::
+face_hit_small_01.wav::AudioStreamWAV::8702657906264064992::1701115731::1701115731::1::::<><>::
+face_hit_small_13.wav::AudioStreamWAV::2091251443237327333::1701115731::1701115731::1::::<><>::
+face_hit_small_23.wav::AudioStreamWAV::1445334779452996165::1701115731::1701115731::1::::<><>::
+face_hit_small_78.wav::AudioStreamWAV::6835319691654361507::1701115731::1701115731::1::::<><>::
+fire_punch_02.wav::AudioStreamWAV::740961544053471193::1701115731::1701115731::1::::<><>::
+fire_punch_finisher_06.wav::AudioStreamWAV::1876001990952095529::1701115731::1701115731::1::::<><>::
+guts_and_gore_19.wav::AudioStreamWAV::1038471310165630035::1701115731::1701115731::1::::<><>::
+guts_and_gore_59.wav::AudioStreamWAV::2241252773382842656::1701115731::1701115731::1::::<><>::
+guts_and_gore_68.wav::AudioStreamWAV::4168187594923710666::1701115731::1701115731::1::::<><>::
+kick_long_whoosh_19.wav::AudioStreamWAV::8357419570098527730::1701115731::1701115731::1::::<><>::
+kick_short_whoosh_12.wav::AudioStreamWAV::6119150076545412296::1701115731::1701115731::1::::<><>::
+kick_short_whoosh_23.wav::AudioStreamWAV::6089872541612078696::1701115731::1701115731::1::::<><>::
+metal_punch_06.wav::AudioStreamWAV::6201465133003971838::1701115731::1701115731::1::::<><>::
+metal_punch_finisher_07.wav::AudioStreamWAV::1914044101395996969::1701115731::1701115731::1::::<><>::
+punch_long_whoosh_21.wav::AudioStreamWAV::2872354160264513817::1701115731::1701115731::1::::<><>::
+punch_long_whoosh_30.wav::AudioStreamWAV::6697708794369662725::1701115731::1701115731::1::::<><>::
+punch_short_whoosh_16.wav::AudioStreamWAV::5665671014497012126::1701115731::1701115731::1::::<><>::
+punch_short_whoosh_30.wav::AudioStreamWAV::6407549334294734129::1701115731::1701115731::1::::<><>::
+somersault_01.wav::AudioStreamWAV::1274211110005553403::1701115731::1701115731::1::::<><>::
+somersault_10.wav::AudioStreamWAV::8824400013225901915::1701115731::1701115731::1::::<><>::
+wood_bat_finisher_01.wav::AudioStreamWAV::1979665982207301272::1701115731::1701115731::1::::<><>::
+wood_bat_finisher_05.wav::AudioStreamWAV::1610395180859449763::1701115731::1701115731::1::::<><>::
+::res://sound/::1701115733
+male_hurt7-48124.mp3::AudioStreamMP3::7472021448694144001::1701115733::1701115733::1::::<><>::
+ouchmp3-14591.mp3::AudioStreamMP3::1774044338489373823::1701115733::1701115733::1::::<><>::
+::res://sound/Deadly Kombat Free version/::1701115732
+blade_hit_07.wav::AudioStreamWAV::4148717445951590664::1701115731::1701115731::1::::<><>::
+blade_hit_08.wav::AudioStreamWAV::6557599752700282671::1701115731::1701115731::1::::<><>::
+block_large_59.wav::AudioStreamWAV::498770978768902277::1701115731::1701115731::1::::<><>::
+block_large_71.wav::AudioStreamWAV::8128027951285325570::1701115731::1701115731::1::::<><>::
+block_medium_09.wav::AudioStreamWAV::4611223014628516522::1701115731::1701115731::1::::<><>::
+block_medium_25.wav::AudioStreamWAV::8024893981132292029::1701115731::1701115731::1::::<><>::
+block_small_69.wav::AudioStreamWAV::1845515624519823373::1701115731::1701115731::1::::<><>::
+block_small_73.wav::AudioStreamWAV::3149528116967003320::1701115731::1701115731::1::::<><>::
+body_hit_finisher_23.wav::AudioStreamWAV::8655780723923827047::1701115731::1701115731::1::::<><>::
+body_hit_finisher_27.wav::AudioStreamWAV::8696668603721014118::1701115731::1701115731::1::::<><>::
+body_hit_finisher_42.wav::AudioStreamWAV::6005250818307021695::1701115731::1701115731::1::::<><>::
+body_hit_finisher_52.wav::AudioStreamWAV::6740489784518627053::1701115731::1701115731::1::::<><>::
+body_hit_large_32.wav::AudioStreamWAV::4299386145312757102::1701115731::1701115731::1::::<><>::
+body_hit_large_44.wav::AudioStreamWAV::567517917478060917::1701115731::1701115731::1::::<><>::
+body_hit_large_76.wav::AudioStreamWAV::7354630008379405706::1701115731::1701115731::1::::<><>::
+body_hit_small_11.wav::AudioStreamWAV::5314284944636933734::1701115731::1701115731::1::::<><>::
+body_hit_small_20.wav::AudioStreamWAV::353268088842297995::1701115731::1701115731::1::::<><>::
+body_hit_small_23.wav::AudioStreamWAV::6072520700479134018::1701115731::1701115731::1::::<><>::
+body_hit_small_79.wav::AudioStreamWAV::8436586352875584781::1701115731::1701115731::1::::<><>::
+bone_breaking_03.wav::AudioStreamWAV::7809280532605764013::1701115731::1701115731::1::::<><>::
+bone_breaking_53.wav::AudioStreamWAV::7141712946680781451::1701115732::1701115732::1::::<><>::
+face_hit_finisher_19.wav::AudioStreamWAV::1738748911468805254::1701115732::1701115732::1::::<><>::
+face_hit_finisher_40.wav::AudioStreamWAV::4127648560467600330::1701115732::1701115732::1::::<><>::
+face_hit_finisher_61.wav::AudioStreamWAV::2876913481933416::1701115732::1701115732::1::::<><>::
+face_hit_finisher_73.wav::AudioStreamWAV::8665594733783298329::1701115732::1701115732::1::::<><>::
+face_hit_Large_20.wav::AudioStreamWAV::1754870091932376586::1701115732::1701115732::1::::<><>::
+face_hit_Large_29.wav::AudioStreamWAV::7661398512092890212::1701115732::1701115732::1::::<><>::
+face_hit_Large_78.wav::AudioStreamWAV::7358089458091711473::1701115732::1701115732::1::::<><>::
+face_hit_small_01.wav::AudioStreamWAV::5546271862499175365::1701115732::1701115732::1::::<><>::
+face_hit_small_13.wav::AudioStreamWAV::5828662026726126230::1701115732::1701115732::1::::<><>::
+face_hit_small_23.wav::AudioStreamWAV::5933874721736868299::1701115732::1701115732::1::::<><>::
+face_hit_small_78.wav::AudioStreamWAV::3349236140984615769::1701115732::1701115732::1::::<><>::
+fire_punch_02.wav::AudioStreamWAV::4033856820940471824::1701115732::1701115732::1::::<><>::
+fire_punch_finisher_06.wav::AudioStreamWAV::7907464240294060183::1701115732::1701115732::1::::<><>::
+guts_and_gore_19.wav::AudioStreamWAV::7547023143676019236::1701115732::1701115732::1::::<><>::
+guts_and_gore_59.wav::AudioStreamWAV::2588695358665582618::1701115732::1701115732::1::::<><>::
+guts_and_gore_68.wav::AudioStreamWAV::2343244389011219311::1701115732::1701115732::1::::<><>::
+kick_long_whoosh_19.wav::AudioStreamWAV::4421004631608223905::1701115732::1701115732::1::::<><>::
+kick_short_whoosh_12.wav::AudioStreamWAV::4801899460873654436::1701115732::1701115732::1::::<><>::
+kick_short_whoosh_23.wav::AudioStreamWAV::5168810272070449026::1701115732::1701115732::1::::<><>::
+male_hurt7-48124.mp3::AudioStreamMP3::9063670086898665218::1701115732::1701115732::1::::<><>::
+metal_punch_06.wav::AudioStreamWAV::5556986064713487354::1701115732::1701115732::1::::<><>::
+metal_punch_finisher_07.wav::AudioStreamWAV::4100808924854837573::1701115732::1701115732::1::::<><>::
+punch_long_whoosh_21.wav::AudioStreamWAV::6844088523036477326::1701115732::1701115732::1::::<><>::
+punch_long_whoosh_30.wav::AudioStreamWAV::784749751331334395::1701115732::1701115732::1::::<><>::
+punch_short_whoosh_16.wav::AudioStreamWAV::3922913155021297052::1701115732::1701115732::1::::<><>::
+punch_short_whoosh_30.wav::AudioStreamWAV::5030392145427071005::1701115732::1701115732::1::::<><>::
+somersault_01.wav::AudioStreamWAV::6332856446754783656::1701115732::1701115732::1::::<><>::
+somersault_10.wav::AudioStreamWAV::7878590476573905519::1701115732::1701115732::1::::<><>::
+wood_bat_finisher_01.wav::AudioStreamWAV::7708443985650523555::1701115732::1701115732::1::::<><>::
+wood_bat_finisher_05.wav::AudioStreamWAV::6818909118717410203::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/::1701115733
+::res://sound/FreeSteps/Carpet/::1701115732
+Steps_carpet-001.ogg::AudioStreamOggVorbis::966768767715007887::1701115732::1701115732::1::::<><>::
+Steps_carpet-002.ogg::AudioStreamOggVorbis::7675359500570433672::1701115732::1701115732::1::::<><>::
+Steps_carpet-003.ogg::AudioStreamOggVorbis::8061656819556973163::1701115732::1701115732::1::::<><>::
+Steps_carpet-004.ogg::AudioStreamOggVorbis::3321105903608324092::1701115732::1701115732::1::::<><>::
+Steps_carpet-005.ogg::AudioStreamOggVorbis::6654386553055463167::1701115732::1701115732::1::::<><>::
+Steps_carpet-006.ogg::AudioStreamOggVorbis::9220541907276853555::1701115732::1701115732::1::::<><>::
+Steps_carpet-007.ogg::AudioStreamOggVorbis::1613297991969050260::1701115732::1701115732::1::::<><>::
+Steps_carpet-008.ogg::AudioStreamOggVorbis::8733182834531831865::1701115732::1701115732::1::::<><>::
+Steps_carpet-009.ogg::AudioStreamOggVorbis::6237939744999776151::1701115732::1701115732::1::::<><>::
+Steps_carpet-010.ogg::AudioStreamOggVorbis::5580010075544929344::1701115732::1701115732::1::::<><>::
+Steps_carpet-011.ogg::AudioStreamOggVorbis::1052063174381372080::1701115732::1701115732::1::::<><>::
+Steps_carpet-012.ogg::AudioStreamOggVorbis::4697622932108762231::1701115732::1701115732::1::::<><>::
+Steps_carpet-013.ogg::AudioStreamOggVorbis::7053048382813594909::1701115732::1701115732::1::::<><>::
+Steps_carpet-014.ogg::AudioStreamOggVorbis::3690727981397460769::1701115732::1701115732::1::::<><>::
+Steps_carpet-015.ogg::AudioStreamOggVorbis::7727941718864660297::1701115732::1701115732::1::::<><>::
+Steps_carpet-016.ogg::AudioStreamOggVorbis::5071921186847553007::1701115732::1701115732::1::::<><>::
+Steps_carpet-017.ogg::AudioStreamOggVorbis::7271641118580052415::1701115732::1701115732::1::::<><>::
+Steps_carpet-018.ogg::AudioStreamOggVorbis::1189263794382446725::1701115732::1701115732::1::::<><>::
+Steps_carpet-019.ogg::AudioStreamOggVorbis::7695374035684588628::1701115732::1701115732::1::::<><>::
+Steps_carpet-020.ogg::AudioStreamOggVorbis::9080568840347551145::1701115732::1701115732::1::::<><>::
+Steps_carpet-021.ogg::AudioStreamOggVorbis::2609984698904512322::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Dirt/::1701115732
+Steps_dirt-001.ogg::AudioStreamOggVorbis::7052300852903577799::1701115732::1701115732::1::::<><>::
+Steps_dirt-002.ogg::AudioStreamOggVorbis::6085262262026538358::1701115732::1701115732::1::::<><>::
+Steps_dirt-003.ogg::AudioStreamOggVorbis::3014842268704350005::1701115732::1701115732::1::::<><>::
+Steps_dirt-004.ogg::AudioStreamOggVorbis::8478586781164730139::1701115732::1701115732::1::::<><>::
+Steps_dirt-005.ogg::AudioStreamOggVorbis::6747220288662344495::1701115732::1701115732::1::::<><>::
+Steps_dirt-006.ogg::AudioStreamOggVorbis::298520262992929127::1701115732::1701115732::1::::<><>::
+Steps_dirt-007.ogg::AudioStreamOggVorbis::4598547565962086666::1701115732::1701115732::1::::<><>::
+Steps_dirt-008.ogg::AudioStreamOggVorbis::4462223745635694407::1701115732::1701115732::1::::<><>::
+Steps_dirt-009.ogg::AudioStreamOggVorbis::8667799769963821838::1701115732::1701115732::1::::<><>::
+Steps_dirt-010.ogg::AudioStreamOggVorbis::2415436191231596795::1701115732::1701115732::1::::<><>::
+Steps_dirt-011.ogg::AudioStreamOggVorbis::7060601683755239296::1701115732::1701115732::1::::<><>::
+Steps_dirt-012.ogg::AudioStreamOggVorbis::5430287562630789539::1701115732::1701115732::1::::<><>::
+Steps_dirt-013.ogg::AudioStreamOggVorbis::2803621379331370876::1701115732::1701115732::1::::<><>::
+Steps_dirt-014.ogg::AudioStreamOggVorbis::1569281519374864272::1701115732::1701115732::1::::<><>::
+Steps_dirt-015.ogg::AudioStreamOggVorbis::4060272526803941586::1701115732::1701115732::1::::<><>::
+Steps_dirt-016.ogg::AudioStreamOggVorbis::120957117067884678::1701115732::1701115732::1::::<><>::
+Steps_dirt-017.ogg::AudioStreamOggVorbis::342619596624861427::1701115732::1701115732::1::::<><>::
+Steps_dirt-018.ogg::AudioStreamOggVorbis::6576102041105913815::1701115732::1701115732::1::::<><>::
+Steps_dirt-019.ogg::AudioStreamOggVorbis::5145436807891594491::1701115732::1701115732::1::::<><>::
+Steps_dirt-020.ogg::AudioStreamOggVorbis::3268790025111928738::1701115732::1701115732::1::::<><>::
+Steps_dirt-021.ogg::AudioStreamOggVorbis::8670279030370785395::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Floor/::1701115732
+Steps_floor-001.ogg::AudioStreamOggVorbis::7947781552883193802::1701115732::1701115732::1::::<><>::
+Steps_floor-002.ogg::AudioStreamOggVorbis::5540735177925459657::1701115732::1701115732::1::::<><>::
+Steps_floor-003.ogg::AudioStreamOggVorbis::4913068479203528547::1701115732::1701115732::1::::<><>::
+Steps_floor-004.ogg::AudioStreamOggVorbis::8785665661518519782::1701115732::1701115732::1::::<><>::
+Steps_floor-005.ogg::AudioStreamOggVorbis::314807020758920633::1701115732::1701115732::1::::<><>::
+Steps_floor-006.ogg::AudioStreamOggVorbis::2309901361350266609::1701115732::1701115732::1::::<><>::
+Steps_floor-007.ogg::AudioStreamOggVorbis::8731557400757123161::1701115732::1701115732::1::::<><>::
+Steps_floor-008.ogg::AudioStreamOggVorbis::8330555958712656282::1701115732::1701115732::1::::<><>::
+Steps_floor-009.ogg::AudioStreamOggVorbis::2667206854735584422::1701115732::1701115732::1::::<><>::
+Steps_floor-010.ogg::AudioStreamOggVorbis::3086803670082092077::1701115732::1701115732::1::::<><>::
+Steps_floor-011.ogg::AudioStreamOggVorbis::5411246694297422070::1701115732::1701115732::1::::<><>::
+Steps_floor-012.ogg::AudioStreamOggVorbis::6027692294151127296::1701115732::1701115732::1::::<><>::
+Steps_floor-013.ogg::AudioStreamOggVorbis::5712909414751911690::1701115732::1701115732::1::::<><>::
+Steps_floor-014.ogg::AudioStreamOggVorbis::4014062319905656438::1701115732::1701115732::1::::<><>::
+Steps_floor-015.ogg::AudioStreamOggVorbis::3462154492676293351::1701115732::1701115732::1::::<><>::
+Steps_floor-016.ogg::AudioStreamOggVorbis::728724767799774848::1701115732::1701115732::1::::<><>::
+Steps_floor-017.ogg::AudioStreamOggVorbis::4101683531937130442::1701115732::1701115732::1::::<><>::
+Steps_floor-018.ogg::AudioStreamOggVorbis::6668438966856691871::1701115732::1701115732::1::::<><>::
+Steps_floor-019.ogg::AudioStreamOggVorbis::914774341513672795::1701115732::1701115732::1::::<><>::
+Steps_floor-020.ogg::AudioStreamOggVorbis::4062183429574114752::1701115732::1701115732::1::::<><>::
+Steps_floor-021.ogg::AudioStreamOggVorbis::5474883483607973784::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Gravel/::1701115732
+Steps_gravel-001.ogg::AudioStreamOggVorbis::1997197695338339902::1701115732::1701115732::1::::<><>::
+Steps_gravel-002.ogg::AudioStreamOggVorbis::5044586670181247689::1701115732::1701115732::1::::<><>::
+Steps_gravel-003.ogg::AudioStreamOggVorbis::4947407832235135956::1701115732::1701115732::1::::<><>::
+Steps_gravel-004.ogg::AudioStreamOggVorbis::6803442116295273861::1701115732::1701115732::1::::<><>::
+Steps_gravel-005.ogg::AudioStreamOggVorbis::6812317119582827355::1701115732::1701115732::1::::<><>::
+Steps_gravel-006.ogg::AudioStreamOggVorbis::1180072063428336853::1701115732::1701115732::1::::<><>::
+Steps_gravel-007.ogg::AudioStreamOggVorbis::7296079849163456921::1701115732::1701115732::1::::<><>::
+Steps_gravel-008.ogg::AudioStreamOggVorbis::2711946612226036111::1701115732::1701115732::1::::<><>::
+Steps_gravel-009.ogg::AudioStreamOggVorbis::3196350452591968830::1701115732::1701115732::1::::<><>::
+Steps_gravel-010.ogg::AudioStreamOggVorbis::5620089864290525714::1701115732::1701115732::1::::<><>::
+Steps_gravel-011.ogg::AudioStreamOggVorbis::1440919965118181689::1701115732::1701115732::1::::<><>::
+Steps_gravel-012.ogg::AudioStreamOggVorbis::1251479947850039281::1701115732::1701115732::1::::<><>::
+Steps_gravel-013.ogg::AudioStreamOggVorbis::1360101102397866383::1701115732::1701115732::1::::<><>::
+Steps_gravel-014.ogg::AudioStreamOggVorbis::8993684540747065439::1701115732::1701115732::1::::<><>::
+Steps_gravel-015.ogg::AudioStreamOggVorbis::2302078593570785594::1701115732::1701115732::1::::<><>::
+Steps_gravel-016.ogg::AudioStreamOggVorbis::3454519670338770821::1701115732::1701115732::1::::<><>::
+Steps_gravel-017.ogg::AudioStreamOggVorbis::7451161142686273784::1701115732::1701115732::1::::<><>::
+Steps_gravel-018.ogg::AudioStreamOggVorbis::3551438391486319873::1701115732::1701115732::1::::<><>::
+Steps_gravel-019.ogg::AudioStreamOggVorbis::7188885903808603168::1701115732::1701115732::1::::<><>::
+Steps_gravel-020.ogg::AudioStreamOggVorbis::4935926549559732702::1701115732::1701115732::1::::<><>::
+Steps_gravel-021.ogg::AudioStreamOggVorbis::4326918795836142992::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Snow/::1701115732
+Steps_snow-001.ogg::AudioStreamOggVorbis::8229747331695773753::1701115732::1701115732::1::::<><>::
+Steps_snow-002.ogg::AudioStreamOggVorbis::6507476785932143660::1701115732::1701115732::1::::<><>::
+Steps_snow-003.ogg::AudioStreamOggVorbis::5377351331567360185::1701115732::1701115732::1::::<><>::
+Steps_snow-004.ogg::AudioStreamOggVorbis::5436037815321832014::1701115732::1701115732::1::::<><>::
+Steps_snow-005.ogg::AudioStreamOggVorbis::4701218877682392252::1701115732::1701115732::1::::<><>::
+Steps_snow-006.ogg::AudioStreamOggVorbis::8936684251503163029::1701115732::1701115732::1::::<><>::
+Steps_snow-007.ogg::AudioStreamOggVorbis::8175524397808734725::1701115732::1701115732::1::::<><>::
+Steps_snow-008.ogg::AudioStreamOggVorbis::4288127682534892100::1701115732::1701115732::1::::<><>::
+Steps_snow-009.ogg::AudioStreamOggVorbis::3798609038022197518::1701115732::1701115732::1::::<><>::
+Steps_snow-010.ogg::AudioStreamOggVorbis::7855751331037608766::1701115732::1701115732::1::::<><>::
+Steps_snow-011.ogg::AudioStreamOggVorbis::8038245803554394449::1701115732::1701115732::1::::<><>::
+Steps_snow-012.ogg::AudioStreamOggVorbis::2345991932004844362::1701115732::1701115732::1::::<><>::
+Steps_snow-013.ogg::AudioStreamOggVorbis::2415979205259757649::1701115732::1701115732::1::::<><>::
+Steps_snow-014.ogg::AudioStreamOggVorbis::137167688877429714::1701115732::1701115732::1::::<><>::
+Steps_snow-015.ogg::AudioStreamOggVorbis::7169393739718407394::1701115732::1701115732::1::::<><>::
+Steps_snow-016.ogg::AudioStreamOggVorbis::7843381541734178210::1701115732::1701115732::1::::<><>::
+Steps_snow-017.ogg::AudioStreamOggVorbis::1487181941424982333::1701115732::1701115732::1::::<><>::
+Steps_snow-018.ogg::AudioStreamOggVorbis::1696676801921959553::1701115732::1701115732::1::::<><>::
+Steps_snow-019.ogg::AudioStreamOggVorbis::4175102866305754314::1701115732::1701115732::1::::<><>::
+Steps_snow-020.ogg::AudioStreamOggVorbis::1069767716987017082::1701115732::1701115732::1::::<><>::
+Steps_snow-021.ogg::AudioStreamOggVorbis::8437195351466650675::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Tiles/::1701115732
+Steps_tiles-001.ogg::AudioStreamOggVorbis::7740904459804564388::1701115732::1701115732::1::::<><>::
+Steps_tiles-002.ogg::AudioStreamOggVorbis::3855311357735643013::1701115732::1701115732::1::::<><>::
+Steps_tiles-003.ogg::AudioStreamOggVorbis::7874557580232308319::1701115732::1701115732::1::::<><>::
+Steps_tiles-004.ogg::AudioStreamOggVorbis::6520197182535841089::1701115732::1701115732::1::::<><>::
+Steps_tiles-005.ogg::AudioStreamOggVorbis::8044129996918824563::1701115732::1701115732::1::::<><>::
+Steps_tiles-006.ogg::AudioStreamOggVorbis::8549233646877433072::1701115732::1701115732::1::::<><>::
+Steps_tiles-007.ogg::AudioStreamOggVorbis::1223143781449594649::1701115732::1701115732::1::::<><>::
+Steps_tiles-008.ogg::AudioStreamOggVorbis::9219112182324679335::1701115732::1701115732::1::::<><>::
+Steps_tiles-009.ogg::AudioStreamOggVorbis::3023502118536867129::1701115732::1701115732::1::::<><>::
+Steps_tiles-010.ogg::AudioStreamOggVorbis::8714333897284912683::1701115732::1701115732::1::::<><>::
+Steps_tiles-011.ogg::AudioStreamOggVorbis::157287938024111545::1701115732::1701115732::1::::<><>::
+Steps_tiles-012.ogg::AudioStreamOggVorbis::7836649962499304783::1701115732::1701115732::1::::<><>::
+Steps_tiles-013.ogg::AudioStreamOggVorbis::5260855063364233818::1701115732::1701115732::1::::<><>::
+Steps_tiles-014.ogg::AudioStreamOggVorbis::6168737396644291600::1701115732::1701115732::1::::<><>::
+Steps_tiles-015.ogg::AudioStreamOggVorbis::7713556090859256138::1701115732::1701115732::1::::<><>::
+Steps_tiles-016.ogg::AudioStreamOggVorbis::8881229033832859221::1701115732::1701115732::1::::<><>::
+Steps_tiles-017.ogg::AudioStreamOggVorbis::8469118729968458716::1701115732::1701115732::1::::<><>::
+Steps_tiles-018.ogg::AudioStreamOggVorbis::7503374751173153901::1701115732::1701115732::1::::<><>::
+Steps_tiles-019.ogg::AudioStreamOggVorbis::7023521893447813105::1701115732::1701115732::1::::<><>::
+Steps_tiles-020.ogg::AudioStreamOggVorbis::9102159817817564798::1701115732::1701115732::1::::<><>::
+Steps_tiles-021.ogg::AudioStreamOggVorbis::6828098856107315059::1701115732::1701115732::1::::<><>::
+Steps_tiles-022.ogg::AudioStreamOggVorbis::3110382080538722857::1701115732::1701115732::1::::<><>::
+::res://sound/FreeSteps/Water/::1701115733
+Steps_water-001.ogg::AudioStreamOggVorbis::7900232548786399357::1701115732::1701115732::1::::<><>::
+Steps_water-002.ogg::AudioStreamOggVorbis::1410221997313710164::1701115732::1701115733::1::::<><>::
+Steps_water-003.ogg::AudioStreamOggVorbis::4073469396922374381::1701115733::1701115733::1::::<><>::
+Steps_water-004.ogg::AudioStreamOggVorbis::8136853789864582874::1701115733::1701115733::1::::<><>::
+Steps_water-005.ogg::AudioStreamOggVorbis::987212267823932722::1701115733::1701115733::1::::<><>::
+Steps_water-006.ogg::AudioStreamOggVorbis::6564319231706699348::1701115733::1701115733::1::::<><>::
+Steps_water-007.ogg::AudioStreamOggVorbis::7256393637705736196::1701115733::1701115733::1::::<><>::
+Steps_water-008.ogg::AudioStreamOggVorbis::3899576458122070605::1701115733::1701115733::1::::<><>::
+Steps_water-009.ogg::AudioStreamOggVorbis::6118478119598864886::1701115733::1701115733::1::::<><>::
+Steps_water-010.ogg::AudioStreamOggVorbis::6306294318111405016::1701115733::1701115733::1::::<><>::
+Steps_water-011.ogg::AudioStreamOggVorbis::7883978800048106531::1701115733::1701115733::1::::<><>::
+Steps_water-012.ogg::AudioStreamOggVorbis::3404406805048401644::1701115733::1701115733::1::::<><>::
+Steps_water-013.ogg::AudioStreamOggVorbis::3711053939501361549::1701115733::1701115733::1::::<><>::
+Steps_water-014.ogg::AudioStreamOggVorbis::1001255996291285315::1701115733::1701115733::1::::<><>::
+Steps_water-015.ogg::AudioStreamOggVorbis::2615845550012813097::1701115733::1701115733::1::::<><>::
+Steps_water-016.ogg::AudioStreamOggVorbis::8447195862531073382::1701115733::1701115733::1::::<><>::
+Steps_water-017.ogg::AudioStreamOggVorbis::3175905904005064467::1701115733::1701115733::1::::<><>::
+Steps_water-018.ogg::AudioStreamOggVorbis::612820036906598589::1701115733::1701115733::1::::<><>::
+Steps_water-019.ogg::AudioStreamOggVorbis::3302225846599201388::1701115733::1701115733::1::::<><>::
+Steps_water-020.ogg::AudioStreamOggVorbis::6202219681791414099::1701115733::1701115733::1::::<><>::
+Steps_water-021.ogg::AudioStreamOggVorbis::7055307831132907042::1701115733::1701115733::1::::<><>::
+::res://sound/FreeSteps/Wood/::1701115733
+Steps_wood-001.ogg::AudioStreamOggVorbis::2051247435910602007::1701115733::1701115733::1::::<><>::
+Steps_wood-002.ogg::AudioStreamOggVorbis::5860668163647983404::1701115733::1701115733::1::::<><>::
+Steps_wood-003.ogg::AudioStreamOggVorbis::4230613150974966130::1701115733::1701115733::1::::<><>::
+Steps_wood-004.ogg::AudioStreamOggVorbis::6497457701875685181::1701115733::1701115733::1::::<><>::
+Steps_wood-005.ogg::AudioStreamOggVorbis::2837522270400686583::1701115733::1701115733::1::::<><>::
+Steps_wood-006.ogg::AudioStreamOggVorbis::1066445597022040287::1701115733::1701115733::1::::<><>::
+Steps_wood-007.ogg::AudioStreamOggVorbis::2938765827542273253::1701115733::1701115733::1::::<><>::
+Steps_wood-008.ogg::AudioStreamOggVorbis::7278347596551827793::1701115733::1701115733::1::::<><>::
+Steps_wood-009.ogg::AudioStreamOggVorbis::3660359764918504355::1701115733::1701115733::1::::<><>::
+Steps_wood-010.ogg::AudioStreamOggVorbis::6066681798420653372::1701115733::1701115733::1::::<><>::
+Steps_wood-011.ogg::AudioStreamOggVorbis::7590668967110700728::1701115733::1701115733::1::::<><>::
+Steps_wood-012.ogg::AudioStreamOggVorbis::633663537570198121::1701115733::1701115733::1::::<><>::
+Steps_wood-013.ogg::AudioStreamOggVorbis::5172624278183383506::1701115733::1701115733::1::::<><>::
+Steps_wood-014.ogg::AudioStreamOggVorbis::6553353724293505634::1701115733::1701115733::1::::<><>::
+Steps_wood-015.ogg::AudioStreamOggVorbis::7703674895764869827::1701115733::1701115733::1::::<><>::
+Steps_wood-016.ogg::AudioStreamOggVorbis::8447252224829917572::1701115733::1701115733::1::::<><>::
+Steps_wood-017.ogg::AudioStreamOggVorbis::3455029888892859700::1701115733::1701115733::1::::<><>::
+Steps_wood-018.ogg::AudioStreamOggVorbis::684733327030666459::1701115733::1701115733::1::::<><>::
+Steps_wood-019.ogg::AudioStreamOggVorbis::4401216724464217195::1701115733::1701115733::1::::<><>::
+Steps_wood-020.ogg::AudioStreamOggVorbis::3162025251961865728::1701115733::1701115733::1::::<><>::
+Steps_wood-021.ogg::AudioStreamOggVorbis::2340536066212655832::1701115733::1701115733::1::::<><>::
+::res://sound/song/::1701115733
+Ludum Dare 38 - Track 4.wav::AudioStreamWAV::465795906402318707::1701115733::1701115733::1::::<><>::
+::res://sprites/::1701115734
+::res://sprites/fighter/::1701115734
+::res://sprites/fighter/crouching/::1701115733
+neutral (2).png::CompressedTexture2D::8280625328677697279::1701115733::1701115733::1::::<><>::
+neutral (3).png::CompressedTexture2D::5029318763847165189::1701115733::1701115733::1::::<><>::
+neutral (4).png::CompressedTexture2D::6644786696557890350::1701115733::1701115733::1::::<><>::
+tun.png::CompressedTexture2D::2178915855615868309::1701115733::1701115733::1::::<><>::
+turn (1).png::CompressedTexture2D::2293701741720317461::1701115733::1701115733::1::::<><>::
+turn (2).png::CompressedTexture2D::6358041914207431124::1701115733::1701115733::1::::<><>::
+turn (3).png::CompressedTexture2D::6151325642677186675::1701115733::1701115733::1::::<><>::
+turn (5).png::CompressedTexture2D::5924882969074191866::1701115733::1701115733::1::::<><>::
+turn (6).png::CompressedTexture2D::6294288659760829013::1701115733::1701115733::1::::<><>::
+turn (7).png::CompressedTexture2D::3414200508338638395::1701115733::1701115733::1::::<><>::
+turn (8).png::CompressedTexture2D::2921445770325263386::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/crouching/hk/::1701115733
+hk (1).png::CompressedTexture2D::7641772703086457465::1701115733::1701115733::1::::<><>::
+hk (2).png::CompressedTexture2D::2947416470340594483::1701115733::1701115733::1::::<><>::
+hk (3).png::CompressedTexture2D::5889682570169320888::1701115733::1701115733::1::::<><>::
+hk (4).png::CompressedTexture2D::597355748494580122::1701115733::1701115733::1::::<><>::
+hk (5).png::CompressedTexture2D::1410029976799685009::1701115733::1701115733::1::::<><>::
+hk (6).png::CompressedTexture2D::2388827077058499383::1701115733::1701115733::1::::<><>::
+hk (7).png::CompressedTexture2D::7861604194776455738::1701115733::1701115733::1::::<><>::
+hk (8).png::CompressedTexture2D::4475570544520382992::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/crouching/hp/::1701115733
+hp (1).png::CompressedTexture2D::7159819697110093615::1701115733::1701115733::1::::<><>::
+hp (2).png::CompressedTexture2D::3341988660038210548::1701115733::1701115733::1::::<><>::
+hp (3).png::CompressedTexture2D::5604945870225212699::1701115733::1701115733::1::::<><>::
+hp (4).png::CompressedTexture2D::7800610544832679673::1701115733::1701115733::1::::<><>::
+hp (5).png::CompressedTexture2D::6726158235380448227::1701115733::1701115733::1::::<><>::
+hp (6).png::CompressedTexture2D::1400412155743111484::1701115733::1701115733::1::::<><>::
+hp (7).png::CompressedTexture2D::5058442707054779201::1701115733::1701115733::1::::<><>::
+hp (8).png::CompressedTexture2D::7432453985351980560::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/crouching/lkmk/::1701115733
+lkmk (1).png::CompressedTexture2D::7135779369027300680::1701115733::1701115733::1::::<><>::
+lkmk (2).png::CompressedTexture2D::8292670574588389968::1701115733::1701115733::1::::<><>::
+lkmk (3).png::CompressedTexture2D::4786311370518590566::1701115733::1701115733::1::::<><>::
+lkmk (4).png::CompressedTexture2D::8116087676131770640::1701115733::1701115733::1::::<><>::
+lkmk (5).png::CompressedTexture2D::1513927447794505265::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/crouching/lp/::1701115733
+lp (1).png::CompressedTexture2D::8572285749924232753::1701115733::1701115733::1::::<><>::
+lp (2).png::CompressedTexture2D::3414114320482098462::1701115733::1701115733::1::::<><>::
+lp (3).png::CompressedTexture2D::7537919120158521894::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/crouching/mp/::1701115733
+mp (1).png::CompressedTexture2D::7455760248151541790::1701115733::1701115733::1::::<><>::
+mp (2).png::CompressedTexture2D::1715263522183881696::1701115733::1701115733::1::::<><>::
+mp (3).png::CompressedTexture2D::4421934302380608131::1701115733::1701115733::1::::<><>::
+mp (4).png::CompressedTexture2D::6648229650903524019::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/damage/::1701115733
+crouchblock (1).png::CompressedTexture2D::8515080090562370819::1701115733::1701115733::1::::<><>::
+crouchblock (2).png::CompressedTexture2D::7485912289482076572::1701115733::1701115733::1::::<><>::
+crouchdamage (1).png::CompressedTexture2D::8169097636595642279::1701115733::1701115733::1::::<><>::
+crouchdamage (2).png::CompressedTexture2D::2477040759644902746::1701115733::1701115733::1::::<><>::
+elec (1).png::CompressedTexture2D::7960107742423186318::1701115733::1701115733::1::::<><>::
+elec (2).png::CompressedTexture2D::2389431607454993660::1701115733::1701115733::1::::<><>::
+highdamage (1).png::CompressedTexture2D::6196135509222642159::1701115733::1701115733::1::::<><>::
+highdamage (2).png::CompressedTexture2D::4160926741443977675::1701115733::1701115733::1::::<><>::
+highdamage (5).png::CompressedTexture2D::2706329585362872399::1701115733::1701115733::1::::<><>::
+jumpdmg (1).png::CompressedTexture2D::6525605116638665019::1701115733::1701115733::1::::<><>::
+jumpdmg (2).png::CompressedTexture2D::4050135239455340312::1701115733::1701115733::1::::<><>::
+jumpdmg (3).png::CompressedTexture2D::3740374671728537689::1701115733::1701115733::1::::<><>::
+jumpdmg (4).png::CompressedTexture2D::7482594366115047966::1701115733::1701115733::1::::<><>::
+jumpdmg (5).png::CompressedTexture2D::1586292144801517025::1701115733::1701115733::1::::<><>::
+jumpdmg (6).png::CompressedTexture2D::6756030900786710533::1701115733::1701115733::1::::<><>::
+jumpdmg (7).png::CompressedTexture2D::4164371208696618715::1701115733::1701115733::1::::<><>::
+jumpdmg (8).png::CompressedTexture2D::2603672671138110198::1701115733::1701115733::1::::<><>::
+lowdmg (2).png::CompressedTexture2D::7235437151034112064::1701115733::1701115733::1::::<><>::
+lowdmg (3).png::CompressedTexture2D::6820829086026404168::1701115733::1701115733::1::::<><>::
+lowdmg (5).png::CompressedTexture2D::7261290836894819695::1701115733::1701115733::1::::<><>::
+standblock (1).png::CompressedTexture2D::3586232244346413489::1701115733::1701115733::1::::<><>::
+standblock (2).png::CompressedTexture2D::4749286940438102378::1701115733::1701115733::1::::<><>::
+sweep (1).png::CompressedTexture2D::6821241028873649595::1701115733::1701115733::1::::<><>::
+sweep (2).png::CompressedTexture2D::6455043802417188656::1701115733::1701115733::1::::<><>::
+sweep (3).png::CompressedTexture2D::3517746033213963008::1701115733::1701115733::1::::<><>::
+sweep (6).png::CompressedTexture2D::8544996888507628223::1701115733::1701115733::1::::<><>::
+sweep (7).png::CompressedTexture2D::1052512614778257364::1701115733::1701115733::1::::<><>::
+wakeup (1).png::CompressedTexture2D::7675572081762072539::1701115733::1701115733::1::::<><>::
+wakeup (2).png::CompressedTexture2D::4041102028287036101::1701115733::1701115733::1::::<><>::
+wakeup (3).png::CompressedTexture2D::4908457543900180888::1701115733::1701115733::1::::<><>::
+wakeup (5).png::CompressedTexture2D::6212458191261533120::1701115733::1701115733::1::::<><>::
+wakeup (6).png::CompressedTexture2D::438904104628213389::1701115733::1701115733::1::::<><>::
+wakeup (7).png::CompressedTexture2D::8827738354190131758::1701115733::1701115733::1::::<><>::
+wakeup (8).png::CompressedTexture2D::2290124880881453835::1701115733::1701115733::1::::<><>::
+wakeup (9).png::CompressedTexture2D::614299229020273680::1701115733::1701115733::1::::<><>::
+wakeup (10).png::CompressedTexture2D::4615336602672831820::1701115733::1701115733::1::::<><>::
+wakeup (11).png::CompressedTexture2D::4914149478114902223::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/dizzy/::1701115733
+DIZZY (1).png::CompressedTexture2D::5842485247260727823::1701115733::1701115733::1::::<><>::
+DIZZY (2).png::CompressedTexture2D::3898112442168705102::1701115733::1701115733::1::::<><>::
+DIZZY (3).png::CompressedTexture2D::1760273501116008302::1701115733::1701115733::1::::<><>::
+DIZZY (4).png::CompressedTexture2D::8990315711583444291::1701115733::1701115733::1::::<><>::
+DIZZY (5).png::CompressedTexture2D::8102008316350850332::1701115733::1701115733::1::::<><>::
+DIZZY (6).png::CompressedTexture2D::2854090714075780606::1701115733::1701115733::1::::<><>::
+DIZZY (7).png::CompressedTexture2D::62366459475239420::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/jumping/::1701115734
+foward (1).png::CompressedTexture2D::9091453879621065662::1701115733::1701115733::1::::<><>::
+foward (2).png::CompressedTexture2D::5420477189804440551::1701115733::1701115733::1::::<><>::
+foward (3).png::CompressedTexture2D::3870552191959755078::1701115733::1701115733::1::::<><>::
+foward (4).png::CompressedTexture2D::2179420087113148991::1701115733::1701115733::1::::<><>::
+jump (1).png::CompressedTexture2D::1720412392316412399::1701115733::1701115733::1::::<><>::
+jump (2).png::CompressedTexture2D::7867302133712550544::1701115733::1701115733::1::::<><>::
+jump (3).png::CompressedTexture2D::2846275570338398833::1701115733::1701115733::1::::<><>::
+jump (4).png::CompressedTexture2D::7064304291221244511::1701115733::1701115733::1::::<><>::
+jump (5).png::CompressedTexture2D::7312636259675834504::1701115733::1701115733::1::::<><>::
+jump (6).png::CompressedTexture2D::3415803438354527888::1701115733::1701115733::1::::<><>::
+jump (7).png::CompressedTexture2D::3028138543634747134::1701115733::1701115733::1::::<><>::
+jump (8).png::CompressedTexture2D::1531823924757877387::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/jumping/hp/::1701115733
+nuetralhp (1).png::CompressedTexture2D::882495191177249912::1701115733::1701115733::1::::<><>::
+nuetralhp (2).png::CompressedTexture2D::2902642510243919740::1701115733::1701115733::1::::<><>::
+nuetralhp (3).png::CompressedTexture2D::7484961566302793485::1701115733::1701115733::1::::<><>::
+::res://sprites/fighter/jumping/lk/::1701115734
+fowardlk (1).png::CompressedTexture2D::5135461140892956595::1701115733::1701115733::1::::<><>::
+fowardlk (2).png::CompressedTexture2D::5789164549865478316::1701115733::1701115733::1::::<><>::
+fowardlk (3).png::CompressedTexture2D::2835257953085849989::1701115733::1701115733::1::::<><>::
+neutral lmhk (1).png::CompressedTexture2D::5259505264859839760::1701115734::1701115734::1::::<><>::
+neutral lmhk (2).png::CompressedTexture2D::7759447003077275384::1701115734::1701115734::1::::<><>::
+neutral lmhk (3).png::CompressedTexture2D::8185890099531392391::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/jumping/mk/::1701115734
+fowardmk (1).png::CompressedTexture2D::148594471023102303::1701115734::1701115734::1::::<><>::
+fowardmk (2).png::CompressedTexture2D::700290459689435053::1701115734::1701115734::1::::<><>::
+fowardmk (3).png::CompressedTexture2D::7620163895992232152::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/jumping/mplp/::1701115734
+neutralmp.png::CompressedTexture2D::4480226213478157667::1701115734::1701115734::1::::<><>::
+nuetralmlp (1).png::CompressedTexture2D::1843863394162914788::1701115734::1701115734::1::::<><>::
+nuetralmlp (2).png::CompressedTexture2D::1089659260002435588::1701115734::1701115734::1::::<><>::
+nuetralmlp (3).png::CompressedTexture2D::6631511013813782909::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/::1701115734
+::res://sprites/fighter/standing/close/::1701115734
+closefmk (1).png::CompressedTexture2D::8794971781130007307::1701115734::1701115734::1::::<><>::
+closefmk (2).png::CompressedTexture2D::9148707505518692003::1701115734::1701115734::1::::<><>::
+closefmk (3).png::CompressedTexture2D::6670381665453215780::1701115734::1701115734::1::::<><>::
+closehk (1).png::CompressedTexture2D::2611026607279545829::1701115734::1701115734::1::::<><>::
+closehk (2).png::CompressedTexture2D::2535840574740661509::1701115734::1701115734::1::::<><>::
+closehk (3).png::CompressedTexture2D::5987337531225583841::1701115734::1701115734::1::::<><>::
+closehk (4).png::CompressedTexture2D::1388677170067762164::1701115734::1701115734::1::::<><>::
+closemklk (1).png::CompressedTexture2D::1387790449087676728::1701115734::1701115734::1::::<><>::
+closemklk (3).png::CompressedTexture2D::6606569625697906651::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/far/::1701115734
+hp (1).png::CompressedTexture2D::2934539019697369060::1701115734::1701115734::1::::<><>::
+hp (2).png::CompressedTexture2D::8683937475405057074::1701115734::1701115734::1::::<><>::
+hp (3).png::CompressedTexture2D::8645445982730844917::1701115734::1701115734::1::::<><>::
+hp (4).png::CompressedTexture2D::178817695492612468::1701115734::1701115734::1::::<><>::
+hp (5).png::CompressedTexture2D::5970048366068656125::1701115734::1701115734::1::::<><>::
+lmhk (1).png::CompressedTexture2D::5956685820675892619::1701115734::1701115734::1::::<><>::
+lmhk (2).png::CompressedTexture2D::5216311479451541066::1701115734::1701115734::1::::<><>::
+lmhk (3).png::CompressedTexture2D::8635426480803901204::1701115734::1701115734::1::::<><>::
+lp (1).png::CompressedTexture2D::7582952857328552669::1701115734::1701115734::1::::<><>::
+lp (2).png::CompressedTexture2D::6124514037219399616::1701115734::1701115734::1::::<><>::
+mp (2).png::CompressedTexture2D::244316940838016155::1701115734::1701115734::1::::<><>::
+mp (3).png::CompressedTexture2D::5352602105508180413::1701115734::1701115734::1::::<><>::
+mp (4).png::CompressedTexture2D::5910671464922059125::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/neutral/::1701115734
+neutral (2).png::CompressedTexture2D::2176071379013177701::1701115734::1701115734::1::::<><>::
+neutral (3).png::CompressedTexture2D::6705697358141215731::1701115734::1701115734::1::::<><>::
+neutral (4).png::CompressedTexture2D::5920404923837993221::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/special moves/::1701115734
+::res://sprites/fighter/standing/special moves/headbutt/::1701115734
+headbutt (1).png::CompressedTexture2D::8762460353956104333::1701115734::1701115734::1::::<><>::
+headbutt (2).png::CompressedTexture2D::9153239105581480639::1701115734::1701115734::1::::<><>::
+headbutt (3).png::CompressedTexture2D::403380914447563698::1701115734::1701115734::1::::<><>::
+headbutt (12).png::CompressedTexture2D::2665971551627655678::1701115734::1701115734::1::::<><>::
+headbutt (13).png::CompressedTexture2D::7940131426153578638::1701115734::1701115734::1::::<><>::
+headbutt (14).png::CompressedTexture2D::8945129106898789760::1701115734::1701115734::1::::<><>::
+headbutt (15).png::CompressedTexture2D::6358414797033396636::1701115734::1701115734::1::::<><>::
+headbutt (16).png::CompressedTexture2D::2776877712977834491::1701115734::1701115734::1::::<><>::
+headbutt (17).png::CompressedTexture2D::6506052836267048074::1701115734::1701115734::1::::<><>::
+headbutt (18).png::CompressedTexture2D::3837035164357494134::1701115734::1701115734::1::::<><>::
+headbutt (19).png::CompressedTexture2D::6263091963343244956::1701115734::1701115734::1::::<><>::
+headbutt (20).png::CompressedTexture2D::3641441229238083701::1701115734::1701115734::1::::<><>::
+headbutt (21).png::CompressedTexture2D::6315105047961578394::1701115734::1701115734::1::::<><>::
+headbutt (22).png::CompressedTexture2D::1914190095805633747::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/special moves/hf splash/::1701115734
+splash (1).png::CompressedTexture2D::912610752802826583::1701115734::1701115734::1::::<><>::
+splash (2).png::CompressedTexture2D::4452130858585473009::1701115734::1701115734::1::::<><>::
+splash (3).png::CompressedTexture2D::6955104418325550270::1701115734::1701115734::1::::<><>::
+splash (4).png::CompressedTexture2D::6449562646798258324::1701115734::1701115734::1::::<><>::
+splash (5).png::CompressedTexture2D::7252183301999246353::1701115734::1701115734::1::::<><>::
+splash (6).png::CompressedTexture2D::4649734230922694716::1701115734::1701115734::1::::<><>::
+splash (7).png::CompressedTexture2D::5870660054505675311::1701115734::1701115734::1::::<><>::
+splash (8).png::CompressedTexture2D::8891430943014201267::1701115734::1701115734::1::::<><>::
+splash (9).png::CompressedTexture2D::7106967642120245215::1701115734::1701115734::1::::<><>::
+splash (10).png::CompressedTexture2D::8302817438111112857::1701115734::1701115734::1::::<><>::
+splash (11).png::CompressedTexture2D::8951808912826568508::1701115734::1701115734::1::::<><>::
+splash (12).png::CompressedTexture2D::2490962011552501528::1701115734::1701115734::1::::<><>::
+splash (13).png::CompressedTexture2D::9060524432780174936::1701115734::1701115734::1::::<><>::
+splash (14).png::CompressedTexture2D::902300271359983784::1701115734::1701115734::1::::<><>::
+splash (15).png::CompressedTexture2D::3992481286166145948::1701115734::1701115734::1::::<><>::
+splash (16).png::CompressedTexture2D::2197888715954002095::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/special moves/slaps/::1701115734
+hhslaps (1).png::CompressedTexture2D::3286966707955369022::1701115734::1701115734::1::::<><>::
+hhslaps (2).png::CompressedTexture2D::548990222317039480::1701115734::1701115734::1::::<><>::
+hhslaps (3).png::CompressedTexture2D::5739174158563977470::1701115734::1701115734::1::::<><>::
+hhslaps (4).png::CompressedTexture2D::1723285404662565100::1701115734::1701115734::1::::<><>::
+hhslaps (5).png::CompressedTexture2D::4109401173064617993::1701115734::1701115734::1::::<><>::
+hhslaps (6).png::CompressedTexture2D::1792112502799343029::1701115734::1701115734::1::::<><>::
+hhslaps (7).png::CompressedTexture2D::6045381800737794156::1701115734::1701115734::1::::<><>::
+hhslaps (8).png::CompressedTexture2D::3558698667290470258::1701115734::1701115734::1::::<><>::
+hhslaps (9).png::CompressedTexture2D::4664997100508599923::1701115734::1701115734::1::::<><>::
+hhslaps (10).png::CompressedTexture2D::6193074606599156591::1701115734::1701115734::1::::<><>::
+hhslaps (11).png::CompressedTexture2D::3206430563851995407::1701115734::1701115734::1::::<><>::
+hhslaps (12).png::CompressedTexture2D::6521653402211392783::1701115734::1701115734::1::::<><>::
+hhslaps (13).png::CompressedTexture2D::354510435317466525::1701115734::1701115734::1::::<><>::
+hunredslaps (1).png::CompressedTexture2D::2404829691087338239::1701115734::1701115734::1::::<><>::
+hunredslaps (2).png::CompressedTexture2D::4519676332064792251::1701115734::1701115734::1::::<><>::
+hunredslaps (3).png::CompressedTexture2D::7861491631174594403::1701115734::1701115734::1::::<><>::
+hunredslaps (4).png::CompressedTexture2D::1716185531372464545::1701115734::1701115734::1::::<><>::
+hunredslaps (5).png::CompressedTexture2D::7497124383634258998::1701115734::1701115734::1::::<><>::
+hunredslaps (6).png::CompressedTexture2D::1699806737844454546::1701115734::1701115734::1::::<><>::
+hyakuretsuken.png::CompressedTexture2D::422577911279284269::1701115734::1701115734::1::::<><>::
+movehunredslaps.png::CompressedTexture2D::6919673470078342054::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/turn/::1701115734
+turn (1).png::CompressedTexture2D::2575992161447240956::1701115734::1701115734::1::::<><>::
+turn (2).png::CompressedTexture2D::7656741432218646436::1701115734::1701115734::1::::<><>::
+turn (3).png::CompressedTexture2D::8138432951376062494::1701115734::1701115734::1::::<><>::
+turn (4).png::CompressedTexture2D::4329369760026849769::1701115734::1701115734::1::::<><>::
+turn (5).png::CompressedTexture2D::223472707459772127::1701115734::1701115734::1::::<><>::
+turn (6).png::CompressedTexture2D::7144005456617135353::1701115734::1701115734::1::::<><>::
+walk (1).png::CompressedTexture2D::2653487522053420807::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/standing/walk/::1701115734
+walk (2).png::CompressedTexture2D::1375731326033277812::1701115734::1701115734::1::::<><>::
+walk (3).png::CompressedTexture2D::4464914522435913988::1701115734::1701115734::1::::<><>::
+walk (4).png::CompressedTexture2D::977601891136964354::1701115734::1701115734::1::::<><>::
+walk (5).png::CompressedTexture2D::5739580765028208140::1701115734::1701115734::1::::<><>::
+walk (6).png::CompressedTexture2D::8883812910769069765::1701115734::1701115734::1::::<><>::
+walk (7).png::CompressedTexture2D::494099218416285404::1701115734::1701115734::1::::<><>::
+walk (8).png::CompressedTexture2D::81262694362445386::1701115734::1701115734::1::::<><>::
+walk (9).png::CompressedTexture2D::3249616027057990592::1701115734::1701115734::1::::<><>::
+walk (10).png::CompressedTexture2D::3093697209712518722::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/throws/::1701115734
+hold (2).png::CompressedTexture2D::7459117234746061639::1701115734::1701115734::1::::<><>::
+hold (3).png::CompressedTexture2D::5326932459101525197::1701115734::1701115734::1::::<><>::
+hold (4).png::CompressedTexture2D::4688067242634229881::1701115734::1701115734::1::::<><>::
+holdk (1).png::CompressedTexture2D::5880872538473386711::1701115734::1701115734::1::::<><>::
+holdk (2).png::CompressedTexture2D::4121147159176246679::1701115734::1701115734::1::::<><>::
+throw (1).png::CompressedTexture2D::6349805511260101461::1701115734::1701115734::1::::<><>::
+throw (2).png::CompressedTexture2D::7194129147876893448::1701115734::1701115734::1::::<><>::
+throw (3).png::CompressedTexture2D::7186972721826904117::1701115734::1701115734::1::::<><>::
+throw (4).png::CompressedTexture2D::3592556486259754620::1701115734::1701115734::1::::<><>::
+::res://sprites/fighter/victory poses/::1701115734
+handsup (1).png::CompressedTexture2D::388600609542989814::1701115734::1701115734::1::::<><>::
+handsup (2).png::CompressedTexture2D::2979620932363644781::1701115734::1701115734::1::::<><>::
+handsup (3).png::CompressedTexture2D::8227891000950727158::1701115734::1701115734::1::::<><>::
+turnhead (1).png::CompressedTexture2D::670867987811449822::1701115734::1701115734::1::::<><>::
+turnhead (2).png::CompressedTexture2D::7216746833094149217::1701115734::1701115734::1::::<><>::
+turnhead (3).png::CompressedTexture2D::6077931781229956781::1701115734::1701115734::1::::<><>::
+turnhead (4).png::CompressedTexture2D::5399962435664432291::1701115734::1701115734::1::::<><>::
+turnhead (5).png::CompressedTexture2D::8329835015035182199::1701115734::1701115734::1::::<><>::
+turnhead (6).png::CompressedTexture2D::5574009028750900708::1701115734::1701115734::1::::<><>::
+turnhead (7).png::CompressedTexture2D::8515534489108732879::1701115734::1701115734::1::::<><>::
+turnhead (8).png::CompressedTexture2D::3835060412563885958::1701115734::1701115734::1::::<><>::
+::res://sprites/hit_effects/::1701115734
+::res://sprites/hit_effects/Retro Impact Effect Pack 3/::1701115734
+Retro Impact Effect Pack 3 A.png::CompressedTexture2D::1373908818859308029::1701115734::1701115734::1::::<><>::
+Retro Impact Effect Pack 3 B.png::CompressedTexture2D::3180549891992441432::1701115734::1701115734::1::::<><>::
+Retro Impact Effect Pack 3 C.png::CompressedTexture2D::1700396867009360405::1701115734::1701115734::1::::<><>::
+Retro Impact Effect Pack 3 D.png::CompressedTexture2D::7090673968352791471::1701115734::1701115734::1::::<><>::
+Retro Impact Effect Pack 3 E.png::CompressedTexture2D::7779361359978488457::1701115734::1701115734::1::::<><>::
+Retro Impact Effect Pack 3 F.png::CompressedTexture2D::4041252672022576497::1701115734::1701115734::1::::<><>::
+::res://sprites/icons/::1701116844
+2267517.png::CompressedTexture2D::7554495160039002555::1701115734::1701115734::1::::<><>::
+imageedit_1_4225007956.png::CompressedTexture2D::975718236365213117::1701115734::1701115734::1::::<><>::
+output-onlinepngtools.png::CompressedTexture2D::8403538392344174106::1701115734::1701115734::1::::<><>::
+sumo.png::CompressedTexture2D::5188887020170534099::1701115734::1701115734::1::::<><>::
+::res://sprites/icons/yellow/::1701116832
+meter_bar_center-repeating_yellow.png::CompressedTexture2D::6528340607883585783::1701116830::1701116846::1::::<><>::
+meter_bar_holder_center-repeating_yellow.png::CompressedTexture2D::1838402800902285630::1701116830::1701116846::1::::<><>::
+meter_bar_holder_left_edge_yellow.png::CompressedTexture2D::5329930989454958042::1701116830::1701116846::1::::<><>::
+meter_bar_holder_right_edge_yellow.png::CompressedTexture2D::6048312753613765745::1701116830::1701116846::1::::<><>::
+meter_bar_left_edge_yellow.png::CompressedTexture2D::5401375949998715970::1701116830::1701116846::1::::<><>::
+meter_bar_right_edge_yellow.png::CompressedTexture2D::2763951058316174875::1701116830::1701116846::1::::<><>::
+meter_icon_holder_yellow.png::CompressedTexture2D::4868795509814142782::1701116830::1701116846::1::::<><>::
+meter_text_background_center_repeating_yellow.png::CompressedTexture2D::5240058618745813808::1701116830::1701116846::1::::<><>::
+meter_text_background_left_edge_yellow.png::CompressedTexture2D::198620561303884577::1701116830::1701116846::1::::<><>::
+meter_text_background_right_edge_yellow.png::CompressedTexture2D::3515358788881999442::1701116830::1701116846::1::::<><>::
+meter_text_background_yellow.png::CompressedTexture2D::6225403552301511230::1701116830::1701116846::1::::<><>::
+::res://sprites/stage/::1701115734
+PJBO5VI3-0000.jpg::CompressedTexture2D::575157133944664629::1701115734::1701115734::1::::<><>::

@@ -7,6 +7,7 @@ signal take_damage
 signal parried
 signal died
 signal message
+signal center
 
 var health = 3
 
@@ -24,6 +25,7 @@ const IDLE = 'idle'
 const WALKING_BACK = 'walk_back'
 const WALKING_FORWARD = 'walk_forward'
 const DASHING = 'dashing'
+const SHOCK = 'shock'
 
 var flipped = false
 var blocking = false
@@ -55,6 +57,13 @@ func get_slam_limit():
 		return 1800
 	return 100
 
+func shock():
+	health = 0
+	clear_action_queue()
+	STATE = SHOCK
+	$Died.play()
+	$Died.play()
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
@@ -70,11 +79,20 @@ func reset():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	last_dash -= delta
+	
+	if round_started:
+		if get_position().x > screen_size.x/2 and not flipped:
+			var temp = get_position()
+			center.emit(delta)
+		elif get_position().x < screen_size.x/2 and flipped:
+			var temp = get_position()
+			center.emit(delta)
+		
 	if not round_started:
 		$AnimatedSprite2D.animation = IDLE
 		return
 		
-	if is_state([DEAD]):
+	if is_state([DEAD, SHOCK]):
 		died.emit()
 		$AnimatedSprite2D.animation = STATE
 		return

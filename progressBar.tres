@@ -1,0 +1,19 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bkuy1gbtqp5o7"]
+
+[ext_resource type="Texture2D" uid="uid://1gshwyran2y1" path="res://sprites/icons/yellow/meter_bar_holder_center-repeating_yellow.png" id="1_cbp3m"]
+[ext_resource type="Texture2D" uid="uid://c0am20kowqtlv" path="res://sprites/icons/yellow/meter_bar_center-repeating_yellow.png" id="2_bl0ff"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n2dwi"]
+texture = ExtResource("1_cbp3m")
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vwsyl"]
+texture = ExtResource("2_bl0ff")
+expand_margin_top = 30.0
+expand_margin_bottom = 30.0
+
+[resource]
+default_base_scale = 0.75
+ProgressBar/styles/background = SubResource("StyleBoxTexture_n2dwi")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_vwsyl")

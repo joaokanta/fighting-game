@@ -8,6 +8,9 @@ var restarting = false
 var player_1_starting_position
 var player_2_starting_position
 
+var player_1_center = 0
+var player_2_center = 0
+
 func _ready():
 	player_1_starting_position = $Player.get_position()
 	player_2_starting_position = $Player2.get_position()
@@ -23,6 +26,12 @@ func _process(delta):
 		start()
 	if started and not $AudioStreamPlayer.playing:
 		$AudioStreamPlayer.play()
+	if player_1_center > 10:
+		$HUD.set_message("King of the hill")
+		$Player2.shock()
+	if player_2_center > 10:
+		$HUD.set_message("King of the hill")
+		$Player.shock()
 
 func start():
 	$HUD.start()
@@ -65,3 +74,11 @@ func _on_slow_mo_timer_timeout():
 
 func _on_player_message(text):
 	$HUD.set_message(text)
+	
+func _on_player_1_center(delta):
+	player_1_center += delta
+	$HUD.player_1_center_progress(player_1_center)
+
+func _on_player_2_center(delta):
+	player_2_center += delta
+	$HUD.player_2_center_progress(player_2_center)

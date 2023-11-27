@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://bii0ryidhirca"]
+[gd_scene load_steps=62 format=3 uid="uid://bii0ryidhirca"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_rlrwb"]
 [ext_resource type="Texture2D" uid="uid://dvytgf16kdb2a" path="res://sprites/fighter/standing/far/hp (2).png" id="2_wsuj6"]
@@ -32,8 +32,10 @@
 [ext_resource type="Texture2D" uid="uid://cii3tskfgbfa8" path="res://sprites/fighter/standing/far/mp (3).png" id="29_v7wa0"]
 [ext_resource type="Texture2D" uid="uid://bipl6lf2mgc0d" path="res://sprites/fighter/victory poses/handsup (2).png" id="30_sum1f"]
 [ext_resource type="Texture2D" uid="uid://cujppgh82ab4b" path="res://sprites/fighter/damage/highdamage (1).png" id="31_1ge30"]
+[ext_resource type="Texture2D" uid="uid://babpubox65e6o" path="res://sprites/fighter/damage/elec (2).png" id="32_5mq86"]
 [ext_resource type="Texture2D" uid="uid://b0jt4c8cixk8j" path="res://sprites/fighter/damage/highdamage (2).png" id="32_vi2p4"]
 [ext_resource type="Texture2D" uid="uid://bes7386ir0w76" path="res://sprites/fighter/damage/highdamage (5).png" id="33_k38q0"]
+[ext_resource type="Texture2D" uid="uid://dln62ueov472a" path="res://sprites/fighter/damage/elec (1).png" id="33_uxax6"]
 [ext_resource type="Texture2D" uid="uid://tuodgulj033u" path="res://sprites/fighter/standing/walk/walk (2).png" id="34_slud7"]
 [ext_resource type="Texture2D" uid="uid://b4u3qwjfk67ee" path="res://sprites/fighter/standing/walk/walk (3).png" id="35_mt2qy"]
 [ext_resource type="Texture2D" uid="uid://n6s7wek8oleo" path="res://sprites/fighter/standing/walk/walk (4).png" id="36_gfv4d"]
@@ -212,6 +214,17 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("32_5mq86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_uxax6")
+}],
+"loop": true,
+"name": &"shock",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("31_1ge30")
 }, {
 "duration": 1.0,
@@ -359,7 +372,7 @@ script = ExtResource("1_rlrwb")
 texture_filter = 1
 scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_xmcfu")
-animation = &"walk_back"
+animation = &"shock"
 metadata/_edit_group_ = true
 
 [node name="Hitbox" type="Area2D" parent="."]

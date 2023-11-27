@@ -6,6 +6,12 @@ func player_1_take_damage():
 func player_2_take_damage():
 	$Health2.take_damage()
 
+func player_1_center_progress(value):
+	$CenterCounter/ProgressBar.set_value(value/10 * 100)
+
+func player_2_center_progress(value):
+	$CenterCounter2/ProgressBar.set_value(value/10 * 100)
+	
 func show_banner(text):
 	$Banner.visible = true
 	$Label.text = text

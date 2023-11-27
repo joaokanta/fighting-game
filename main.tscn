@@ -44,10 +44,12 @@ frame_progress = 0.0721362
 stream = ExtResource("5_vu8lx")
 volume_db = -24.441
 
+[connection signal="center" from="Player" to="." method="_on_player_1_center"]
 [connection signal="died" from="Player" to="." method="_on_player_died"]
 [connection signal="message" from="Player" to="." method="_on_player_message"]
 [connection signal="parried" from="Player" to="." method="_on_player_parried"]
 [connection signal="take_damage" from="Player" to="." method="_on_player_take_damage"]
+[connection signal="center" from="Player2" to="." method="_on_player_2_center"]
 [connection signal="died" from="Player2" to="." method="_on_player_2_died"]
 [connection signal="message" from="Player2" to="." method="_on_player_message"]
 [connection signal="parried" from="Player2" to="." method="_on_player_parried"]
